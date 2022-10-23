@@ -57,10 +57,13 @@ public class Main extends JFrame {
 			public void run() {
 				try {
 					Main frame = new Main();
+					frame.setTitle("Incendios");
 					Login lFrame = new Login();
+					lFrame.setTitle("Login");
 					frame.setVisible(true);
 					frame.setEnabled(false);
 					lFrame.setVisible(true);
+					lFrame.setLocationRelativeTo(null);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -76,7 +79,7 @@ public class Main extends JFrame {
 		setBounds(100, 100, 452, 314);
 		getContentPane().setLayout(null);
 		this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
-		this.setMinimumSize(new Dimension(640, 480));
+		this.setMinimumSize(new Dimension(640, 480));		
 		
 		JLabel lblCoords = new JLabel("Coordenadas:");
         lblCoords.setBounds(20, 123, 497, 14);
