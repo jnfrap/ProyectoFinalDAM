@@ -19,6 +19,7 @@ import org.jxmapviewer.viewer.TileFactoryInfo;
 import org.jxmapviewer.viewer.Waypoint;
 import org.jxmapviewer.viewer.WaypointPainter;
 
+import misc.BDDConnection;
 import misc.Municipio;
 import misc.Utils;
 
@@ -56,7 +57,10 @@ public class Main extends JFrame {
 			public void run() {
 				try {
 					Main frame = new Main();
+					Login lFrame = new Login();
 					frame.setVisible(true);
+					frame.setEnabled(false);
+					lFrame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -234,9 +238,6 @@ public class Main extends JFrame {
                 mapViewer.setOverlayPainter(waypointPainter);
             }
         });
-        
-        //End of map////////////////////////
-
-        
+        //End of map////////////////////////        
 	}
 }
