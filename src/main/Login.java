@@ -130,7 +130,13 @@ public class Login extends JFrame {
 							JOptionPane.showMessageDialog(null, "Bienvenido, "+reName);
 							dispose();
 						}else {
-							//Pedir cambio de contraseña y activar en la base de datos
+						    JOptionPane.showMessageDialog(null, "Bienvenido, "+reName+"./nPor favor, cambia tu contraseña");
+						    Settings settings = new Settings();
+						    settings.setVisible(true);
+						    settings.setTitle("Opciones");
+						    settings.setLocationRelativeTo(null);
+						    settings.getDoneButton().setEnabled(false);
+			                dispose();
 						}
 					}else {
 						JOptionPane.showMessageDialog(null, "El correo y/o la contraseña no coinciden");
@@ -162,6 +168,7 @@ public class Login extends JFrame {
 				rFrame.setVisible(true);
 				rFrame.setTitle("Registro");
 				rFrame.setLocationRelativeTo(null);
+				dispose();
 			}
 		});
 		btnRegister.setBounds(169, 187, 97, 23);

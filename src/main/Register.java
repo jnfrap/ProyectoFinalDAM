@@ -264,6 +264,9 @@ public class Register extends JFrame {
 				            
 				            JOptionPane.showMessageDialog(null, "Revisa tu correo electrónico para obtener tu contraseña: "+email);
 				            bdd.closeConnection();
+							Login login = new Login();
+							login.setVisible(true);
+							login.setLocationRelativeTo(null);
 				            dispose();
 						}else {
 							JOptionPane.showMessageDialog(null, "Este correo ya está registrado");
@@ -281,6 +284,9 @@ public class Register extends JFrame {
 		JButton btnBack = new JButton("Volver");
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Login login = new Login();
+				login.setVisible(true);
+				login.setLocationRelativeTo(null);
 				dispose();
 			}
 		});

@@ -1,1 +1,4038 @@
-{"estaciones":[{"ubicacion":"REUS/AEROPUERTO","idema":"0016A","lon":"1.178894","lat":"41.14972"},{"ubicacion":"VALLS","idema":"0034X","lon":"1.260838","lat":"41.293053"},{"ubicacion":"TARRAGONA  FAC. GEOGRAFIA","idema":"0042Y","lon":"1.249167","lat":"41.123894"},{"ubicacion":"PONTONS","idema":"0061X","lon":"1.519269","lat":"41.417053"},{"ubicacion":"VILAFRANCA DEL PENEDÈS","idema":"0066X","lon":"1.676942","lat":"41.33028"},{"ubicacion":"SITGES-VALLCARCA","idema":"0073X","lon":"1.852626","lat":"41.243786"},{"ubicacion":"BARCELONA/AEROPUERTO","idema":"0076","lon":"2.069995","lat":"41.29278"},{"ubicacion":"BERGA  INSTITUTO","idema":"0092X","lon":"1.857494","lat":"42.101387"},{"ubicacion":"BALSARENY","idema":"0106X","lon":"1.872504","lat":"41.866386"},{"ubicacion":"PRATS DE LLUÇANÈS","idema":"0114X","lon":"2.026561","lat":"42.007057"},{"ubicacion":"MOIÀ","idema":"0120X","lon":"2.09539","lat":"41.81328"},{"ubicacion":"MANRESA","idema":"0149X","lon":"1.84028","lat":"41.71988"},{"ubicacion":"MONTSERRAT","idema":"0158X","lon":"1.839223","lat":"41.594444"},{"ubicacion":"IGUALADA","idema":"0171X","lon":"1.617778","lat":"41.578888"},{"ubicacion":"CORBERA  PIC D?AGULLES ","idema":"0194D","lon":"1.885","lat":"41.40819"},{"ubicacion":"BARCELONA  DRASSANES","idema":"0201X","lon":"2.173886","lat":"41.374996"},{"ubicacion":"CALDES DE MONTBUI","idema":"0222X","lon":"2.168412","lat":"41.612663"},{"ubicacion":"VILASSAR DE DALT","idema":"0244X","lon":"2.362637","lat":"41.504894"},{"ubicacion":"ARENYS DE MAR","idema":"0252D","lon":"2.54","lat":"41.587223"},{"ubicacion":"FONTMARTINA","idema":"0260X","lon":"2.431023","lat":"41.760063"},{"ubicacion":"BLANES JARDIN BOTANICO","idema":"0281Y","lon":"2.805112","lat":"41.677055"},{"ubicacion":"CASTELL PLATJA D?ARO","idema":"0284X","lon":"3.030933","lat":"41.807816"},{"ubicacion":"SANT PAU DE SEGURIES","idema":"0312X","lon":"2.364353","lat":"42.258446"},{"ubicacion":"PLANOLES","idema":"0320I","lon":"2.102774","lat":"42.31688"},{"ubicacion":"RIPOLL","idema":"0324A","lon":"2.196187","lat":"42.191387"},{"ubicacion":"LES PLANES D?HOSTOLES","idema":"0360X","lon":"2.551007","lat":"42.052837"},{"ubicacion":"SANT HILARI","idema":"0363X","lon":"2.513329","lat":"41.880833"},{"ubicacion":"GIRONA/COSTA BRAVA","idema":"0367","lon":"2.763329","lat":"41.911667"},{"ubicacion":"GIRONA-PARC MIGDIA","idema":"0370E","lon":"2.819442","lat":"41.972332"},{"ubicacion":"PORQUERES","idema":"0372C","lon":"2.763611","lat":"42.104443"},{"ubicacion":"L?ESTARTIT","idema":"0385X","lon":"3.201389","lat":"42.053886"},{"ubicacion":"VALL DE BIANYA","idema":"0394X","lon":"2.471827","lat":"42.210556"},{"ubicacion":"CASTELLO D?EMPURIES","idema":"0411X","lon":"3.093053","lat":"42.224834"},{"ubicacion":"MAÇANET DE CABRENYS","idema":"0413A","lon":"2.75558","lat":"42.386925"},{"ubicacion":"ESPOLLA  LES ALBERES","idema":"0421X","lon":"3.006114","lat":"42.38988"},{"ubicacion":"FIGUERES  LES ASPRES","idema":"0429X","lon":"2.960328","lat":"42.259083"},{"ubicacion":"EVC_CABO DE CREUS","idema":"0433D","lon":"3.315831","lat":"42.31904"},{"ubicacion":"BAZTÁN  IRURITA","idema":"1002Y","lon":"-1.542961","lat":"43.135723"},{"ubicacion":"BERA","idema":"1010X","lon":"-1.675786","lat":"43.27869"},{"ubicacion":"IRUN-LAPIZE","idema":"1012P","lon":"-1.796536","lat":"43.32641"},{"ubicacion":"SAN SEBASTIÁN/FUENTERRABIA","idema":"1014A","lon":"-1.792116","lat":"43.357075"},{"ubicacion":"RENTERIA (PRESA DEL AÑARBE)","idema":"1021X","lon":"-1.878823","lat":"43.213833"},{"ubicacion":"SEGURA LASTALA","idema":"1025A","lon":"-2.256663","lat":"43.015553"},{"ubicacion":"ARRIARAN","idema":"1025X","lon":"-2.232037","lat":"43.054634"},{"ubicacion":"ORDIZIA-ARETA","idema":"1026X","lon":"-2.184273","lat":"43.05816"},{"ubicacion":"ARESO ","idema":"1033X","lon":"-1.950836","lat":"43.085"},{"ubicacion":"ZUMARRAGA-URZABALETA","idema":"1037Y","lon":"-2.3175","lat":"43.079918"},{"ubicacion":"AZPEITIA-IBAIEDER","idema":"1038X","lon":"-2.267175","lat":"43.172577"},{"ubicacion":"ZUMAYA FARO","idema":"1041A","lon":"-2.251035","lat":"43.30214"},{"ubicacion":"ARAMAYONA ECHAGÜEN","idema":"1044X","lon":"-2.589645","lat":"43.057835"},{"ubicacion":"ARETXABALETA-EMBALSE URKULU","idema":"1048X","lon":"-2.465715","lat":"43.02505"},{"ubicacion":"ELGETA","idema":"1049N","lon":"-2.495827","lat":"43.138332"},{"ubicacion":"ELGOIBAR IBERDROLA","idema":"1050J","lon":"-2.413218","lat":"43.209293"},{"ubicacion":"MUTRIKU-GALDONAMENDI","idema":"1052A","lon":"-2.397148","lat":"43.31722"},{"ubicacion":"FORUA-GAITOKA","idema":"1056K","lon":"-2.671184","lat":"43.34239"},{"ubicacion":"MACHICHACO FARO","idema":"1057B","lon":"-2.752762","lat":"43.453907"},{"ubicacion":"PUNTA GALEA ","idema":"1059X","lon":"-3.021602","lat":"43.375088"},{"ubicacion":"AMURRIO (INSTITUTO)","idema":"1060X","lon":"-3.005452","lat":"43.05024"},{"ubicacion":"OROZCO- IBARRA","idema":"1064L","lon":"-2.860274","lat":"43.096333"},{"ubicacion":"URKIOLA (SANTUARIO)","idema":"1069Y","lon":"-2.644187","lat":"43.09923"},{"ubicacion":"AMOREBIETA-SAN MIGUEL DUDEA","idema":"1074C","lon":"-2.706153","lat":"43.202892"},{"ubicacion":"BALMASEDA-SALINILLAS","idema":"1078C","lon":"-3.209649","lat":"43.180576"},{"ubicacion":"GÜEÑES","idema":"1078I","lon":"-3.104777","lat":"43.203384"},{"ubicacion":"BILBAO/AEROPUERTO","idema":"1082","lon":"-2.906304","lat":"43.29795"},{"ubicacion":"SOPUERTA-JARRALTA","idema":"1083B","lon":"-3.168615","lat":"43.27972"},{"ubicacion":"CASTRO URDIALES-EDAR","idema":"1083L","lon":"-3.233884","lat":"43.39473"},{"ubicacion":"RAMALES DE LA VICTORIA-ETAP","idema":"1089U","lon":"-3.47083","lat":"43.255833"},{"ubicacion":"TRETO","idema":"1096X","lon":"-3.469721","lat":"43.39667"},{"ubicacion":"SOBA-ALTO MIERA","idema":"1102D","lon":"-3.685906","lat":"43.19065"},{"ubicacion":"SANTANDER AEROPUERTO","idema":"1109X","lon":"-3.831385","lat":"43.42861"},{"ubicacion":"SANTANDER CMT","idema":"1111X","lon":"-3.800431","lat":"43.491055"},{"ubicacion":"VILLACARRIEDO - SANTIBAÑEZ","idema":"1124E","lon":"-3.849351","lat":"43.2456"},{"ubicacion":"BÁRCENA MAYOR-TORIZ","idema":"1135C","lon":"-4.214141","lat":"43.146942"},{"ubicacion":"SAN FELICES DE BUELNA-TARRIBA","idema":"1152C","lon":"-4.048612","lat":"43.271942"},{"ubicacion":"TORRELAVEGA-SIERRAPANDO","idema":"1154H","lon":"-4.027419","lat":"43.358517"},{"ubicacion":"SAN VICENTE  FARO","idema":"1159","lon":"-4.392103","lat":"43.393456"},{"ubicacion":"FUENTE DÉ-TELEFÉRICO","idema":"1167B","lon":"-4.812779","lat":"43.143894"},{"ubicacion":"TAMA","idema":"1174I","lon":"-4.601783","lat":"43.18286"},{"ubicacion":"TRESVISO","idema":"1176A","lon":"-4.668234","lat":"43.255714"},{"ubicacion":"SOTO DE VALDEÓN (AUTOMATICA)","idema":"1178Y","lon":"-4.931762","lat":"43.145374"},{"ubicacion":"CARREÑA DE CABRALES","idema":"1179B","lon":"-4.852774","lat":"43.31111"},{"ubicacion":"LLANES","idema":"1183X","lon":"-4.748056","lat":"43.420277"},{"ubicacion":"AMIEVA  PANIZALES","idema":"1186P","lon":"-5.119247","lat":"43.266632"},{"ubicacion":"BARGAÉU PILOÑA","idema":"1199X","lon":"-5.396674","lat":"43.377834"},{"ubicacion":"COLUNGA","idema":"1203D","lon":"-5.247153","lat":"43.49235"},{"ubicacion":"GIJÓN-CAMPUS","idema":"1207U","lon":"-5.621111","lat":"43.523056"},{"ubicacion":"GIJÓN  MUSEL","idema":"1208H","lon":"-5.700833","lat":"43.559723"},{"ubicacion":"CABO PEÑAS","idema":"1210X","lon":"-5.848572","lat":"43.655926"},{"ubicacion":"ASTURIAS/AVILÉS","idema":"1212E","lon":"-6.044173","lat":"43.56694"},{"ubicacion":"PAJARES - VALGRANDE","idema":"1221D","lon":"-5.776392","lat":"42.978607"},{"ubicacion":"RONZÓN","idema":"1223P","lon":"-5.822748","lat":"43.132706"},{"ubicacion":"CUEVAS DE FELECHOSA","idema":"1226X","lon":"-5.476919","lat":"43.095177"},{"ubicacion":"MIERES-BAÍÑA","idema":"1234P","lon":"-5.819274","lat":"43.274883"},{"ubicacion":"OVIEDO","idema":"1249X","lon":"-5.873889","lat":"43.353333"},{"ubicacion":"SOUTU  LA BARCA","idema":"1272B","lon":"-6.386539","lat":"43.290276"},{"ubicacion":"POLA DE SOMIEDO-DEPURADORA","idema":"1276F","lon":"-6.256944","lat":"43.1"},{"ubicacion":"CAMUÑO","idema":"1279X","lon":"-6.230729","lat":"43.425"},{"ubicacion":"CABO BUSTO","idema":"1283U","lon":"-6.469998","lat":"43.569164"},{"ubicacion":"CERVANTES-BAZAL","idema":"1297E","lon":"-7.017618","lat":"42.768578"},{"ubicacion":"DEGAÑA  COTO CORTÉS","idema":"1302F","lon":"-6.472407","lat":"42.95527"},{"ubicacion":"SAN ANTOLIN DE IBIAS-LINARES","idema":"1309C","lon":"-6.884876","lat":"43.027412"},{"ubicacion":"ONETA","idema":"1327A","lon":"-6.673332","lat":"43.465553"},{"ubicacion":"CASTROPOL","idema":"1331A","lon":"-7.031388","lat":"43.524723"},{"ubicacion":"OURIA DE TARAMUNDI","idema":"1341B","lon":"-7.06098","lat":"43.415546"},{"ubicacion":"MONDOÑEDO","idema":"1344X","lon":"-7.361736","lat":"43.43133"},{"ubicacion":"BURELA","idema":"1347T","lon":"-7.357091","lat":"43.651047"},{"ubicacion":"ESTACA DE BARES","idema":"1351","lon":"-7.684722","lat":"43.78611"},{"ubicacion":"FERROL-LA GRAÑA","idema":"1354C","lon":"-8.262222","lat":"43.47639"},{"ubicacion":"AS PONTES A AEROSA","idema":"1363X","lon":"-7.861476","lat":"43.44597"},{"ubicacion":"A CORUÑA","idema":"1387","lon":"-8.421517","lat":"43.36597"},{"ubicacion":"BENS-A CORUÑA","idema":"1387D","lon":"-8.4418","lat":"43.363308"},{"ubicacion":"A CORUÑA/ALVEDRO","idema":"1387E","lon":"-8.371975","lat":"43.306953"},{"ubicacion":"CARBALLO","idema":"1390X","lon":"-8.711001","lat":"43.203583"},{"ubicacion":"CABO VILAN","idema":"1393","lon":"-9.210829","lat":"43.160557"},{"ubicacion":"VIMIANZO-CASTRELO","idema":"1399","lon":"-9.046929","lat":"43.057446"},{"ubicacion":"FISTERRA","idema":"1400","lon":"-9.291434","lat":"42.924828"},{"ubicacion":"MAZARICOS-A PICOTA","idema":"1406X","lon":"-8.99369","lat":"42.93525"},{"ubicacion":"SOBRADO DOS MONXES","idema":"1410X","lon":"-8.022249","lat":"43.037876"},{"ubicacion":"SANTIAGO DE COMPOSTELA/LABACOLLA","idema":"1428","lon":"-8.410515","lat":"42.888012"},{"ubicacion":"NOIA","idema":"1435C","lon":"-8.876227","lat":"42.80014"},{"ubicacion":"BOIRO","idema":"1442U","lon":"-8.892333","lat":"42.643887"},{"ubicacion":"MONTERROSO","idema":"1446X","lon":"-7.768333","lat":"42.809723"},{"ubicacion":"SILLEDA","idema":"1466A","lon":"-8.257892","lat":"42.700886"},{"ubicacion":"A ESTRADA","idema":"1468X","lon":"-8.501806","lat":"42.69361"},{"ubicacion":"PADRÓN","idema":"1473A","lon":"-8.627222","lat":"42.738335"},{"ubicacion":"SANTIAGO DE COMPOSTELA","idema":"1475X","lon":"-8.555833","lat":"42.87611"},{"ubicacion":"CASAS DO PORTO","idema":"1476R","lon":"-8.714807","lat":"42.749836"},{"ubicacion":"VILAGARCIA DE AROUSA","idema":"1477V","lon":"-8.774642","lat":"42.584843"},{"ubicacion":"PONTEVEDRA","idema":"1484C","lon":"-8.615833","lat":"42.43833"},{"ubicacion":"ESCUELA NAVAL DE MARÍN","idema":"1486E","lon":"-8.706944","lat":"42.39611"},{"ubicacion":"A LAMA","idema":"1489A","lon":"-8.451243","lat":"42.40705"},{"ubicacion":"VIGO/PEINADOR","idema":"1495","lon":"-8.623765","lat":"42.238617"},{"ubicacion":"VIGO-O CASTRO","idema":"1496X","lon":"-8.724167","lat":"42.230556"},{"ubicacion":"LUGO/ROZAS","idema":"1505","lon":"-7.457222","lat":"43.11139"},{"ubicacion":"LUGO-COL.FINGOI","idema":"1518A","lon":"-7.5525","lat":"42.998333"},{"ubicacion":"O PARAMO","idema":"1521I","lon":"-7.499579","lat":"42.845276"},{"ubicacion":"BECERREA-PENAMAIOR","idema":"1521X","lon":"-7.18517","lat":"42.86377"},{"ubicacion":"EVC_O SAVIÑAO","idema":"1535I","lon":"-7.704599","lat":"42.63472"},{"ubicacion":"VILLABLINO","idema":"1541B","lon":"-6.333886","lat":"42.928886"},{"ubicacion":"PUERTO DE LEITARIEGOS","idema":"1542","lon":"-6.414164","lat":"42.994164"},{"ubicacion":"PONFERRADA","idema":"1549","lon":"-6.6","lat":"42.56389"},{"ubicacion":"VILLAR DE OTERO (LOS TROBOS)","idema":"1561I","lon":"-6.673564","lat":"42.76604"},{"ubicacion":"O BARCO DE VALDEORRAS","idema":"1583X","lon":"-6.99314","lat":"42.41562"},{"ubicacion":"POBRA DE TRIVES SAN MAMEDE","idema":"1631E","lon":"-7.282498","lat":"42.339447"},{"ubicacion":"CHANDREXA DE QUEIXA","idema":"1639X","lon":"-7.383609","lat":"42.260277"},{"ubicacion":"FOLGOSO DO COUREL","idema":"1658","lon":"-7.191741","lat":"42.58853"},{"ubicacion":"MONFORTE DE LEMOS","idema":"1679A","lon":"-7.510804","lat":"42.53177"},{"ubicacion":"BEARIZ","idema":"1696O","lon":"-8.277961","lat":"42.468056"},{"ubicacion":"O CARBALLIÑO","idema":"1700X","lon":"-8.0925","lat":"42.42139"},{"ubicacion":"RIBADAVIA","idema":"1701X","lon":"-8.129121","lat":"42.29988"},{"ubicacion":"ALLARIZ-RIMELO","idema":"1706A","lon":"-7.796051","lat":"42.182903"},{"ubicacion":"A CAÑIZA","idema":"1719","lon":"-8.281009","lat":"42.217995"},{"ubicacion":"PONTEAREAS-CANEDO","idema":"1723X","lon":"-8.4927","lat":"42.182224"},{"ubicacion":"O ROSAL","idema":"1730E","lon":"-8.847444","lat":"41.94398"},{"ubicacion":"XINZO DE LIMIA","idema":"1735X","lon":"-7.733611","lat":"42.079166"},{"ubicacion":"MUIÑOS-PRADO","idema":"1738U","lon":"-7.988838","lat":"41.934116"},{"ubicacion":"ALTAMIRA","idema":"1740","lon":"-4.12433","lat":"43.37724"},{"ubicacion":"VINUESA","idema":"2005Y","lon":"-2.782777","lat":"41.967773"},{"ubicacion":"BARRIOMARTIN-EL ROBLEDO","idema":"2017Y","lon":"-2.494163","lat":"41.99583"},{"ubicacion":"SORIA","idema":"2030","lon":"-2.483063","lat":"41.775017"},{"ubicacion":"LUBIA-CEDER","idema":"2044B","lon":"-2.507534","lat":"41.600582"},{"ubicacion":"MORON DE ALMAZAN ","idema":"2048A","lon":"-2.420281","lat":"41.41944"},{"ubicacion":"LA RIBA DE ESCALOTE","idema":"2059B","lon":"-2.783338","lat":"41.34972"},{"ubicacion":"UCERO","idema":"2084Y","lon":"-3.047008","lat":"41.721848"},{"ubicacion":"BURGO DE OSMA-POZUELOS","idema":"2092","lon":"-3.086949","lat":"41.589443"},{"ubicacion":"LICERAS-CAÑADA DEHESA","idema":"2096B","lon":"-3.251385","lat":"41.373608"},{"ubicacion":"CORUÑA DEL CONDE","idema":"2106B","lon":"-3.381929","lat":"41.745846"},{"ubicacion":"ARANDA DE DUERO","idema":"2117D","lon":"-3.742777","lat":"41.665836"},{"ubicacion":"FRESNO DE CANTIESPINO","idema":"2135A","lon":"-3.507234","lat":"41.372757"},{"ubicacion":"ALDEANUEVA DE SERREZUELA-EL CERRO","idema":"2140A","lon":"-3.785871","lat":"41.464554"},{"ubicacion":"LA PINILLA  ESTACIÓN DE ESQUÍ","idema":"2150H","lon":"-3.475165","lat":"41.19193"},{"ubicacion":"PEÑAFIEL(FABRICA DE QUESOS)","idema":"2166Y","lon":"-4.124787","lat":"41.593098"},{"ubicacion":"SARDÓN DE DUERO","idema":"2172Y","lon":"-4.405497","lat":"41.611877"},{"ubicacion":"RADES","idema":"2182C","lon":"-3.790216","lat":"41.13386"},{"ubicacion":"CUELLAR","idema":"2192C","lon":"-4.26545","lat":"41.383553"},{"ubicacion":"CERVERA DE PISUERGA","idema":"2235U","lon":"-4.520031","lat":"42.87062"},{"ubicacion":"AGUILAR DE CAMPOO","idema":"2243A","lon":"-4.277134","lat":"42.79806"},{"ubicacion":"VILLAELES DE VALDAVIA","idema":"2276B","lon":"-4.575109","lat":"42.568817"},{"ubicacion":"VILLADIEGO (DEPÓSITO DE AGUA)","idema":"2285B","lon":"-4.001111","lat":"42.523888"},{"ubicacion":"PEDROSA DEL PRÍNCIPE","idema":"2290Y","lon":"-4.198909","lat":"42.251225"},{"ubicacion":"OLVEGA-CAMINO VEGAFRÍA","idema":"2296A","lon":"-1.976675","lat":"41.775555"},{"ubicacion":"PALACIOS DE LA SIERRA","idema":"2298","lon":"-3.131688","lat":"41.95967"},{"ubicacion":"MONTERRUBIO DE LA DEMANDA","idema":"2302N","lon":"-3.109758","lat":"42.146473"},{"ubicacion":"VILLAMAYOR DE LOS MONTES","idema":"2311Y","lon":"-3.767707","lat":"42.10522"},{"ubicacion":"BURGOS/VILLAFRÍA","idema":"2331","lon":"-3.620278","lat":"42.356945"},{"ubicacion":"CAMPORREDONDO DE ALBA  CUEVA DORADA","idema":"2362C","lon":"-4.713714","lat":"42.893772"},{"ubicacion":"CARRIÓN DE LOS CONDES","idema":"2374X","lon":"-4.617359","lat":"42.350933"},{"ubicacion":"PALENCIA-AUTILLA PINO","idema":"2400E","lon":"-4.602777","lat":"41.99568"},{"ubicacion":"PALENCIA-GRANJA VIÑALTA","idema":"2401X","lon":"-4.560496","lat":"42.009502"},{"ubicacion":"VALLADOLID","idema":"2422","lon":"-4.75441","lat":"41.64083"},{"ubicacion":"MUÑOTELLO","idema":"2430Y","lon":"-5.044091","lat":"40.543312"},{"ubicacion":"ÁVILA","idema":"2444","lon":"-4.679167","lat":"40.65889"},{"ubicacion":"GOTARRENDURA (AUTOMATICA)","idema":"2453E","lon":"-4.742033","lat":"40.828964"},{"ubicacion":"AREVALO","idema":"2456B","lon":"-4.729864","lat":"41.071484"},{"ubicacion":"NAVACERRADA PUERTO","idema":"2462","lon":"-4.010556","lat":"40.793056"},{"ubicacion":"SEGOVIA","idema":"2465","lon":"-4.126389","lat":"40.94528"},{"ubicacion":"SAN RAFAEL","idema":"2471Y","lon":"-4.212067","lat":"40.71867"},{"ubicacion":"MIGUELAÑEZ","idema":"2482B","lon":"-4.375727","lat":"41.126385"},{"ubicacion":"LA COVATILLA  ESTACIÓN DE ESQUÍ","idema":"2491C","lon":"-5.689876","lat":"40.355087"},{"ubicacion":"OLMEDO  DEPÓSITO AGUA","idema":"2503B","lon":"-4.691824","lat":"41.279922"},{"ubicacion":"RUEDA (AUTOMATICA)","idema":"2507Y","lon":"-4.965172","lat":"41.424545"},{"ubicacion":"RIVILLA DE BARAJAS","idema":"2512Y","lon":"-5.018689","lat":"40.88213"},{"ubicacion":"FUENTE EL SOL","idema":"2517A","lon":"-4.939637","lat":"41.172752"},{"ubicacion":"MORALES DEL TORO-DEPOSITO","idema":"2536D","lon":"-5.271389","lat":"41.548332"},{"ubicacion":"FUENTESAUCO","idema":"2555B","lon":"-5.481307","lat":"41.236706"},{"ubicacion":"CORESES","idema":"2565","lon":"-5.630556","lat":"41.55528"},{"ubicacion":"VILLAPUN","idema":"2568D","lon":"-4.851026","lat":"42.523502"},{"ubicacion":"VILLALÓN DE CAMPOS","idema":"2593D","lon":"-5.040989","lat":"42.09421"},{"ubicacion":"MEDINA DE RIOSECO","idema":"2604B","lon":"-5.040313","lat":"41.875816"},{"ubicacion":"VILLAFÁFILA","idema":"2611D","lon":"-5.59244","lat":"41.856388"},{"ubicacion":"ZAMORA","idema":"2614","lon":"-5.735278","lat":"41.515556"},{"ubicacion":"RIAÑO-ERMITA QUINTANILLA","idema":"2624C","lon":"-5.007615","lat":"42.958458"},{"ubicacion":"SAHECHORES-HELIPUERTO","idema":"2626Y","lon":"-5.193246","lat":"42.620094"},{"ubicacion":"LEÓN/VIRGEN DEL CAMINO","idema":"2661","lon":"-5.651111","lat":"42.588333"},{"ubicacion":"VALENCIA DE DON JUAN","idema":"2664B","lon":"-5.504765","lat":"42.295948"},{"ubicacion":"MIÑERA DE LUNA-EMBALSE","idema":"2701D","lon":"-5.870858","lat":"42.885574"},{"ubicacion":"VILLAMECA","idema":"2728B","lon":"-6.070921","lat":"42.648216"},{"ubicacion":"ASTORGA-DEPÓSITO AGUA","idema":"2734D","lon":"-6.074338","lat":"42.476723"},{"ubicacion":"LAGUNAS DE SOMOZA","idema":"2737E","lon":"-6.196672","lat":"42.3775"},{"ubicacion":"BUSTILLO DEL PÁRAMO-LAS MATILLAS","idema":"2742R","lon":"-5.779854","lat":"42.466446"},{"ubicacion":"BENAVENTE","idema":"2755X","lon":"-5.666803","lat":"42.010906"},{"ubicacion":"EL PUENTE (CASA FORESTAL)","idema":"2766E","lon":"-6.639999","lat":"42.08234"},{"ubicacion":"VILLARDECIERVOS","idema":"2775X","lon":"-6.279668","lat":"41.9415"},{"ubicacion":"SANTIBAÑEZ DE VIDRIALES","idema":"2777K","lon":"-6.007296","lat":"42.078136"},{"ubicacion":"POZUELO DE TABARA","idema":"2789H","lon":"-5.909007","lat":"41.785553"},{"ubicacion":"VILLADEPERA","idema":"2804F","lon":"-6.141833","lat":"41.533997"},{"ubicacion":"BARCO DE AVILA","idema":"2828Y","lon":"-5.519077","lat":"40.355385"},{"ubicacion":"PEDROSILLO DE LOS AIRES-CASTILLEJO","idema":"2847X","lon":"-5.643454","lat":"40.6756"},{"ubicacion":"PEDRAZA DE ALBA-VALLELARGO","idema":"2863C","lon":"-5.36619","lat":"40.732204"},{"ubicacion":"SALAMANCA/MATACAN","idema":"2867","lon":"-5.498292","lat":"40.95957"},{"ubicacion":"SALAMANCA OBS.","idema":"2870","lon":"-5.662271","lat":"40.957592"},{"ubicacion":"EVC_PEÑAUSENDE","idema":"2882D","lon":"-5.897441","lat":"41.238903"},{"ubicacion":"FRESNO DE SAYAGO","idema":"2885K","lon":"-6.022286","lat":"41.304443"},{"ubicacion":"VILLARINO DE LOS AIRES","idema":"2891A","lon":"-6.462222","lat":"41.26278"},{"ubicacion":"BOADILLA FUENTE SAN ESTEBAN","idema":"2914C","lon":"-6.20289","lat":"40.786037"},{"ubicacion":"VITIGUDINO","idema":"2916A","lon":"-6.437733","lat":"41.01144"},{"ubicacion":"EL MAILLO (BASE AVIONES - AUTOMATICA)","idema":"2918Y","lon":"-6.223616","lat":"40.569447"},{"ubicacion":"BAÑOBAREZ","idema":"2926B","lon":"-6.60902","lat":"40.851425"},{"ubicacion":"NAVASFRIAS","idema":"2930Y","lon":"-6.812855","lat":"40.29663"},{"ubicacion":"EL BODÓN-BASE AEREA","idema":"2945A","lon":"-6.57708","lat":"40.48512"},{"ubicacion":"SAELICES EL CHICO","idema":"2946X","lon":"-6.600021","lat":"40.63502"},{"ubicacion":"ALCAÑICES-VIVINERA","idema":"2966D","lon":"-6.301295","lat":"41.683464"},{"ubicacion":"MESÓN EROSA","idema":"2969U","lon":"-7.183055","lat":"42.027264"},{"ubicacion":"AGUAS DE CABREIROA","idema":"2978X","lon":"-7.422059","lat":"41.926666"},{"ubicacion":"MOLINA DE ARAGÓN","idema":"3013","lon":"-1.878928","lat":"40.841652"},{"ubicacion":"ZAOREJAS","idema":"3021Y","lon":"-2.200477","lat":"40.76274"},{"ubicacion":"PASTRANA","idema":"3085Y","lon":"-2.953058","lat":"40.407776"},{"ubicacion":"TARANCON","idema":"3094B","lon":"-3.02139","lat":"40.012074"},{"ubicacion":"OCAÑA","idema":"3099Y","lon":"-3.496134","lat":"39.935165"},{"ubicacion":"ARANJUEZ","idema":"3100B","lon":"-3.546025","lat":"40.06714"},{"ubicacion":"PANTANO EL VADO","idema":"3103","lon":"-3.301944","lat":"41.003613"},{"ubicacion":"EL PAULAR- RASCAFRÍA (AUTOMÁTICA)","idema":"3104Y","lon":"-3.888285","lat":"40.889687"},{"ubicacion":"BUITRAGO","idema":"3110C","lon":"-3.613809","lat":"41.006985"},{"ubicacion":"SOMOSIERRA","idema":"3111D","lon":"-3.580467","lat":"41.135685"},{"ubicacion":"SAN SEBASTIAN DE LOS REYES","idema":"3125Y","lon":"-3.616667","lat":"40.55"},{"ubicacion":"EL GOLOSO (AUTOMÁTICA)","idema":"3126Y","lon":"-3.711944","lat":"40.561386"},{"ubicacion":"MADRID/BARAJAS","idema":"3129","lon":"-3.555593","lat":"40.46656"},{"ubicacion":"MADRID BARAJAS RS.","idema":"3129A","lon":"-3.579722","lat":"40.46528"},{"ubicacion":"SIGÜENZA","idema":"3130C","lon":"-2.617927","lat":"41.086277"},{"ubicacion":"MANDAYONA","idema":"3140Y","lon":"-2.75988","lat":"40.985077"},{"ubicacion":"EVC_CAMPISABALOS","idema":"3158D","lon":"-3.142474","lat":"41.274166"},{"ubicacion":"GUADALAJARA","idema":"3168D","lon":"-3.149995","lat":"40.630283"},{"ubicacion":"ALCALA DE HENARES-ENCÍN","idema":"3170Y","lon":"-3.289711","lat":"40.52836"},{"ubicacion":"ARGANDA DEL REY","idema":"3182Y","lon":"-3.497784","lat":"40.31167"},{"ubicacion":"COLMENAR VIEJO/FAMET","idema":"3191E","lon":"-3.765135","lat":"40.696068"},{"ubicacion":"MADRID  C. UNIVERSITARIA","idema":"3194U","lon":"-3.724167","lat":"40.45167"},{"ubicacion":"POZUELO DE ALARCON (AUTOMÁTICA)","idema":"3194Y","lon":"-3.813369","lat":"40.448437"},{"ubicacion":"MADRID RETIRO","idema":"3195","lon":"-3.678095","lat":"40.411804"},{"ubicacion":"BRIHUEGA","idema":"3209Y","lon":"-2.874063","lat":"40.765198"},{"ubicacion":"TIELMES","idema":"3229Y","lon":"-3.311671","lat":"40.247227"},{"ubicacion":"TEMBLEQUE","idema":"3245Y","lon":"-3.505837","lat":"39.696114"},{"ubicacion":"MORA DE TOLEDO (AUTOMÁTICA)","idema":"3254Y","lon":"-3.780687","lat":"39.68689"},{"ubicacion":"TOLEDO","idema":"3260B","lon":"-4.045278","lat":"39.884445"},{"ubicacion":"ALTO DE LOS LEONES","idema":"3266A","lon":"-4.141883","lat":"40.70634"},{"ubicacion":"ALPEDRETE","idema":"3268C","lon":"-4.017505","lat":"40.659725"},{"ubicacion":"SAN PABLO DE LOS MONTES","idema":"3298X","lon":"-4.350468","lat":"39.546833"},{"ubicacion":"NAVAHERMOSA","idema":"3305Y","lon":"-4.476945","lat":"39.630554"},{"ubicacion":"PUERTO EL PICO","idema":"3319D","lon":"-5.012748","lat":"40.339664"},{"ubicacion":"ROZAS DE PUERTO REAL","idema":"3330Y","lon":"-4.487227","lat":"40.31305"},{"ubicacion":"CEBREROS","idema":"3337U","lon":"-4.455763","lat":"40.467503"},{"ubicacion":"ROBLEDO DE CHAVELA","idema":"3338","lon":"-4.249927","lat":"40.42775"},{"ubicacion":"VALDEMORILLO","idema":"3343Y","lon":"-4.061107","lat":"40.496662"},{"ubicacion":"CASTILLO BAYUELA","idema":"3362Y","lon":"-4.680608","lat":"40.108208"},{"ubicacion":"TALAVERA DE LA REINA","idema":"3365A","lon":"-4.863596","lat":"39.958607"},{"ubicacion":"NAVALVILLAR DE IBOR","idema":"3386A","lon":"-5.391666","lat":"39.591663"},{"ubicacion":"SOTILLO DE LA ADRADA","idema":"3391","lon":"-4.590932","lat":"40.288563"},{"ubicacion":"CANDELEDA (AUTOMATICA)","idema":"3422D","lon":"-5.311326","lat":"40.1392"},{"ubicacion":"MADRIGAL DE LA VERA","idema":"3423I","lon":"-5.373329","lat":"40.15389"},{"ubicacion":"OROPESA DEHESÓN DEL  ENCINAR","idema":"3427Y","lon":"-5.114443","lat":"39.99334"},{"ubicacion":"NAVALMORAL DE LA MATA","idema":"3434X","lon":"-5.582629","lat":"39.94576"},{"ubicacion":"GARGANTA LA OLLA","idema":"3436D","lon":"-5.784718","lat":"40.11111"},{"ubicacion":"SERRADILLA (AUTOMATICA)","idema":"3448X","lon":"-6.127483","lat":"39.820717"},{"ubicacion":"JARAICEJO","idema":"3455X","lon":"-5.808349","lat":"39.66995"},{"ubicacion":"TRUJILLO","idema":"3463Y","lon":"-5.874167","lat":"39.46417"},{"ubicacion":"CÁCERES","idema":"3469A","lon":"-6.338889","lat":"39.47139"},{"ubicacion":"CAÑAVERAL","idema":"3475X","lon":"-6.376392","lat":"39.790558"},{"ubicacion":"NUÑOMORAL","idema":"3494U","lon":"-6.239733","lat":"40.40809"},{"ubicacion":"GUIJO DE GRANADILLA","idema":"3503","lon":"-6.1675","lat":"40.189445"},{"ubicacion":"HERVAS","idema":"3504X","lon":"-5.861212","lat":"40.265087"},{"ubicacion":"MONTEHERMOSO","idema":"3512X","lon":"-6.338888","lat":"40.08083"},{"ubicacion":"TORNAVACAS","idema":"3514B","lon":"-5.678336","lat":"40.258614"},{"ubicacion":"PIORNAL (AUTOMATICA)","idema":"3516X","lon":"-5.832386","lat":"40.12078"},{"ubicacion":"PLASENCIA","idema":"3519X","lon":"-6.085781","lat":"40.043053"},{"ubicacion":"CORIA","idema":"3526X","lon":"-6.557527","lat":"40.00354"},{"ubicacion":"TORRECILLA DE LOS ANGELES","idema":"3531X","lon":"-6.411707","lat":"40.254925"},{"ubicacion":"HOYOS","idema":"3536X","lon":"-6.724444","lat":"40.17483"},{"ubicacion":"ZARZA LA MAYOR","idema":"3540X","lon":"-6.860004","lat":"39.871387"},{"ubicacion":"VALVERDE DE FRESNO","idema":"3547X","lon":"-6.896107","lat":"40.207226"},{"ubicacion":"ALISEDA  LA UMBRÍA","idema":"3562X","lon":"-6.736389","lat":"39.4275"},{"ubicacion":"BROZAS (AUTOMATICA)","idema":"3565X","lon":"-6.744998","lat":"39.61806"},{"ubicacion":"VALENCIA DE ALCÁNTARA","idema":"3576X","lon":"-7.231135","lat":"39.41486"},{"ubicacion":"ALCÁZAR DEL REY","idema":"4051Y","lon":"-2.80695","lat":"40.06111"},{"ubicacion":"QUINTANAR DE LA ORDEN","idema":"4061X","lon":"-3.046938","lat":"39.597515"},{"ubicacion":"ALCAZAR DE SAN JUAN","idema":"4064Y","lon":"-3.215832","lat":"39.390827"},{"ubicacion":"MADRIDEJOS","idema":"4067","lon":"-3.528358","lat":"39.492065"},{"ubicacion":"ABIA DE OBISPALIA","idema":"4070Y","lon":"-2.395207","lat":"40.018784"},{"ubicacion":"VILLARES DEL SAZ","idema":"4075Y","lon":"-2.503334","lat":"39.84028"},{"ubicacion":"ALBERCA DE ZANCARA","idema":"4089A","lon":"-2.49575","lat":"39.51697"},{"ubicacion":"SAN CLEMENTE","idema":"4090Y","lon":"-2.420691","lat":"39.416737"},{"ubicacion":"VILLARROBLEDO","idema":"4091Y","lon":"-2.592567","lat":"39.261894"},{"ubicacion":"OSA DE LA VEGA (AUTOMÁTICA)","idema":"4093Y","lon":"-2.759997","lat":"39.656116"},{"ubicacion":"BELMONTE","idema":"4095Y","lon":"-2.705556","lat":"39.555283"},{"ubicacion":"MUNERA  SAN BARTOLOMÉ (AUTOMÁTICA)","idema":"4096Y","lon":"-2.488886","lat":"39.016663"},{"ubicacion":"TOMELLOSO","idema":"4103X","lon":"-3.00749","lat":"39.169044"},{"ubicacion":"CIUDAD REAL","idema":"4121","lon":"-3.920278","lat":"38.989166"},{"ubicacion":"VILLANUEVA DE LOS INFANTES","idema":"4138Y","lon":"-3.004441","lat":"38.737495"},{"ubicacion":"VALDEPEÑAS","idema":"4147X","lon":"-3.391368","lat":"38.750423"},{"ubicacion":"VISO DEL MARQUÉS","idema":"4148","lon":"-3.566724","lat":"38.518047"},{"ubicacion":"ABENOJAR (AUTOMATICA)","idema":"4210Y","lon":"-4.291943","lat":"38.898056"},{"ubicacion":"PUEBLA DE DON RODRIGO","idema":"4220X","lon":"-4.616461","lat":"39.088833"},{"ubicacion":"PUERTO DEL REY","idema":"4236Y","lon":"-5.020365","lat":"39.446552"},{"ubicacion":"HERRERA DEL DUQUE","idema":"4244X","lon":"-5.062271","lat":"39.169353"},{"ubicacion":"GUADALUPE (AUTOMATICA)","idema":"4245X","lon":"-5.333333","lat":"39.455273"},{"ubicacion":"PERALEDA DEL ZAUCEJO","idema":"4260","lon":"-5.577502","lat":"38.479717"},{"ubicacion":"VALSEQUILLO","idema":"4263X","lon":"-5.350555","lat":"38.409447"},{"ubicacion":"HINOJOSA DEL DUQUE","idema":"4267X","lon":"-5.121442","lat":"38.498367"},{"ubicacion":"MINAS DE ALMADÉN","idema":"4300Y","lon":"-4.845277","lat":"38.775284"},{"ubicacion":"CASTUERA","idema":"4325Y","lon":"-5.529083","lat":"38.741814"},{"ubicacion":"CAÑAMERO  EL PINAR","idema":"4339X","lon":"-5.369009","lat":"39.314167"},{"ubicacion":"NAVALVILLAR DE PELA","idema":"4340","lon":"-5.461334","lat":"39.10346"},{"ubicacion":"ZORITA","idema":"4347X","lon":"-5.710276","lat":"39.28278"},{"ubicacion":"DON BENITO","idema":"4358X","lon":"-5.880481","lat":"38.95559"},{"ubicacion":"RETAMAL DE LLERENA ","idema":"4362X","lon":"-5.845813","lat":"38.576492"},{"ubicacion":"LLERENA","idema":"4386B","lon":"-6.017048","lat":"38.23171"},{"ubicacion":"VILLAFRANCA DE LOS BARROS","idema":"4395X","lon":"-6.306664","lat":"38.551666"},{"ubicacion":"MÉRIDA","idema":"4410X","lon":"-6.385632","lat":"38.915882"},{"ubicacion":"ALCUESCAR","idema":"4411C","lon":"-6.231012","lat":"39.197636"},{"ubicacion":"ZAFRA (AUTOMATICA)","idema":"4427X","lon":"-6.436641","lat":"38.425854"},{"ubicacion":"ALMENDRALEJO","idema":"4436Y","lon":"-6.361046","lat":"38.688904"},{"ubicacion":"BADAJOZ/TALAVERA LA REAL","idema":"4452","lon":"-6.81389","lat":"38.883396"},{"ubicacion":"ALBURQUERQUE","idema":"4464X","lon":"-6.995182","lat":"39.181934"},{"ubicacion":"PUEBLA DE OBANDO (AUTOMATICA)","idema":"4468X","lon":"-6.600769","lat":"39.176624"},{"ubicacion":"BADAJOZ CMT","idema":"4478X","lon":"-7.008088","lat":"38.887474"},{"ubicacion":"OLIVENZA","idema":"4486X","lon":"-7.084439","lat":"38.697502"},{"ubicacion":"ALCONCHEL (AUTOMATICA)","idema":"4489X","lon":"-7.28194","lat":"38.48472"},{"ubicacion":"EVC_BARCARROTA","idema":"4492F","lon":"-6.923611","lat":"38.473076"},{"ubicacion":"VILLANUEVA DEL FRESNO","idema":"4497X","lon":"-7.158056","lat":"38.37222"},{"ubicacion":"MONESTERIO (AUTOMATICA)","idema":"4499X","lon":"-6.271862","lat":"38.081295"},{"ubicacion":"FUENTE DE CANTOS","idema":"4501X","lon":"-6.311317","lat":"38.20874"},{"ubicacion":"JEREZ DE LOS CABALLEROS","idema":"4511C","lon":"-6.765058","lat":"38.298515"},{"ubicacion":"FREGENAL DE LA SIERRA","idema":"4520X","lon":"-6.661793","lat":"38.178436"},{"ubicacion":"AROCHE (MASERA - AUTOMATICA)","idema":"4527X","lon":"-6.975941","lat":"37.98028"},{"ubicacion":"EL GRANADO (BOCACHANZA - AUTOMÁTICA)","idema":"4541X","lon":"-7.51994","lat":"37.553658"},{"ubicacion":"AYAMONTE  ISLA CANELA","idema":"4549Y","lon":"-7.394999","lat":"37.19472"},{"ubicacion":"CARTAYA   PEMARES ","idema":"4554X","lon":"-7.08361","lat":"37.218334"},{"ubicacion":"ALAJAR  CABEZO MOLINOS","idema":"4560Y","lon":"-6.674999","lat":"37.868614"},{"ubicacion":"VALVERDE CAMINO (CH.GUADIANA AUTOMATICA)","idema":"4575X","lon":"-6.751955","lat":"37.571583"},{"ubicacion":"EL CERRO DE ANDEVALO","idema":"4584X","lon":"-6.942237","lat":"37.73158"},{"ubicacion":"ALOSNO  THARSIS-MINAS ","idema":"4589X","lon":"-7.11944","lat":"37.597782"},{"ubicacion":"EL CAMPILLO  EL ZUMAJO ","idema":"4608X","lon":"-6.630003","lat":"37.677227"},{"ubicacion":"VILLARRASA  PLANTA DE RECICLAJE","idema":"4622X","lon":"-6.636671","lat":"37.450836"},{"ubicacion":"HUELVA  RONDA ESTE","idema":"4642E","lon":"-6.911722","lat":"37.278385"},{"ubicacion":"CEUTA","idema":"5000C","lon":"-5.346967","lat":"35.888725"},{"ubicacion":"CAZORLA (AUTOMATICA)","idema":"5038Y","lon":"-3.003891","lat":"37.915836"},{"ubicacion":"BAZA  CRUZ ROJA","idema":"5047E","lon":"-2.734995","lat":"37.50583"},{"ubicacion":"TOPARES","idema":"5060X","lon":"-2.228056","lat":"37.860832"},{"ubicacion":"DÓLAR","idema":"5107D","lon":"-2.986406","lat":"37.179935"},{"ubicacion":"BAEZA","idema":"5164B","lon":"-3.461951","lat":"37.99667"},{"ubicacion":"TORRES","idema":"5165X","lon":"-3.563581","lat":"37.78084"},{"ubicacion":"ARROYO DEL OJANCO","idema":"5181D","lon":"-2.889717","lat":"38.314724"},{"ubicacion":"VILLARRODRIGO","idema":"5192","lon":"-2.637568","lat":"38.48925"},{"ubicacion":"VILLANUEVA DEL ARZOBISPO","idema":"5210X","lon":"-2.998059","lat":"38.175"},{"ubicacion":"SANTA ELENA","idema":"5246","lon":"-3.535273","lat":"38.344448"},{"ubicacion":"JAÉN","idema":"5270B","lon":"-3.808889","lat":"37.7775"},{"ubicacion":"LINARES (VOR - AUTOMATICA)","idema":"5279X","lon":"-3.629453","lat":"38.151108"},{"ubicacion":"BAILÉN","idema":"5281X","lon":"-3.782624","lat":"38.092983"},{"ubicacion":"PUERTOLLANO","idema":"5304Y","lon":"-4.059165","lat":"38.668888"},{"ubicacion":"FUENCALIENTE","idema":"5341C","lon":"-4.301663","lat":"38.428886"},{"ubicacion":"CARDEÑA (SANTA ELENA - AUTOMATICA)","idema":"5346X","lon":"-4.272506","lat":"38.186672"},{"ubicacion":"MONTORO VEGA ARMIJO","idema":"5361X","lon":"-4.330275","lat":"38.01333"},{"ubicacion":"VILLANUEVA DE CÓRDOBA","idema":"5390Y","lon":"-4.608886","lat":"38.333057"},{"ubicacion":"CORDOBA  EMBALSE DE GUADANUÑO","idema":"5394X","lon":"-4.796664","lat":"38.020836"},{"ubicacion":"CÓRDOBA/AEROPUERTO","idema":"5402","lon":"-4.846558","lat":"37.848892"},{"ubicacion":"CHARILLA","idema":"5406X","lon":"-3.908059","lat":"37.49749"},{"ubicacion":"PRIEGO DE CÓRDOBA  SAN FELIX","idema":"5412X","lon":"-4.207785","lat":"37.48473"},{"ubicacion":"DOÑA MENCIA","idema":"5427X","lon":"-4.353893","lat":"37.556114"},{"ubicacion":"CÓRDOBA  PRAGDENA","idema":"5429X","lon":"-4.462227","lat":"37.81039"},{"ubicacion":"ESPIEL-C.TÉRMICA","idema":"5459X","lon":"-4.928728","lat":"38.11111"},{"ubicacion":"FUENTE PALMERA-LOS ARROYONES","idema":"5470","lon":"-5.100552","lat":"37.753056"},{"ubicacion":"AZUAGA (AUTOMATICA)","idema":"5473X","lon":"-5.686015","lat":"38.267803"},{"ubicacion":"GRANADA/BASE AÉREA","idema":"5514Z","lon":"-3.633331","lat":"37.13611"},{"ubicacion":"EVC_VÍZNAR","idema":"5515D","lon":"-3.534187","lat":"37.237164"},{"ubicacion":"GRANADA-CARTUJA","idema":"5515X","lon":"-3.59555","lat":"37.18972"},{"ubicacion":"SIERRA NEVADA","idema":"5516D","lon":"-3.386944","lat":"37.063057"},{"ubicacion":"GRANADA/AEROPUERTO","idema":"5530E","lon":"-3.789429","lat":"37.18968"},{"ubicacion":"LOJA","idema":"5582A","lon":"-4.152781","lat":"37.16111"},{"ubicacion":"BENAMEJÍ-ALCACHOFARES ALTOS","idema":"5598X","lon":"-4.547788","lat":"37.23093"},{"ubicacion":"RODA DE ANDALUCÍA","idema":"5612B","lon":"-4.769994","lat":"37.194443"},{"ubicacion":"LORA DE ESTEPA (AUTOMATICA)","idema":"5612X","lon":"-4.82695","lat":"37.270275"},{"ubicacion":"AGUILAR (LAGUNA ZOÑAR AUTOMATICA)","idema":"5624X","lon":"-4.685919","lat":"37.481945"},{"ubicacion":"LA RAMBLA   PRIVILEGIO","idema":"5625X","lon":"-4.763865","lat":"37.638523"},{"ubicacion":"ECIJA","idema":"5641X","lon":"-5.085113","lat":"37.516228"},{"ubicacion":"LA PUEBLA DE LOS INFANTES","idema":"5654X","lon":"-5.37114","lat":"37.786804"},{"ubicacion":"CARMONA  VILLEGAS","idema":"5702X","lon":"-5.740475","lat":"37.565483"},{"ubicacion":"CAZALLA DE LA SIERRA","idema":"5704B","lon":"-5.769728","lat":"37.926388"},{"ubicacion":"GUADALCANAL  CRISTO","idema":"5726X","lon":"-5.81917","lat":"38.099445"},{"ubicacion":"ALMADEN PLATA (LAS NAVAS AUTOMATICA)","idema":"5733X","lon":"-6.074995","lat":"37.791115"},{"ubicacion":"CALA","idema":"5769X","lon":"-6.322225","lat":"37.97361"},{"ubicacion":"SEVILLA/SAN PABLO","idema":"5783","lon":"-5.879167","lat":"37.416668"},{"ubicacion":"Tomares  Zaudín","idema":"5788X","lon":"-6.059722","lat":"37.361668"},{"ubicacion":"TABLADA","idema":"5790Y","lon":"-6.005918","lat":"37.36425"},{"ubicacion":"MORÓN DE LA FRONTERA","idema":"5796","lon":"-5.611474","lat":"37.164528"},{"ubicacion":"CARRION DE LOS CESPEDES","idema":"5835X","lon":"-6.334168","lat":"37.36"},{"ubicacion":"ALMONTE  DOÑANA ","idema":"5858X","lon":"-6.443024","lat":"36.988552"},{"ubicacion":"EL ARENOSILLO","idema":"5860E","lon":"-6.738088","lat":"37.097942"},{"ubicacion":"LAS CABEZAS DE SAN JUAN (MAJOLETO AUTOMATICA)","idema":"5891X","lon":"-5.846666","lat":"36.95334"},{"ubicacion":"CHIPIONA  ECA","idema":"5906X","lon":"-6.400558","lat":"36.75"},{"ubicacion":"ROTA BASE NAVAL","idema":"5910X","lon":"-6.332591","lat":"36.638878"},{"ubicacion":"GRAZALEMA","idema":"5911A","lon":"-5.37403","lat":"36.76044"},{"ubicacion":"OLVERA-COOP.AGRÍCOLA","idema":"5919X","lon":"-5.259446","lat":"36.931667"},{"ubicacion":"EL BOSQUE  SAN JOSÉ","idema":"5941X","lon":"-5.512225","lat":"36.729446"},{"ubicacion":"SAN JOSE DEL VALLE-PT GUADALCACÍN","idema":"5950X","lon":"-5.783332","lat":"36.663887"},{"ubicacion":"JEREZ DE LA FRONTERA/AEROPUERTO","idema":"5960","lon":"-6.055857","lat":"36.750496"},{"ubicacion":"SAN FERNANDO","idema":"5972X","lon":"-6.205557","lat":"36.465557"},{"ubicacion":"CÁDIZ  OBSERVATORIO","idema":"5973","lon":"-6.257861","lat":"36.49972"},{"ubicacion":"MEDINA SIDONIA (EL HUNDIDO - AUTOMATICA)","idema":"5983X","lon":"-5.920278","lat":"36.406113"},{"ubicacion":"VEJER DE LA FRONTERA","idema":"5995B","lon":"-5.965005","lat":"36.245556"},{"ubicacion":"BARBATE  DEPURADORA","idema":"5996B","lon":"-5.909444","lat":"36.184723"},{"ubicacion":"OSUNA  SEA","idema":"5998X","lon":"-5.112503","lat":"37.243336"},{"ubicacion":"MELILLA","idema":"6000A","lon":"-2.95638","lat":"35.276325"},{"ubicacion":"TARIFA","idema":"6001","lon":"-5.59883","lat":"36.013985"},{"ubicacion":"RONDA  IES","idema":"6032X","lon":"-5.168615","lat":"36.749996"},{"ubicacion":"CORTES DE LA FRONTERA","idema":"6040X","lon":"-5.386393","lat":"36.54445"},{"ubicacion":"JIMENA DE LA FRONTERA-EL DORADO","idema":"6042I","lon":"-5.394945","lat":"36.435608"},{"ubicacion":"ALPANDEIRE","idema":"6045X","lon":"-5.20306","lat":"36.6325"},{"ubicacion":"GAUCÍN","idema":"6050X","lon":"-5.318613","lat":"36.51861"},{"ubicacion":"SAN ROQUE  SOTOGRANDE","idema":"6056X","lon":"-5.284446","lat":"36.273056"},{"ubicacion":"MANILVA","idema":"6057X","lon":"-5.26","lat":"36.378334"},{"ubicacion":"ESTEPONA","idema":"6058I","lon":"-5.154988","lat":"36.416954"},{"ubicacion":"BENAHAVIS (LA ZAGALETA - AUTOMATICA)","idema":"6069X","lon":"-5.024724","lat":"36.543613"},{"ubicacion":"MARBELLA (PUERTO BANUS - AUTOMATICA)","idema":"6076X","lon":"-4.953051","lat":"36.484444"},{"ubicacion":"MARBELLA  CABOPINO","idema":"6083X","lon":"-4.740278","lat":"36.483334"},{"ubicacion":"FUENGIROLA","idema":"6084X","lon":"-4.618209","lat":"36.538494"},{"ubicacion":"TORREMOLINOS","idema":"6088X","lon":"-4.514998","lat":"36.620556"},{"ubicacion":"ANTEQUERA","idema":"6100B","lon":"-4.562222","lat":"37.02361"},{"ubicacion":"ANTEQUERA-BOBADILLA","idema":"6106X","lon":"-4.748339","lat":"37.029446"},{"ubicacion":"ÁLORA  LAS PELONAS","idema":"6127X","lon":"-4.69667","lat":"36.854725"},{"ubicacion":"COIN (AUTOMATICA)","idema":"6143X","lon":"-4.760827","lat":"36.65778"},{"ubicacion":"MÁLAGA/AEROPUERTO","idema":"6155A","lon":"-4.482358","lat":"36.6662"},{"ubicacion":"MÁLAGA CMT","idema":"6156X","lon":"-4.48167","lat":"36.717785"},{"ubicacion":"MÁLAGA PUERTO","idema":"6172O","lon":"-4.41972","lat":"36.716663"},{"ubicacion":"MÁLAGA","idema":"6172X","lon":"-4.41972","lat":"36.716663"},{"ubicacion":"RINCON DE LA VICTORIA (AUTOMATICA)","idema":"6175X","lon":"-4.286128","lat":"36.715046"},{"ubicacion":"VELEZ MALAGA (AUTOMATICA)","idema":"6199X","lon":"-4.093611","lat":"36.768612"},{"ubicacion":"ALGARROBO (LA MAYORA - AUTOMATICA)","idema":"6201X","lon":"-4.043892","lat":"36.755836"},{"ubicacion":"TORROX FARO","idema":"6205X","lon":"-3.95722","lat":"36.726383"},{"ubicacion":"NERJA (CUEVAS DE NERJA - AUTOMATICA)","idema":"6213X","lon":"-3.845275","lat":"36.762775"},{"ubicacion":"LANJARÓN","idema":"6258X","lon":"-3.4925","lat":"36.923058"},{"ubicacion":"SALOBREÑA","idema":"6267X","lon":"-3.578623","lat":"36.748337"},{"ubicacion":"MOTRIL CLUB NAÚTICO","idema":"6268X","lon":"-3.530278","lat":"36.72278"},{"ubicacion":"MOTRIL PUERTO NAÚTICO","idema":"6268Y","lon":"-3.529267","lat":"36.72401"},{"ubicacion":"CASTELL DEL FERRO","idema":"6272X","lon":"-3.380008","lat":"36.7343"},{"ubicacion":"VÁLOR","idema":"6281X","lon":"-3.071395","lat":"37.005383"},{"ubicacion":"EL EJIDO (AYUNTAMIENTO - AUTOMATICA)","idema":"6291B","lon":"-2.81305","lat":"36.77472"},{"ubicacion":"ROQUETAS DE MAR-FARO SABINAR","idema":"6293X","lon":"-2.701667","lat":"36.68694"},{"ubicacion":"ABLA","idema":"6302A","lon":"-2.780005","lat":"37.141388"},{"ubicacion":"LAUJAR DE ANDARAX","idema":"6307X","lon":"-2.912377","lat":"37.03321"},{"ubicacion":"ALMERÍA/AEROPUERTO","idema":"6325O","lon":"-2.356931","lat":"36.846344"},{"ubicacion":"CABO DE GATA  FARO","idema":"6329X","lon":"-2.193056","lat":"36.721947"},{"ubicacion":"CARBONERAS - FARO MESA ROLDÁN","idema":"6332Y","lon":"-1.906944","lat":"36.942223"},{"ubicacion":"GARRUCHA  PUERTO","idema":"6340X","lon":"-1.816589","lat":"37.178932"},{"ubicacion":"ALBOX","idema":"6364X","lon":"-2.151523","lat":"37.40659"},{"ubicacion":"HUERCAL OVERA","idema":"6367B","lon":"-1.943609","lat":"37.390556"},{"ubicacion":"FUENTE DE PIEDRA ","idema":"6375X","lon":"-4.742002","lat":"37.132343"},{"ubicacion":"ÁGUILAS","idema":"7002Y","lon":"-1.586878","lat":"37.41724"},{"ubicacion":"MAZARRÓN/LAS TORRES","idema":"7007Y","lon":"-1.230556","lat":"37.588055"},{"ubicacion":"CARTAGENA","idema":"7012C","lon":"-0.987775","lat":"37.601116"},{"ubicacion":"CARTAGENA - TENTEGORRA","idema":"7012D","lon":"-1.023333","lat":"37.604443"},{"ubicacion":"CARTAGENA/SALINAS CABO PALOS","idema":"7019X","lon":"-0.715556","lat":"37.635834"},{"ubicacion":"FUENTE ALAMO","idema":"7023X","lon":"-1.167175","lat":"37.72648"},{"ubicacion":"TORRE PACHECO (C.C.A. AUT.)","idema":"7026X","lon":"-0.967505","lat":"37.738884"},{"ubicacion":"MURCIA/SAN JAVIER","idema":"7031X","lon":"-0.805916","lat":"37.77833"},{"ubicacion":"EMBALSE DE LA FUENSANTA (AUTOMÁTICA)","idema":"7066Y","lon":"-2.218889","lat":"38.393333"},{"ubicacion":"CAÑADAS DEL NERPIO","idema":"7067Y","lon":"-2.412981","lat":"38.08842"},{"ubicacion":"SEGE","idema":"7072Y","lon":"-2.293887","lat":"38.294994"},{"ubicacion":"BENIZAR","idema":"7080X","lon":"-1.986391","lat":"38.268337"},{"ubicacion":"HELLÍN","idema":"7096B","lon":"-1.70307","lat":"38.54202"},{"ubicacion":"TOBARRA","idema":"7103Y","lon":"-1.68944","lat":"38.58806"},{"ubicacion":"CARAVACA FUENTES DEL MARQUÉS","idema":"7119B","lon":"-1.877167","lat":"38.10313"},{"ubicacion":"CALASPARRA","idema":"7121A","lon":"-1.702227","lat":"38.234165"},{"ubicacion":"BULLAS","idema":"7127X","lon":"-1.695334","lat":"38.0492"},{"ubicacion":"JUMILLA  EL ALBAL","idema":"7138B","lon":"-1.335282","lat":"38.458885"},{"ubicacion":"CIEZA  PARQUE DE BOMBEROS","idema":"7145D","lon":"-1.380598","lat":"38.23279"},{"ubicacion":"ARCHENA","idema":"7158X","lon":"-1.305839","lat":"38.128056"},{"ubicacion":"MULA (P. BOMBEROS - AUT.)","idema":"7172X","lon":"-1.449172","lat":"38.041386"},{"ubicacion":"MURCIA","idema":"7178I","lon":"-1.170836","lat":"38.002003"},{"ubicacion":"CARAVACA (LOS ROYOS- AUT.)","idema":"7195X","lon":"-2.058228","lat":"37.926003"},{"ubicacion":"ZARZILLA DE RAMOS","idema":"7203A","lon":"-1.869755","lat":"37.8447"},{"ubicacion":"LORCA","idema":"7209","lon":"-1.687314","lat":"37.65484"},{"ubicacion":"PUERTO LUMBRERAS","idema":"7211B","lon":"-1.797223","lat":"37.56805"},{"ubicacion":"TOTANA","idema":"7218Y","lon":"-1.5127","lat":"37.758556"},{"ubicacion":"ALHAMA (COMARZA - AUT.)","idema":"7227X","lon":"-1.334725","lat":"37.86167"},{"ubicacion":"MOLINA DE SEGURA (LOS VALIENTES)","idema":"7237E","lon":"-1.158615","lat":"38.13889"},{"ubicacion":"ORIHUELA DESAMPARADOS","idema":"7244X","lon":"-0.981414","lat":"38.0678"},{"ubicacion":"PINOSO","idema":"7247X","lon":"-1.037968","lat":"38.399586"},{"ubicacion":"ABANILLA","idema":"7250C","lon":"-1.043756","lat":"38.204006"},{"ubicacion":"ROJALES  EL MOLINO","idema":"7261X","lon":"-0.715258","lat":"38.088036"},{"ubicacion":"YECLA","idema":"7275C","lon":"-1.159669","lat":"38.601795"},{"ubicacion":"FONTANARS - CASA DELS CUPS","idema":"8005X","lon":"-0.795955","lat":"38.779987"},{"ubicacion":"VILLENA","idema":"8008Y","lon":"-0.865595","lat":"38.57697"},{"ubicacion":"ELCHE/ALTABIX","idema":"8018X","lon":"-0.680643","lat":"38.287434"},{"ubicacion":"ALICANTE-ELCHE/AEROPUERTO","idema":"8019","lon":"-0.57083","lat":"38.28278"},{"ubicacion":"ALICANTE","idema":"8025","lon":"-0.494167","lat":"38.3725"},{"ubicacion":"BENIDORM (PARC LES FOIETES)","idema":"8036Y","lon":"-0.137786","lat":"38.543655"},{"ubicacion":"JÁVEA  AYUNTAMIENTO","idema":"8050X","lon":"0.166667","lat":"38.78417"},{"ubicacion":"PEGO","idema":"8057C","lon":"-0.118261","lat":"38.846737"},{"ubicacion":"MIRAMAR","idema":"8058Y","lon":"-0.137697","lat":"38.9503"},{"ubicacion":"ALCOY","idema":"8059C","lon":"-0.460071","lat":"38.71092"},{"ubicacion":"BARX","idema":"8072Y","lon":"-0.304725","lat":"39.016937"},{"ubicacion":"CUENCA","idema":"8096","lon":"-2.131667","lat":"40.066944"},{"ubicacion":"MOTILLA DEL PALANCAR","idema":"8155Y","lon":"-1.915278","lat":"39.55528"},{"ubicacion":"ALBACETE/LOS LLANOS","idema":"8175","lon":"-1.856389","lat":"38.954166"},{"ubicacion":"CHINCHILLA/CENAD","idema":"8177A","lon":"-1.658812","lat":"38.9376"},{"ubicacion":"ALBACETE OBS.","idema":"8178D","lon":"-1.862335","lat":"39.005577"},{"ubicacion":"LAS ERAS","idema":"8191Y","lon":"-1.435505","lat":"39.198746"},{"ubicacion":"JALANCE","idema":"8193E","lon":"-1.094403","lat":"39.208416"},{"ubicacion":"ALMANSA","idema":"8198Y","lon":"-1.063051","lat":"38.85055"},{"ubicacion":"EVC_ZARRA","idema":"8203O","lon":"-1.100999","lat":"39.082893"},{"ubicacion":"MIRA","idema":"8245Y","lon":"-1.442571","lat":"39.714375"},{"ubicacion":"BICORP","idema":"8270X","lon":"-0.79","lat":"39.13361"},{"ubicacion":"ONTINYENT","idema":"8283X","lon":"-0.607676","lat":"38.82944"},{"ubicacion":"XÁTIVA","idema":"8293X","lon":"-0.523056","lat":"39.001667"},{"ubicacion":"CARCAIXENT","idema":"8300X","lon":"-0.445908","lat":"39.11338"},{"ubicacion":"UTIEL  LA CUBERA","idema":"8309X","lon":"-1.244795","lat":"39.575455"},{"ubicacion":"POLINYA","idema":"8325X","lon":"-0.371947","lat":"39.184723"},{"ubicacion":"TURIS","idema":"8337X","lon":"-0.624616","lat":"39.39214"},{"ubicacion":"ALBARRACÍN","idema":"8354X","lon":"-1.44139","lat":"40.41972"},{"ubicacion":"TERUEL","idema":"8368U","lon":"-1.124132","lat":"40.350716"},{"ubicacion":"JABALOYAS  DEPÓSITO","idema":"8376","lon":"-1.411672","lat":"40.236115"},{"ubicacion":"ADEMUZ","idema":"8381X","lon":"-1.283573","lat":"40.06056"},{"ubicacion":"CHELVA","idema":"8395X","lon":"-0.993611","lat":"39.75333"},{"ubicacion":"LLIRIA","idema":"8409X","lon":"-0.653993","lat":"39.66401"},{"ubicacion":"VALENCIA/AEROPUERTO","idema":"8414A","lon":"-0.474677","lat":"39.485016"},{"ubicacion":"VALENCIA UPV","idema":"8416X","lon":"-0.337222","lat":"39.479443"},{"ubicacion":"VALENCIA DT","idema":"8416Y","lon":"-0.366387","lat":"39.480556"},{"ubicacion":"SEGORBE  MASIA HOYA","idema":"8439X","lon":"-0.485282","lat":"39.79555"},{"ubicacion":"SAGUNTO (MONTIVER PONTAZGO - SEMIAUTOMATICA)","idema":"8446Y","lon":"-0.258878","lat":"39.700806"},{"ubicacion":"CEDRILLAS  ANTENAS","idema":"8458X","lon":"-0.849428","lat":"40.430515"},{"ubicacion":"ARENOS-PANTANO","idema":"8472A","lon":"-0.54685","lat":"40.087708"},{"ubicacion":"MOSQUERUELA  DEPÓSITO","idema":"8486X","lon":"-0.454339","lat":"40.362514"},{"ubicacion":"VILLAFRANCA","idema":"8489X","lon":"-0.255675","lat":"40.433216"},{"ubicacion":"CASTELLÓN-ALMASSORA","idema":"8500A","lon":"-0.071967","lat":"39.95728"},{"ubicacion":"TORREBLANCA AYUNTAMIENTO (C.AGRARIA LOCAL)","idema":"8503Y","lon":"0.18354","lat":"40.2113"},{"ubicacion":"FREDES","idema":"8520X","lon":"0.165221","lat":"40.693718"},{"ubicacion":"NESTARES","idema":"9001D","lon":"-4.160594","lat":"42.991882"},{"ubicacion":"Alto Campoo","idema":"9001S","lon":"-4.374447","lat":"43.036667"},{"ubicacion":"SANTA GADEA DE ALFOZ","idema":"9012E","lon":"-3.95718","lat":"42.951336"},{"ubicacion":"CUBILLO DE EBRO","idema":"9016X","lon":"-4.032219","lat":"42.809723"},{"ubicacion":"POLIENTES-CASYC","idema":"9019B","lon":"-3.933916","lat":"42.806248"},{"ubicacion":"SARGENTES DE LA LORA","idema":"9027X","lon":"-3.884371","lat":"42.7469"},{"ubicacion":"BRIVIESCA","idema":"9031C","lon":"-3.30879","lat":"42.559525"},{"ubicacion":"MEDINA DE POMAR","idema":"9051","lon":"-3.482685","lat":"42.919903"},{"ubicacion":"LALASTRA-PARQUE VALDEREJO","idema":"9060X","lon":"-3.231729","lat":"42.875217"},{"ubicacion":"MIRANDA DE EBRO","idema":"9069C","lon":"-2.960608","lat":"42.68716"},{"ubicacion":"OPAKUA","idema":"9073X","lon":"-2.359745","lat":"42.82983"},{"ubicacion":"VITORIA/FORONDA","idema":"9091R","lon":"-2.732913","lat":"42.871933"},{"ubicacion":"BELORADO","idema":"9111","lon":"-3.170282","lat":"42.421116"},{"ubicacion":"VALDEZCARAY","idema":"9115X","lon":"-2.968056","lat":"42.255"},{"ubicacion":"HARO ","idema":"9121X","lon":"-2.854717","lat":"42.575275"},{"ubicacion":"LABASTIDA- REMELLURI","idema":"9122I","lon":"-2.776667","lat":"42.60389"},{"ubicacion":"ANGUIANO  VALVANERA ","idema":"9136X","lon":"-2.871106","lat":"42.230835"},{"ubicacion":"NÁJERA","idema":"9141V","lon":"-2.726758","lat":"42.41403"},{"ubicacion":"LEZA (DFA2)","idema":"9145X","lon":"-2.632837","lat":"42.56724"},{"ubicacion":"CENICERO ","idema":"9145Y","lon":"-2.63944","lat":"42.48278"},{"ubicacion":"LOGROÑO  AEROPUERTO","idema":"9170","lon":"-2.331024","lat":"42.452343"},{"ubicacion":"LOS ARCOS","idema":"9171K","lon":"-2.183774","lat":"42.570415"},{"ubicacion":"SANTA CRUZ DE CAMPEZO (DFA)","idema":"9178X","lon":"-2.346127","lat":"42.670654"},{"ubicacion":"ENCISO  DEPÓSITO","idema":"9188","lon":"-2.273211","lat":"42.1495"},{"ubicacion":"ASTÚN - LA RACA","idema":"9195C","lon":"-0.505278","lat":"42.793056"},{"ubicacion":"CANFRANC","idema":"9198X","lon":"-0.51604","lat":"42.749527"},{"ubicacion":"JACA","idema":"9201K","lon":"-0.547043","lat":"42.578815"},{"ubicacion":"VALLE DE HECHO  HECHO-DEPÓSITO","idema":"9207","lon":"-0.750538","lat":"42.74066"},{"ubicacion":"ARAGÜÉS DEL PUERTO  DEPÓSITO","idema":"9208E","lon":"-0.673056","lat":"42.708057"},{"ubicacion":"BAILO PUYALTO","idema":"9211F","lon":"-0.817243","lat":"42.514168"},{"ubicacion":"ISABA/IZABA","idema":"9218A","lon":"-0.924622","lat":"42.862213"},{"ubicacion":"OROZ-BETELU/OROTZ-BETELU  DEPÓSITO","idema":"9228J","lon":"-1.300216","lat":"42.89624"},{"ubicacion":"RONCESVALLES/ORREAGA","idema":"9228T","lon":"-1.325557","lat":"43.007877"},{"ubicacion":"NAVASCUÉS/NABASKOZE","idema":"9238X","lon":"-1.117054","lat":"42.717236"},{"ubicacion":"SOS DEL REY CATÓLICO","idema":"9244X","lon":"-1.213333","lat":"42.490833"},{"ubicacion":"CÁSEDA  DEPÓSITO","idema":"9245X","lon":"-1.366381","lat":"42.52139"},{"ubicacion":"OLITE/ERRIBERRI","idema":"9252X","lon":"-1.655553","lat":"42.489166"},{"ubicacion":"ESTERIBAR  EMBALSE DE EUGI","idema":"9257X","lon":"-1.516946","lat":"42.970554"},{"ubicacion":"MONREAL/ELO  DEPÓSITO","idema":"9262P","lon":"-1.49567","lat":"42.70125"},{"ubicacion":"PAMPLONA  AEROPUERTO","idema":"9263D","lon":"-1.649869","lat":"42.77695"},{"ubicacion":"ARANGUREN  ILUNDAIN","idema":"9263X","lon":"-1.532487","lat":"42.7761"},{"ubicacion":"IRURTZUN","idema":"9274X","lon":"-1.835118","lat":"42.918846"},{"ubicacion":"LARRAGA","idema":"9280B","lon":"-1.857382","lat":"42.549446"},{"ubicacion":"SAN PEDRO MANRIQUE","idema":"9287A","lon":"-2.230789","lat":"42.02646"},{"ubicacion":"ALFARO  LA PLANA - DEPÓSITO","idema":"9293X","lon":"-1.743811","lat":"42.176132"},{"ubicacion":"BARDENAS REALES  BASE AÉREA","idema":"9294E","lon":"-1.475169","lat":"42.198544"},{"ubicacion":"TARAZONA","idema":"9299X","lon":"-1.723337","lat":"41.914867"},{"ubicacion":"MONTEAGUDO","idema":"9301X","lon":"-1.690554","lat":"41.95889"},{"ubicacion":"TUDELA  ","idema":"9302Y","lon":"-1.609167","lat":"42.05528"},{"ubicacion":"EJEA DE LOS CABALLEROS","idema":"9321X","lon":"-1.139723","lat":"42.121113"},{"ubicacion":"CASTEJÓN DE VALDEJASA  DEPÓSITO","idema":"9336D","lon":"-0.995737","lat":"41.984173"},{"ubicacion":"ARCOS DE JALÓN-COEX","idema":"9344C","lon":"-2.292964","lat":"41.216473"},{"ubicacion":"ALMAZUL","idema":"9352A","lon":"-2.140382","lat":"41.574635"},{"ubicacion":"ALHAMA DE ARAGÓN  DEPÓSITO","idema":"9354X","lon":"-1.895265","lat":"41.293"},{"ubicacion":"SANTA EULALIA  DEL CAMPO","idema":"9374X","lon":"-1.320827","lat":"40.56667"},{"ubicacion":"EL PEDREGAL","idema":"9377Y","lon":"-1.568336","lat":"40.77861"},{"ubicacion":"CALAMOCHA","idema":"9381I","lon":"-1.293327","lat":"40.926113"},{"ubicacion":"DAROCA ","idema":"9390","lon":"-1.409762","lat":"41.123425"},{"ubicacion":"CALATAYUD  DEPÓSITO","idema":"9394X","lon":"-1.645297","lat":"41.33104"},{"ubicacion":"LA ALMUNIA DE DOÑA GODINA","idema":"9427X","lon":"-1.380829","lat":"41.481113"},{"ubicacion":"ZARAGOZA  AEROPUERTO","idema":"9434","lon":"-1.004167","lat":"41.660557"},{"ubicacion":"ZARAGOZA  VALDESPARTERA","idema":"9434P","lon":"-0.935","lat":"41.620556"},{"ubicacion":"FONFRÍA","idema":"9436X","lon":"-1.087365","lat":"40.995373"},{"ubicacion":"FORMIGAL  SARRIOS","idema":"9445L","lon":"-0.392704","lat":"42.762405"},{"ubicacion":"PANTICOSA  PETROSOS","idema":"9451F","lon":"-0.275278","lat":"42.704445"},{"ubicacion":"BIESCAS  EMBALSE DE BÚBAL","idema":"9453X","lon":"-0.319003","lat":"42.699238"},{"ubicacion":"SABIÑÁNIGO","idema":"9460X","lon":"-0.35556","lat":"42.51278"},{"ubicacion":"ALMUDÉVAR","idema":"9491X","lon":"-0.585964","lat":"42.029354"},{"ubicacion":"LECIÑENA","idema":"9495Y","lon":"-0.617331","lat":"41.796795"},{"ubicacion":"VALMADRID","idema":"9501X","lon":"-0.885947","lat":"41.443134"},{"ubicacion":"QUINTO","idema":"9510X","lon":"-0.503955","lat":"41.429173"},{"ubicacion":"MUNIESA","idema":"9513X","lon":"-0.805655","lat":"41.031216"},{"ubicacion":"MONTALBÁN","idema":"9531Y","lon":"-0.792778","lat":"40.82861"},{"ubicacion":"HÍJAR  DEPÓSITO","idema":"9546B","lon":"-0.441907","lat":"41.171967"},{"ubicacion":"ANDORRA  HORCALLANA","idema":"9550C","lon":"-0.407693","lat":"40.974358"},{"ubicacion":"CASTELLOTE  DEPÓSITO","idema":"9561X","lon":"-0.315396","lat":"40.798428"},{"ubicacion":"MORELLA - PASEO ALAMEDA","idema":"9562X","lon":"-0.101819","lat":"40.621662"},{"ubicacion":"CASTELLFORT","idema":"9563X","lon":"-0.186663","lat":"40.498608"},{"ubicacion":"CALANDA","idema":"9569A","lon":"-0.237653","lat":"40.946556"},{"ubicacion":"ALCAÑIZ","idema":"9573X","lon":"-0.141596","lat":"41.058037"},{"ubicacion":"CASPE  PLANA DEL PILÓN","idema":"9574B","lon":"-0.068611","lat":"41.2425"},{"ubicacion":"LA MOLINA","idema":"9585","lon":"1.939446","lat":"42.3325"},{"ubicacion":"MARTINET","idema":"9590","lon":"1.693256","lat":"42.362118"},{"ubicacion":"CAP DE REC","idema":"9590D","lon":"1.6675","lat":"42.43028"},{"ubicacion":"LA SEO D?URGELL","idema":"9619","lon":"1.462778","lat":"42.35472"},{"ubicacion":"COLL DE NARGÓ","idema":"9638D","lon":"1.311946","lat":"42.15445"},{"ubicacion":"TORÀ","idema":"9647X","lon":"1.395552","lat":"41.805836"},{"ubicacion":"ARTESA DE SEGRE","idema":"9650X","lon":"1.108615","lat":"41.88139"},{"ubicacion":"ESTERRI D?ANEU","idema":"9657X","lon":"1.126203","lat":"42.62511"},{"ubicacion":"PORT AINE  L?ORRI","idema":"9677","lon":"1.214647","lat":"42.410007"},{"ubicacion":"TALARN","idema":"9698U","lon":"0.864722","lat":"42.204723"},{"ubicacion":"LLIMIANA","idema":"9707","lon":"0.907217","lat":"42.06694"},{"ubicacion":"TORDERA - GRANYANELLA","idema":"9718X","lon":"1.223051","lat":"41.68111"},{"ubicacion":"LLORAC","idema":"9726E","lon":"1.309439","lat":"41.55722"},{"ubicacion":"MOLLERUSSA","idema":"9729X","lon":"0.866659","lat":"41.616943"},{"ubicacion":"BARRUERA","idema":"9744B","lon":"0.798893","lat":"42.50333"},{"ubicacion":"SOPEIRA","idema":"9751","lon":"0.746943","lat":"42.31861"},{"ubicacion":"BENABARRE","idema":"9756X","lon":"0.479998","lat":"42.1125"},{"ubicacion":"LLEIDA","idema":"9771C","lon":"0.598058","lat":"41.626106"},{"ubicacion":"LA POBLA DE CERVOLES","idema":"9772X","lon":"0.913608","lat":"41.366116"},{"ubicacion":"EL SOLERÀS","idema":"9775X","lon":"0.67833","lat":"41.41361"},{"ubicacion":"BIELSA","idema":"9784P","lon":"0.224707","lat":"42.629967"},{"ubicacion":"AÍNSA-SOBRARBE  LA SERRETA-DEPÓSITO","idema":"9808X","lon":"0.138052","lat":"42.421665"},{"ubicacion":"TORLA-ORDESA  EL CEBOLLAR","idema":"9814I","lon":"-0.124444","lat":"42.656113"},{"ubicacion":"TORLA-ORDESA  DEPÓSITO","idema":"9814X","lon":"-0.112686","lat":"42.63759"},{"ubicacion":"BENASQUE","idema":"9838B","lon":"0.521752","lat":"42.600582"},{"ubicacion":"CERLER  COGULLA","idema":"9839V","lon":"0.543056","lat":"42.555"},{"ubicacion":"SEIRA","idema":"9843A","lon":"0.434167","lat":"42.476948"},{"ubicacion":"CAPELLA  LAGUARRES","idema":"9855E","lon":"0.466105","lat":"42.20139"},{"ubicacion":"BARBASTRO","idema":"9866C","lon":"0.140556","lat":"42.02139"},{"ubicacion":"SARIÑENA  DEPÓSITO","idema":"9894Y","lon":"-0.160778","lat":"41.799297"},{"ubicacion":"HUESCA  AEROPUERTO","idema":"9898","lon":"-0.325555","lat":"42.084557"},{"ubicacion":"HUESCA","idema":"9901X","lon":"-0.394996","lat":"42.13889"},{"ubicacion":"LANAJA  DEPÓSITO","idema":"9908X","lon":"-0.333059","lat":"41.77389"},{"ubicacion":"BALLOBAR  DEPÓSITO","idema":"9911X","lon":"0.187782","lat":"41.619446"},{"ubicacion":"TAMARITE DE LITERA  LA MELUSA","idema":"9918Y","lon":"0.376949","lat":"41.780834"},{"ubicacion":"FRAGA","idema":"9924X","lon":"0.355555","lat":"41.52472"},{"ubicacion":"VALDERROBRES ","idema":"9935X","lon":"0.146111","lat":"40.873337"},{"ubicacion":"HORTA DE SANT JOAN","idema":"9946X","lon":"0.311668","lat":"40.953056"},{"ubicacion":"MASSALUCA","idema":"9947X","lon":"0.353329","lat":"41.17722"},{"ubicacion":"CABACÉS","idema":"9961X","lon":"0.735283","lat":"41.249443"},{"ubicacion":"RASQUERA","idema":"9975X","lon":"0.613616","lat":"41.005"},{"ubicacion":"TORTOSA","idema":"9981A","lon":"0.493056","lat":"40.82"},{"ubicacion":"CAP DE VAQUEIRA","idema":"9988B","lon":"0.973793","lat":"42.69196"},{"ubicacion":"ARTIES","idema":"9990X","lon":"0.876944","lat":"42.70028"},{"ubicacion":"BOSSOST-CENTRAL","idema":"9994X","lon":"0.689719","lat":"42.776108"},{"ubicacion":"VALCARLOS/LUZAIDE","idema":"9995Y","lon":"-1.300831","lat":"43.091114"},{"ubicacion":"BELLO","idema":"9998X","lon":"-1.494444","lat":"40.92139"},{"ubicacion":"LLUC","idema":"B013X","lon":"2.885828","lat":"39.823338"},{"ubicacion":"Sóller","idema":"B051A","lon":"2.691486","lat":"39.795555"},{"ubicacion":"BANYALBUFAR ","idema":"B087X","lon":"2.512777","lat":"39.689167"},{"ubicacion":"ANDRATX - SANT ELM","idema":"B103B","lon":"2.368936","lat":"39.57947"},{"ubicacion":"ES CAPDELLÀ- SON VIC NOU ","idema":"B158X","lon":"2.466476","lat":"39.551468"},{"ubicacion":"PALMA-PORTOPÍ","idema":"B228","lon":"2.625268","lat":"39.554256"},{"ubicacion":"PALMA DIC DE L?OEST","idema":"B228D","lon":"2.638889","lat":"39.5525"},{"ubicacion":"PALMA-UNIVERSITAT","idema":"B236C","lon":"2.643755","lat":"39.642162"},{"ubicacion":"SIERRA DE ALFABIA","idema":"B248","lon":"2.713058","lat":"39.734997"},{"ubicacion":"SON BONET  AEROPUERTO","idema":"B275E","lon":"2.706667","lat":"39.60583"},{"ubicacion":"PALMA DE MALLORCA/SON SANT JOAN","idema":"B278","lon":"2.736706","lat":"39.5608"},{"ubicacion":"LLUCMAJOR-RADAR","idema":"B301","lon":"2.785002","lat":"39.379723"},{"ubicacion":"LLUCMAJOR II","idema":"B334X","lon":"2.891662","lat":"39.495556"},{"ubicacion":"PORRERES-SA MESQUIDA","idema":"B341X","lon":"3.005556","lat":"39.50611"},{"ubicacion":"CAMPOS-CAN SION ","idema":"B362X","lon":"3.064166","lat":"39.405834"},{"ubicacion":"CAMPOS-SALINES  LEVANT","idema":"B373X","lon":"3.011862","lat":"39.351143"},{"ubicacion":"SANTANYÍ","idema":"B410B","lon":"3.145785","lat":"39.340054"},{"ubicacion":"PORTO COLOM","idema":"B434X","lon":"3.271687","lat":"39.414555"},{"ubicacion":"SON SERVERA-CAN PEP MONJO","idema":"B496X","lon":"3.383603","lat":"39.630276"},{"ubicacion":"ARTÀ-MOLI D?EN LEU ","idema":"B526X","lon":"3.351112","lat":"39.68861"},{"ubicacion":"CAPDEPERA-FARO","idema":"B569X","lon":"3.478002","lat":"39.716694"},{"ubicacion":"COLÒNIA SANT PERE-CAN MENGOL","idema":"B603X","lon":"3.278571","lat":"39.723183"},{"ubicacion":"MURO-S?ALBUFERA ","idema":"B605X","lon":"3.104721","lat":"39.796665"},{"ubicacion":"MANACOR-POLIESPORTIU","idema":"B614E","lon":"3.21778","lat":"39.556824"},{"ubicacion":"PETRA","idema":"B640X","lon":"3.1212","lat":"39.616463"},{"ubicacion":"SINEU-POLIESPORTIU","idema":"B644B","lon":"3.002128","lat":"39.643265"},{"ubicacion":"SANTA MARÍA","idema":"B656A","lon":"2.800156","lat":"39.652473"},{"ubicacion":"BINISSALEM-SA VINYOTA","idema":"B662X","lon":"2.873775","lat":"39.677963"},{"ubicacion":"ESCORCA-SON TORRELLA","idema":"B684A","lon":"2.787778","lat":"39.792778"},{"ubicacion":"SA POBLA-SA CANOVA","idema":"B691Y","lon":"3.01667","lat":"39.749165"},{"ubicacion":"POLLENÇA-POLIESPORTIU","idema":"B760X","lon":"3.024159","lat":"39.87694"},{"ubicacion":"PORT POLLENÇA-AERODROM ","idema":"B780X","lon":"3.100277","lat":"39.909447"},{"ubicacion":"MERCADAL","idema":"B825B","lon":"4.086385","lat":"39.990555"},{"ubicacion":"CIUTADELLA-SON QUIM ","idema":"B860X","lon":"3.853866","lat":"39.992775"},{"ubicacion":"CIUTADELLA-CALA GALDANA","idema":"B870C","lon":"3.956643","lat":"39.944786"},{"ubicacion":"MENORCA/AEROPUERTO","idema":"B893","lon":"4.215556","lat":"39.854725"},{"ubicacion":"SANT JOAN DE LABRITJA ","idema":"B908X","lon":"1.492503","lat":"39.05611"},{"ubicacion":"SANT ANTONI DE PORTMANY","idema":"B925","lon":"1.321389","lat":"38.963055"},{"ubicacion":"IBIZA/ES CODOLÁ","idema":"B954","lon":"1.384446","lat":"38.876385"},{"ubicacion":"EIVISSA","idema":"B957","lon":"1.441516","lat":"38.922638"},{"ubicacion":"FORMENTERA","idema":"B986","lon":"1.463528","lat":"38.69371"},{"ubicacion":"TIAS-LAS VEGAS","idema":"C018J","lon":"-13.690277","lat":"28.969727"},{"ubicacion":"YAIZA-PLAYA BLANCA","idema":"C019V","lon":"-13.834999","lat":"28.858885"},{"ubicacion":"LANZAROTE/AEROPUERTO","idema":"C029O","lon":"-13.600279","lat":"28.951942"},{"ubicacion":"HARÍA-CEMENTERIO","idema":"C038N","lon":"-13.489167","lat":"29.143612"},{"ubicacion":"TINAJO-LOS DOLORES","idema":"C048W","lon":"-13.680833","lat":"29.0425"},{"ubicacion":"ROQUE DE LOS MUCHACHOS","idema":"C101A","lon":"-17.895279","lat":"28.755833"},{"ubicacion":"PUNTAGORDA","idema":"C117A","lon":"-17.985556","lat":"28.760555"},{"ubicacion":"TIJARAFE-MIRADOR TIME","idema":"C117Z","lon":"-17.936666","lat":"28.674723"},{"ubicacion":"EL PASO-C.F.","idema":"C126A","lon":"-17.853056","lat":"28.653889"},{"ubicacion":"FUENCALIENTE-SALINAS","idema":"C129V","lon":"-17.84111","lat":"28.455"},{"ubicacion":"TAZACORTE","idema":"C129Z","lon":"-17.915277","lat":"28.595833"},{"ubicacion":"LA PALMA/AEROPUERTO","idema":"C139E","lon":"-17.755005","lat":"28.633057"},{"ubicacion":"SAUCES-S.ANDRÉS-BALSA ADEYAHAME","idema":"C148F","lon":"-17.782223","lat":"28.804722"},{"ubicacion":"PÁJARA-PUERTO MORRO JABLE","idema":"C229J","lon":"-14.358002","lat":"28.04904"},{"ubicacion":"TUINEJE-PUERTO GRAN TARAJAL","idema":"C239N","lon":"-14.023056","lat":"28.20861"},{"ubicacion":"ANTIGUA-EL CARBÓN","idema":"C248E","lon":"-14.019167","lat":"28.416945"},{"ubicacion":"FUERTEVENTURA/AEROPUERTO","idema":"C249I","lon":"-13.863055","lat":"28.44472"},{"ubicacion":"LA OLIVA (CARRETERA DEL COTILLO)","idema":"C258K","lon":"-13.931667","lat":"28.6125"},{"ubicacion":"LA OLIVA-PUERTO DE CORRALEJO","idema":"C259X","lon":"-13.863056","lat":"28.740557"},{"ubicacion":"VALLEHERMOSO-ALTO IGUALERO","idema":"C314Z","lon":"-17.249166","lat":"28.106943"},{"ubicacion":"ARURE CEMENTERIO","idema":"C316I","lon":"-17.315","lat":"28.128332"},{"ubicacion":"AGULO-JUEGO BOLAS","idema":"C317B","lon":"-17.213057","lat":"28.178888"},{"ubicacion":"VALLEHERMOSO-DAMA","idema":"C319W","lon":"-17.306389","lat":"28.054167"},{"ubicacion":"HERMIGUA-DEPÓSITO AYUNTAMIENTO","idema":"C328W","lon":"-17.194166","lat":"28.16361"},{"ubicacion":"SAN SEBASTIÁN DE LA GOMERA","idema":"C329Z","lon":"-17.11139","lat":"28.089722"},{"ubicacion":"CAÑADAS PARADOR","idema":"C406G","lon":"-16.62611","lat":"28.224167"},{"ubicacion":"Lomo del Balo","idema":"C419L","lon":"-16.792028","lat":"28.207056"},{"ubicacion":"ADEJE-CALDERA B","idema":"C419X","lon":"-16.710556","lat":"28.081388"},{"ubicacion":"ARICO-DEPURADORA LA DEGOLLADA","idema":"C428T","lon":"-16.483334","lat":"28.180834"},{"ubicacion":"TENERIFE/SUR","idema":"C429I","lon":"-16.561157","lat":"28.046991"},{"ubicacion":"IZAÑA","idema":"C430E","lon":"-16.499445","lat":"28.308891"},{"ubicacion":"CANDELARIA-DEPOSITO CUEVECITAS","idema":"C438N","lon":"-16.401735","lat":"28.359247"},{"ubicacion":"TENERIFE-GÜIMAR","idema":"C439J","lon":"-16.382229","lat":"28.318405"},{"ubicacion":"LAS MERCEDES-LLANO LOS LOROS","idema":"C446G","lon":"-16.280277","lat":"28.526388"},{"ubicacion":"TENERIFE/LOS RODEOS","idema":"C447A","lon":"-16.329445","lat":"28.477497"},{"ubicacion":"SANTA CRUZ DE TENERIFE ","idema":"C449C","lon":"-16.255281","lat":"28.463337"},{"ubicacion":"ANAGA-COL. REP. ARGENTINA","idema":"C449F","lon":"-16.195557","lat":"28.508057"},{"ubicacion":"VICTORIA-DEPÓSITO MARRERO","idema":"C457I","lon":"-16.454445","lat":"28.434444"},{"ubicacion":"TACORONTE-A S.E.A.","idema":"C458A","lon":"-16.420065","lat":"28.496473"},{"ubicacion":"PUERTO DE LA CRUZ","idema":"C459Z","lon":"-16.548332","lat":"28.418056"},{"ubicacion":"LLANOS DE MESA ","idema":"C468X","lon":"-16.625834","lat":"28.373056"},{"ubicacion":"SAN MATEO (CORRAL DE LOS JUNCOS)","idema":"C611E","lon":"-15.583889","lat":"27.976667"},{"ubicacion":"TEJEDA-CRUZ DE TEJEDA","idema":"C612F","lon":"-15.598889","lat":"28.006945"},{"ubicacion":"TEJEDA CASCO","idema":"C614H","lon":"-15.615833","lat":"27.995"},{"ubicacion":"AGAETE-CASCO","idema":"C619X","lon":"-15.712778","lat":"28.10111"},{"ubicacion":"LA ALDEA DE SAN NICOLAS","idema":"C619Y","lon":"-15.8075","lat":"28.00111"},{"ubicacion":"SAN BARTOLOME TIRAJANA (CUEVAS DEL PINAR)","idema":"C623I","lon":"-15.599722","lat":"27.926666"},{"ubicacion":"SAN BARTOLOME TIRAJANA-LOMO PEDRO ALFONSO","idema":"C625O","lon":"-15.645","lat":"27.856943"},{"ubicacion":"SAN NICOLAS T.-TASARTE/COPARLITA","idema":"C628B","lon":"-15.77","lat":"27.90889"},{"ubicacion":"MOGAN (PUERTO RICO)","idema":"C629Q","lon":"-15.711111","lat":"27.78"},{"ubicacion":"PUERTO DE MOGÁN","idema":"C629X","lon":"-15.764167","lat":"27.81639"},{"ubicacion":"SAN BARTOLOME TIRAJANA-H.LAS TIRAJANAS","idema":"C635B","lon":"-15.574167","lat":"27.92"},{"ubicacion":"SAN BARTOLOME TIRAJANA-C.INSULAR TURISMO","idema":"C639M","lon":"-15.575556","lat":"27.758057"},{"ubicacion":"SAN BARTOLOME TIRAJANA (EL MATORRAL)","idema":"C639U","lon":"-15.453056","lat":"27.8125"},{"ubicacion":"AGÜIMES-EL MILANO","idema":"C648C","lon":"-15.453889","lat":"27.9025"},{"ubicacion":"TELDE-CENTRO FORESTAL DORAMAS","idema":"C648N","lon":"-15.457778","lat":"27.9875"},{"ubicacion":"LAS PALMAS DE GRAN CANARIA/GANDO","idema":"C649I","lon":"-15.395303","lat":"27.917725"},{"ubicacion":"TELDE-MELENARA","idema":"C649R","lon":"-15.377778","lat":"27.986668"},{"ubicacion":"TEROR-OSORIO","idema":"C656V","lon":"-15.547222","lat":"28.075277"},{"ubicacion":"LAS PALMAS G.C.-TAFIRA/ZURBARÁN","idema":"C658X","lon":"-15.453333","lat":"28.078056"},{"ubicacion":"LAS PALMAS G.C. SAN CRISTÓBAL","idema":"C659H","lon":"-15.416111","lat":"28.089722"},{"ubicacion":"LAS PALMAS DE GC. PLAZA  DE LA FERIA","idema":"C659M","lon":"-15.421389","lat":"28.113056"},{"ubicacion":"VALLESECO","idema":"C665T","lon":"-15.565556","lat":"28.065556"},{"ubicacion":"AGAETE - SUERTE ALTA","idema":"C668V","lon":"-15.674914","lat":"28.094479"},{"ubicacion":"ARUCAS-BAÑADEROS","idema":"C669B","lon":"-15.506667","lat":"28.141666"},{"ubicacion":"MASPALOMAS","idema":"C689E","lon":"-15.595833","lat":"27.735832"},{"ubicacion":"TEGUISE LA GRACIOSA-HELIPUERTO","idema":"C839X","lon":"-13.51021","lat":"29.229586"},{"ubicacion":"PINAR-DEPÓSITO","idema":"C916Q","lon":"-17.978056","lat":"27.71889"},{"ubicacion":"DEHESA-REFUGIO","idema":"C917E","lon":"-18.115","lat":"27.725279"},{"ubicacion":"TACORÓN-LAPILLAS-TORTUGA","idema":"C919K","lon":"-18.017778","lat":"27.666668"},{"ubicacion":"SAN ANDRÉS-DEPÓSITO CABILDO","idema":"C925F","lon":"-17.960417","lat":"27.768951"},{"ubicacion":"VALVERDE","idema":"C928I","lon":"-17.919443","lat":"27.810833"},{"ubicacion":"EL HIERRO/AEROPUERTO","idema":"C929I","lon":"-17.88889","lat":"27.818888"},{"ubicacion":"SABINOSA-BALNEARIO","idema":"C939T","lon":"-18.107374","lat":"27.756441"}]}
+{
+  "estaciones" : [ {
+    "ubicacion" : "REUS/AEROPUERTO",
+    "idema" : "0016A",
+    "lon" : "1.178894",
+    "lat" : "41.14972"
+  }, {
+    "ubicacion" : "VALLS",
+    "idema" : "0034X",
+    "lon" : "1.260838",
+    "lat" : "41.293053"
+  }, {
+    "ubicacion" : "TARRAGONA  FAC. GEOGRAFIA",
+    "idema" : "0042Y",
+    "lon" : "1.249167",
+    "lat" : "41.123894"
+  }, {
+    "ubicacion" : "PONTONS",
+    "idema" : "0061X",
+    "lon" : "1.519269",
+    "lat" : "41.417053"
+  }, {
+    "ubicacion" : "VILAFRANCA DEL PENEDÈS",
+    "idema" : "0066X",
+    "lon" : "1.676942",
+    "lat" : "41.33028"
+  }, {
+    "ubicacion" : "SITGES-VALLCARCA",
+    "idema" : "0073X",
+    "lon" : "1.852626",
+    "lat" : "41.243786"
+  }, {
+    "ubicacion" : "BARCELONA/AEROPUERTO",
+    "idema" : "0076",
+    "lon" : "2.069995",
+    "lat" : "41.29278"
+  }, {
+    "ubicacion" : "BERGA  INSTITUTO",
+    "idema" : "0092X",
+    "lon" : "1.857494",
+    "lat" : "42.101387"
+  }, {
+    "ubicacion" : "BALSARENY",
+    "idema" : "0106X",
+    "lon" : "1.872504",
+    "lat" : "41.866386"
+  }, {
+    "ubicacion" : "PRATS DE LLUÇANÈS",
+    "idema" : "0114X",
+    "lon" : "2.026561",
+    "lat" : "42.007057"
+  }, {
+    "ubicacion" : "MOIÀ",
+    "idema" : "0120X",
+    "lon" : "2.09539",
+    "lat" : "41.81328"
+  }, {
+    "ubicacion" : "MANRESA",
+    "idema" : "0149X",
+    "lon" : "1.84028",
+    "lat" : "41.71988"
+  }, {
+    "ubicacion" : "MONTSERRAT",
+    "idema" : "0158X",
+    "lon" : "1.839223",
+    "lat" : "41.594444"
+  }, {
+    "ubicacion" : "IGUALADA",
+    "idema" : "0171X",
+    "lon" : "1.617778",
+    "lat" : "41.578888"
+  }, {
+    "ubicacion" : "CORBERA  PIC D?AGULLES ",
+    "idema" : "0194D",
+    "lon" : "1.885",
+    "lat" : "41.40819"
+  }, {
+    "ubicacion" : "BARCELONA  DRASSANES",
+    "idema" : "0201X",
+    "lon" : "2.173886",
+    "lat" : "41.374996"
+  }, {
+    "ubicacion" : "CALDES DE MONTBUI",
+    "idema" : "0222X",
+    "lon" : "2.168412",
+    "lat" : "41.612663"
+  }, {
+    "ubicacion" : "VILASSAR DE DALT",
+    "idema" : "0244X",
+    "lon" : "2.362637",
+    "lat" : "41.504894"
+  }, {
+    "ubicacion" : "ARENYS DE MAR",
+    "idema" : "0252D",
+    "lon" : "2.54",
+    "lat" : "41.587223"
+  }, {
+    "ubicacion" : "FONTMARTINA",
+    "idema" : "0260X",
+    "lon" : "2.431023",
+    "lat" : "41.760063"
+  }, {
+    "ubicacion" : "BLANES JARDIN BOTANICO",
+    "idema" : "0281Y",
+    "lon" : "2.805112",
+    "lat" : "41.677055"
+  }, {
+    "ubicacion" : "CASTELL PLATJA D?ARO",
+    "idema" : "0284X",
+    "lon" : "3.030933",
+    "lat" : "41.807816"
+  }, {
+    "ubicacion" : "SANT PAU DE SEGURIES",
+    "idema" : "0312X",
+    "lon" : "2.364353",
+    "lat" : "42.258446"
+  }, {
+    "ubicacion" : "PLANOLES",
+    "idema" : "0320I",
+    "lon" : "2.102774",
+    "lat" : "42.31688"
+  }, {
+    "ubicacion" : "RIPOLL",
+    "idema" : "0324A",
+    "lon" : "2.196187",
+    "lat" : "42.191387"
+  }, {
+    "ubicacion" : "LES PLANES D?HOSTOLES",
+    "idema" : "0360X",
+    "lon" : "2.551007",
+    "lat" : "42.052837"
+  }, {
+    "ubicacion" : "SANT HILARI",
+    "idema" : "0363X",
+    "lon" : "2.513329",
+    "lat" : "41.880833"
+  }, {
+    "ubicacion" : "GIRONA/COSTA BRAVA",
+    "idema" : "0367",
+    "lon" : "2.763329",
+    "lat" : "41.911667"
+  }, {
+    "ubicacion" : "GIRONA-PARC MIGDIA",
+    "idema" : "0370E",
+    "lon" : "2.819442",
+    "lat" : "41.972332"
+  }, {
+    "ubicacion" : "PORQUERES",
+    "idema" : "0372C",
+    "lon" : "2.763611",
+    "lat" : "42.104443"
+  }, {
+    "ubicacion" : "L?ESTARTIT",
+    "idema" : "0385X",
+    "lon" : "3.201389",
+    "lat" : "42.053886"
+  }, {
+    "ubicacion" : "VALL DE BIANYA",
+    "idema" : "0394X",
+    "lon" : "2.471827",
+    "lat" : "42.210556"
+  }, {
+    "ubicacion" : "CASTELLO D?EMPURIES",
+    "idema" : "0411X",
+    "lon" : "3.093053",
+    "lat" : "42.224834"
+  }, {
+    "ubicacion" : "MAÇANET DE CABRENYS",
+    "idema" : "0413A",
+    "lon" : "2.75558",
+    "lat" : "42.386925"
+  }, {
+    "ubicacion" : "ESPOLLA  LES ALBERES",
+    "idema" : "0421X",
+    "lon" : "3.006114",
+    "lat" : "42.38988"
+  }, {
+    "ubicacion" : "FIGUERES  LES ASPRES",
+    "idema" : "0429X",
+    "lon" : "2.960328",
+    "lat" : "42.259083"
+  }, {
+    "ubicacion" : "EVC_CABO DE CREUS",
+    "idema" : "0433D",
+    "lon" : "3.315831",
+    "lat" : "42.31904"
+  }, {
+    "ubicacion" : "BAZTÁN  IRURITA",
+    "idema" : "1002Y",
+    "lon" : "-1.542961",
+    "lat" : "43.135723"
+  }, {
+    "ubicacion" : "BERA",
+    "idema" : "1010X",
+    "lon" : "-1.675786",
+    "lat" : "43.27869"
+  }, {
+    "ubicacion" : "IRUN-LAPIZE",
+    "idema" : "1012P",
+    "lon" : "-1.796536",
+    "lat" : "43.32641"
+  }, {
+    "ubicacion" : "SAN SEBASTIÁN/FUENTERRABIA",
+    "idema" : "1014A",
+    "lon" : "-1.792116",
+    "lat" : "43.357075"
+  }, {
+    "ubicacion" : "RENTERIA (PRESA DEL AÑARBE)",
+    "idema" : "1021X",
+    "lon" : "-1.878823",
+    "lat" : "43.213833"
+  }, {
+    "ubicacion" : "SEGURA LASTALA",
+    "idema" : "1025A",
+    "lon" : "-2.256663",
+    "lat" : "43.015553"
+  }, {
+    "ubicacion" : "ARRIARAN",
+    "idema" : "1025X",
+    "lon" : "-2.232037",
+    "lat" : "43.054634"
+  }, {
+    "ubicacion" : "ORDIZIA-ARETA",
+    "idema" : "1026X",
+    "lon" : "-2.184273",
+    "lat" : "43.05816"
+  }, {
+    "ubicacion" : "ARESO ",
+    "idema" : "1033X",
+    "lon" : "-1.950836",
+    "lat" : "43.085"
+  }, {
+    "ubicacion" : "ZUMARRAGA-URZABALETA",
+    "idema" : "1037Y",
+    "lon" : "-2.3175",
+    "lat" : "43.079918"
+  }, {
+    "ubicacion" : "AZPEITIA-IBAIEDER",
+    "idema" : "1038X",
+    "lon" : "-2.267175",
+    "lat" : "43.172577"
+  }, {
+    "ubicacion" : "ZUMAYA FARO",
+    "idema" : "1041A",
+    "lon" : "-2.251035",
+    "lat" : "43.30214"
+  }, {
+    "ubicacion" : "ARAMAYONA ECHAGÜEN",
+    "idema" : "1044X",
+    "lon" : "-2.589645",
+    "lat" : "43.057835"
+  }, {
+    "ubicacion" : "ARETXABALETA-EMBALSE URKULU",
+    "idema" : "1048X",
+    "lon" : "-2.465715",
+    "lat" : "43.02505"
+  }, {
+    "ubicacion" : "ELGETA",
+    "idema" : "1049N",
+    "lon" : "-2.495827",
+    "lat" : "43.138332"
+  }, {
+    "ubicacion" : "ELGOIBAR IBERDROLA",
+    "idema" : "1050J",
+    "lon" : "-2.413218",
+    "lat" : "43.209293"
+  }, {
+    "ubicacion" : "MUTRIKU-GALDONAMENDI",
+    "idema" : "1052A",
+    "lon" : "-2.397148",
+    "lat" : "43.31722"
+  }, {
+    "ubicacion" : "FORUA-GAITOKA",
+    "idema" : "1056K",
+    "lon" : "-2.671184",
+    "lat" : "43.34239"
+  }, {
+    "ubicacion" : "MACHICHACO FARO",
+    "idema" : "1057B",
+    "lon" : "-2.752762",
+    "lat" : "43.453907"
+  }, {
+    "ubicacion" : "PUNTA GALEA ",
+    "idema" : "1059X",
+    "lon" : "-3.021602",
+    "lat" : "43.375088"
+  }, {
+    "ubicacion" : "AMURRIO (INSTITUTO)",
+    "idema" : "1060X",
+    "lon" : "-3.005452",
+    "lat" : "43.05024"
+  }, {
+    "ubicacion" : "OROZCO- IBARRA",
+    "idema" : "1064L",
+    "lon" : "-2.860274",
+    "lat" : "43.096333"
+  }, {
+    "ubicacion" : "URKIOLA (SANTUARIO)",
+    "idema" : "1069Y",
+    "lon" : "-2.644187",
+    "lat" : "43.09923"
+  }, {
+    "ubicacion" : "AMOREBIETA-SAN MIGUEL DUDEA",
+    "idema" : "1074C",
+    "lon" : "-2.706153",
+    "lat" : "43.202892"
+  }, {
+    "ubicacion" : "BALMASEDA-SALINILLAS",
+    "idema" : "1078C",
+    "lon" : "-3.209649",
+    "lat" : "43.180576"
+  }, {
+    "ubicacion" : "GÜEÑES",
+    "idema" : "1078I",
+    "lon" : "-3.104777",
+    "lat" : "43.203384"
+  }, {
+    "ubicacion" : "BILBAO/AEROPUERTO",
+    "idema" : "1082",
+    "lon" : "-2.906304",
+    "lat" : "43.29795"
+  }, {
+    "ubicacion" : "SOPUERTA-JARRALTA",
+    "idema" : "1083B",
+    "lon" : "-3.168615",
+    "lat" : "43.27972"
+  }, {
+    "ubicacion" : "CASTRO URDIALES-EDAR",
+    "idema" : "1083L",
+    "lon" : "-3.233884",
+    "lat" : "43.39473"
+  }, {
+    "ubicacion" : "RAMALES DE LA VICTORIA-ETAP",
+    "idema" : "1089U",
+    "lon" : "-3.47083",
+    "lat" : "43.255833"
+  }, {
+    "ubicacion" : "TRETO",
+    "idema" : "1096X",
+    "lon" : "-3.469721",
+    "lat" : "43.39667"
+  }, {
+    "ubicacion" : "SOBA-ALTO MIERA",
+    "idema" : "1102D",
+    "lon" : "-3.685906",
+    "lat" : "43.19065"
+  }, {
+    "ubicacion" : "SANTANDER AEROPUERTO",
+    "idema" : "1109X",
+    "lon" : "-3.831385",
+    "lat" : "43.42861"
+  }, {
+    "ubicacion" : "SANTANDER CMT",
+    "idema" : "1111X",
+    "lon" : "-3.800431",
+    "lat" : "43.491055"
+  }, {
+    "ubicacion" : "VILLACARRIEDO - SANTIBAÑEZ",
+    "idema" : "1124E",
+    "lon" : "-3.849351",
+    "lat" : "43.2456"
+  }, {
+    "ubicacion" : "BÁRCENA MAYOR-TORIZ",
+    "idema" : "1135C",
+    "lon" : "-4.214141",
+    "lat" : "43.146942"
+  }, {
+    "ubicacion" : "SAN FELICES DE BUELNA-TARRIBA",
+    "idema" : "1152C",
+    "lon" : "-4.048612",
+    "lat" : "43.271942"
+  }, {
+    "ubicacion" : "TORRELAVEGA-SIERRAPANDO",
+    "idema" : "1154H",
+    "lon" : "-4.027419",
+    "lat" : "43.358517"
+  }, {
+    "ubicacion" : "SAN VICENTE  FARO",
+    "idema" : "1159",
+    "lon" : "-4.392103",
+    "lat" : "43.393456"
+  }, {
+    "ubicacion" : "FUENTE DÉ-TELEFÉRICO",
+    "idema" : "1167B",
+    "lon" : "-4.812779",
+    "lat" : "43.143894"
+  }, {
+    "ubicacion" : "TAMA",
+    "idema" : "1174I",
+    "lon" : "-4.601783",
+    "lat" : "43.18286"
+  }, {
+    "ubicacion" : "TRESVISO",
+    "idema" : "1176A",
+    "lon" : "-4.668234",
+    "lat" : "43.255714"
+  }, {
+    "ubicacion" : "SOTO DE VALDEÓN (AUTOMATICA)",
+    "idema" : "1178Y",
+    "lon" : "-4.931762",
+    "lat" : "43.145374"
+  }, {
+    "ubicacion" : "CARREÑA DE CABRALES",
+    "idema" : "1179B",
+    "lon" : "-4.852774",
+    "lat" : "43.31111"
+  }, {
+    "ubicacion" : "LLANES",
+    "idema" : "1183X",
+    "lon" : "-4.748056",
+    "lat" : "43.420277"
+  }, {
+    "ubicacion" : "AMIEVA  PANIZALES",
+    "idema" : "1186P",
+    "lon" : "-5.119247",
+    "lat" : "43.266632"
+  }, {
+    "ubicacion" : "BARGAÉU PILOÑA",
+    "idema" : "1199X",
+    "lon" : "-5.396674",
+    "lat" : "43.377834"
+  }, {
+    "ubicacion" : "COLUNGA",
+    "idema" : "1203D",
+    "lon" : "-5.247153",
+    "lat" : "43.49235"
+  }, {
+    "ubicacion" : "GIJÓN-CAMPUS",
+    "idema" : "1207U",
+    "lon" : "-5.621111",
+    "lat" : "43.523056"
+  }, {
+    "ubicacion" : "GIJÓN  MUSEL",
+    "idema" : "1208H",
+    "lon" : "-5.700833",
+    "lat" : "43.559723"
+  }, {
+    "ubicacion" : "CABO PEÑAS",
+    "idema" : "1210X",
+    "lon" : "-5.848572",
+    "lat" : "43.655926"
+  }, {
+    "ubicacion" : "ASTURIAS/AVILÉS",
+    "idema" : "1212E",
+    "lon" : "-6.044173",
+    "lat" : "43.56694"
+  }, {
+    "ubicacion" : "PAJARES - VALGRANDE",
+    "idema" : "1221D",
+    "lon" : "-5.776392",
+    "lat" : "42.978607"
+  }, {
+    "ubicacion" : "RONZÓN",
+    "idema" : "1223P",
+    "lon" : "-5.822748",
+    "lat" : "43.132706"
+  }, {
+    "ubicacion" : "CUEVAS DE FELECHOSA",
+    "idema" : "1226X",
+    "lon" : "-5.476919",
+    "lat" : "43.095177"
+  }, {
+    "ubicacion" : "MIERES-BAÍÑA",
+    "idema" : "1234P",
+    "lon" : "-5.819274",
+    "lat" : "43.274883"
+  }, {
+    "ubicacion" : "OVIEDO",
+    "idema" : "1249X",
+    "lon" : "-5.873889",
+    "lat" : "43.353333"
+  }, {
+    "ubicacion" : "SOUTU  LA BARCA",
+    "idema" : "1272B",
+    "lon" : "-6.386539",
+    "lat" : "43.290276"
+  }, {
+    "ubicacion" : "POLA DE SOMIEDO-DEPURADORA",
+    "idema" : "1276F",
+    "lon" : "-6.256944",
+    "lat" : "43.1"
+  }, {
+    "ubicacion" : "CAMUÑO",
+    "idema" : "1279X",
+    "lon" : "-6.230729",
+    "lat" : "43.425"
+  }, {
+    "ubicacion" : "CABO BUSTO",
+    "idema" : "1283U",
+    "lon" : "-6.469998",
+    "lat" : "43.569164"
+  }, {
+    "ubicacion" : "CERVANTES-BAZAL",
+    "idema" : "1297E",
+    "lon" : "-7.017618",
+    "lat" : "42.768578"
+  }, {
+    "ubicacion" : "DEGAÑA  COTO CORTÉS",
+    "idema" : "1302F",
+    "lon" : "-6.472407",
+    "lat" : "42.95527"
+  }, {
+    "ubicacion" : "SAN ANTOLIN DE IBIAS-LINARES",
+    "idema" : "1309C",
+    "lon" : "-6.884876",
+    "lat" : "43.027412"
+  }, {
+    "ubicacion" : "ONETA",
+    "idema" : "1327A",
+    "lon" : "-6.673332",
+    "lat" : "43.465553"
+  }, {
+    "ubicacion" : "CASTROPOL",
+    "idema" : "1331A",
+    "lon" : "-7.031388",
+    "lat" : "43.524723"
+  }, {
+    "ubicacion" : "OURIA DE TARAMUNDI",
+    "idema" : "1341B",
+    "lon" : "-7.06098",
+    "lat" : "43.415546"
+  }, {
+    "ubicacion" : "MONDOÑEDO",
+    "idema" : "1344X",
+    "lon" : "-7.361736",
+    "lat" : "43.43133"
+  }, {
+    "ubicacion" : "BURELA",
+    "idema" : "1347T",
+    "lon" : "-7.357091",
+    "lat" : "43.651047"
+  }, {
+    "ubicacion" : "ESTACA DE BARES",
+    "idema" : "1351",
+    "lon" : "-7.684722",
+    "lat" : "43.78611"
+  }, {
+    "ubicacion" : "FERROL-LA GRAÑA",
+    "idema" : "1354C",
+    "lon" : "-8.262222",
+    "lat" : "43.47639"
+  }, {
+    "ubicacion" : "AS PONTES A AEROSA",
+    "idema" : "1363X",
+    "lon" : "-7.861476",
+    "lat" : "43.44597"
+  }, {
+    "ubicacion" : "A CORUÑA",
+    "idema" : "1387",
+    "lon" : "-8.421517",
+    "lat" : "43.36597"
+  }, {
+    "ubicacion" : "BENS-A CORUÑA",
+    "idema" : "1387D",
+    "lon" : "-8.4418",
+    "lat" : "43.363308"
+  }, {
+    "ubicacion" : "A CORUÑA/ALVEDRO",
+    "idema" : "1387E",
+    "lon" : "-8.371975",
+    "lat" : "43.306953"
+  }, {
+    "ubicacion" : "CARBALLO",
+    "idema" : "1390X",
+    "lon" : "-8.711001",
+    "lat" : "43.203583"
+  }, {
+    "ubicacion" : "CABO VILAN",
+    "idema" : "1393",
+    "lon" : "-9.210829",
+    "lat" : "43.160557"
+  }, {
+    "ubicacion" : "VIMIANZO-CASTRELO",
+    "idema" : "1399",
+    "lon" : "-9.046929",
+    "lat" : "43.057446"
+  }, {
+    "ubicacion" : "FISTERRA",
+    "idema" : "1400",
+    "lon" : "-9.291434",
+    "lat" : "42.924828"
+  }, {
+    "ubicacion" : "MAZARICOS-A PICOTA",
+    "idema" : "1406X",
+    "lon" : "-8.99369",
+    "lat" : "42.93525"
+  }, {
+    "ubicacion" : "SOBRADO DOS MONXES",
+    "idema" : "1410X",
+    "lon" : "-8.022249",
+    "lat" : "43.037876"
+  }, {
+    "ubicacion" : "SANTIAGO DE COMPOSTELA/LABACOLLA",
+    "idema" : "1428",
+    "lon" : "-8.410515",
+    "lat" : "42.888012"
+  }, {
+    "ubicacion" : "NOIA",
+    "idema" : "1435C",
+    "lon" : "-8.876227",
+    "lat" : "42.80014"
+  }, {
+    "ubicacion" : "BOIRO",
+    "idema" : "1442U",
+    "lon" : "-8.892333",
+    "lat" : "42.643887"
+  }, {
+    "ubicacion" : "MONTERROSO",
+    "idema" : "1446X",
+    "lon" : "-7.768333",
+    "lat" : "42.809723"
+  }, {
+    "ubicacion" : "SILLEDA",
+    "idema" : "1466A",
+    "lon" : "-8.257892",
+    "lat" : "42.700886"
+  }, {
+    "ubicacion" : "A ESTRADA",
+    "idema" : "1468X",
+    "lon" : "-8.501806",
+    "lat" : "42.69361"
+  }, {
+    "ubicacion" : "PADRÓN",
+    "idema" : "1473A",
+    "lon" : "-8.627222",
+    "lat" : "42.738335"
+  }, {
+    "ubicacion" : "SANTIAGO DE COMPOSTELA",
+    "idema" : "1475X",
+    "lon" : "-8.555833",
+    "lat" : "42.87611"
+  }, {
+    "ubicacion" : "CASAS DO PORTO",
+    "idema" : "1476R",
+    "lon" : "-8.714807",
+    "lat" : "42.749836"
+  }, {
+    "ubicacion" : "VILAGARCIA DE AROUSA",
+    "idema" : "1477V",
+    "lon" : "-8.774642",
+    "lat" : "42.584843"
+  }, {
+    "ubicacion" : "PONTEVEDRA",
+    "idema" : "1484C",
+    "lon" : "-8.615833",
+    "lat" : "42.43833"
+  }, {
+    "ubicacion" : "ESCUELA NAVAL DE MARÍN",
+    "idema" : "1486E",
+    "lon" : "-8.706944",
+    "lat" : "42.39611"
+  }, {
+    "ubicacion" : "A LAMA",
+    "idema" : "1489A",
+    "lon" : "-8.451243",
+    "lat" : "42.40705"
+  }, {
+    "ubicacion" : "VIGO/PEINADOR",
+    "idema" : "1495",
+    "lon" : "-8.623765",
+    "lat" : "42.238617"
+  }, {
+    "ubicacion" : "VIGO-O CASTRO",
+    "idema" : "1496X",
+    "lon" : "-8.724167",
+    "lat" : "42.230556"
+  }, {
+    "ubicacion" : "LUGO/ROZAS",
+    "idema" : "1505",
+    "lon" : "-7.457222",
+    "lat" : "43.11139"
+  }, {
+    "ubicacion" : "LUGO-COL.FINGOI",
+    "idema" : "1518A",
+    "lon" : "-7.5525",
+    "lat" : "42.998333"
+  }, {
+    "ubicacion" : "O PARAMO",
+    "idema" : "1521I",
+    "lon" : "-7.499579",
+    "lat" : "42.845276"
+  }, {
+    "ubicacion" : "BECERREA-PENAMAIOR",
+    "idema" : "1521X",
+    "lon" : "-7.18517",
+    "lat" : "42.86377"
+  }, {
+    "ubicacion" : "EVC_O SAVIÑAO",
+    "idema" : "1535I",
+    "lon" : "-7.704599",
+    "lat" : "42.63472"
+  }, {
+    "ubicacion" : "VILLABLINO",
+    "idema" : "1541B",
+    "lon" : "-6.333886",
+    "lat" : "42.928886"
+  }, {
+    "ubicacion" : "PUERTO DE LEITARIEGOS",
+    "idema" : "1542",
+    "lon" : "-6.414164",
+    "lat" : "42.994164"
+  }, {
+    "ubicacion" : "PONFERRADA",
+    "idema" : "1549",
+    "lon" : "-6.6",
+    "lat" : "42.56389"
+  }, {
+    "ubicacion" : "VILLAR DE OTERO (LOS TROBOS)",
+    "idema" : "1561I",
+    "lon" : "-6.673564",
+    "lat" : "42.76604"
+  }, {
+    "ubicacion" : "O BARCO DE VALDEORRAS",
+    "idema" : "1583X",
+    "lon" : "-6.99314",
+    "lat" : "42.41562"
+  }, {
+    "ubicacion" : "POBRA DE TRIVES SAN MAMEDE",
+    "idema" : "1631E",
+    "lon" : "-7.282498",
+    "lat" : "42.339447"
+  }, {
+    "ubicacion" : "CHANDREXA DE QUEIXA",
+    "idema" : "1639X",
+    "lon" : "-7.383609",
+    "lat" : "42.260277"
+  }, {
+    "ubicacion" : "FOLGOSO DO COUREL",
+    "idema" : "1658",
+    "lon" : "-7.191741",
+    "lat" : "42.58853"
+  }, {
+    "ubicacion" : "MONFORTE DE LEMOS",
+    "idema" : "1679A",
+    "lon" : "-7.510804",
+    "lat" : "42.53177"
+  }, {
+    "ubicacion" : "BEARIZ",
+    "idema" : "1696O",
+    "lon" : "-8.277961",
+    "lat" : "42.468056"
+  }, {
+    "ubicacion" : "O CARBALLIÑO",
+    "idema" : "1700X",
+    "lon" : "-8.0925",
+    "lat" : "42.42139"
+  }, {
+    "ubicacion" : "RIBADAVIA",
+    "idema" : "1701X",
+    "lon" : "-8.129121",
+    "lat" : "42.29988"
+  }, {
+    "ubicacion" : "ALLARIZ-RIMELO",
+    "idema" : "1706A",
+    "lon" : "-7.796051",
+    "lat" : "42.182903"
+  }, {
+    "ubicacion" : "A CAÑIZA",
+    "idema" : "1719",
+    "lon" : "-8.281009",
+    "lat" : "42.217995"
+  }, {
+    "ubicacion" : "PONTEAREAS-CANEDO",
+    "idema" : "1723X",
+    "lon" : "-8.4927",
+    "lat" : "42.182224"
+  }, {
+    "ubicacion" : "O ROSAL",
+    "idema" : "1730E",
+    "lon" : "-8.847444",
+    "lat" : "41.94398"
+  }, {
+    "ubicacion" : "XINZO DE LIMIA",
+    "idema" : "1735X",
+    "lon" : "-7.733611",
+    "lat" : "42.079166"
+  }, {
+    "ubicacion" : "MUIÑOS-PRADO",
+    "idema" : "1738U",
+    "lon" : "-7.988838",
+    "lat" : "41.934116"
+  }, {
+    "ubicacion" : "ALTAMIRA",
+    "idema" : "1740",
+    "lon" : "-4.12433",
+    "lat" : "43.37724"
+  }, {
+    "ubicacion" : "VINUESA",
+    "idema" : "2005Y",
+    "lon" : "-2.782777",
+    "lat" : "41.967773"
+  }, {
+    "ubicacion" : "BARRIOMARTIN-EL ROBLEDO",
+    "idema" : "2017Y",
+    "lon" : "-2.494163",
+    "lat" : "41.99583"
+  }, {
+    "ubicacion" : "SORIA",
+    "idema" : "2030",
+    "lon" : "-2.483063",
+    "lat" : "41.775017"
+  }, {
+    "ubicacion" : "LUBIA-CEDER",
+    "idema" : "2044B",
+    "lon" : "-2.507534",
+    "lat" : "41.600582"
+  }, {
+    "ubicacion" : "MORON DE ALMAZAN ",
+    "idema" : "2048A",
+    "lon" : "-2.420281",
+    "lat" : "41.41944"
+  }, {
+    "ubicacion" : "LA RIBA DE ESCALOTE",
+    "idema" : "2059B",
+    "lon" : "-2.783338",
+    "lat" : "41.34972"
+  }, {
+    "ubicacion" : "UCERO",
+    "idema" : "2084Y",
+    "lon" : "-3.047008",
+    "lat" : "41.721848"
+  }, {
+    "ubicacion" : "BURGO DE OSMA-POZUELOS",
+    "idema" : "2092",
+    "lon" : "-3.086949",
+    "lat" : "41.589443"
+  }, {
+    "ubicacion" : "LICERAS-CAÑADA DEHESA",
+    "idema" : "2096B",
+    "lon" : "-3.251385",
+    "lat" : "41.373608"
+  }, {
+    "ubicacion" : "CORUÑA DEL CONDE",
+    "idema" : "2106B",
+    "lon" : "-3.381929",
+    "lat" : "41.745846"
+  }, {
+    "ubicacion" : "ARANDA DE DUERO",
+    "idema" : "2117D",
+    "lon" : "-3.742777",
+    "lat" : "41.665836"
+  }, {
+    "ubicacion" : "FRESNO DE CANTIESPINO",
+    "idema" : "2135A",
+    "lon" : "-3.507234",
+    "lat" : "41.372757"
+  }, {
+    "ubicacion" : "ALDEANUEVA DE SERREZUELA-EL CERRO",
+    "idema" : "2140A",
+    "lon" : "-3.785871",
+    "lat" : "41.464554"
+  }, {
+    "ubicacion" : "LA PINILLA  ESTACIÓN DE ESQUÍ",
+    "idema" : "2150H",
+    "lon" : "-3.475165",
+    "lat" : "41.19193"
+  }, {
+    "ubicacion" : "PEÑAFIEL(FABRICA DE QUESOS)",
+    "idema" : "2166Y",
+    "lon" : "-4.124787",
+    "lat" : "41.593098"
+  }, {
+    "ubicacion" : "SARDÓN DE DUERO",
+    "idema" : "2172Y",
+    "lon" : "-4.405497",
+    "lat" : "41.611877"
+  }, {
+    "ubicacion" : "RADES",
+    "idema" : "2182C",
+    "lon" : "-3.790216",
+    "lat" : "41.13386"
+  }, {
+    "ubicacion" : "CUELLAR",
+    "idema" : "2192C",
+    "lon" : "-4.26545",
+    "lat" : "41.383553"
+  }, {
+    "ubicacion" : "CERVERA DE PISUERGA",
+    "idema" : "2235U",
+    "lon" : "-4.520031",
+    "lat" : "42.87062"
+  }, {
+    "ubicacion" : "AGUILAR DE CAMPOO",
+    "idema" : "2243A",
+    "lon" : "-4.277134",
+    "lat" : "42.79806"
+  }, {
+    "ubicacion" : "VILLAELES DE VALDAVIA",
+    "idema" : "2276B",
+    "lon" : "-4.575109",
+    "lat" : "42.568817"
+  }, {
+    "ubicacion" : "VILLADIEGO (DEPÓSITO DE AGUA)",
+    "idema" : "2285B",
+    "lon" : "-4.001111",
+    "lat" : "42.523888"
+  }, {
+    "ubicacion" : "PEDROSA DEL PRÍNCIPE",
+    "idema" : "2290Y",
+    "lon" : "-4.198909",
+    "lat" : "42.251225"
+  }, {
+    "ubicacion" : "OLVEGA-CAMINO VEGAFRÍA",
+    "idema" : "2296A",
+    "lon" : "-1.976675",
+    "lat" : "41.775555"
+  }, {
+    "ubicacion" : "PALACIOS DE LA SIERRA",
+    "idema" : "2298",
+    "lon" : "-3.131688",
+    "lat" : "41.95967"
+  }, {
+    "ubicacion" : "MONTERRUBIO DE LA DEMANDA",
+    "idema" : "2302N",
+    "lon" : "-3.109758",
+    "lat" : "42.146473"
+  }, {
+    "ubicacion" : "VILLAMAYOR DE LOS MONTES",
+    "idema" : "2311Y",
+    "lon" : "-3.767707",
+    "lat" : "42.10522"
+  }, {
+    "ubicacion" : "BURGOS/VILLAFRÍA",
+    "idema" : "2331",
+    "lon" : "-3.620278",
+    "lat" : "42.356945"
+  }, {
+    "ubicacion" : "CAMPORREDONDO DE ALBA  CUEVA DORADA",
+    "idema" : "2362C",
+    "lon" : "-4.713714",
+    "lat" : "42.893772"
+  }, {
+    "ubicacion" : "CARRIÓN DE LOS CONDES",
+    "idema" : "2374X",
+    "lon" : "-4.617359",
+    "lat" : "42.350933"
+  }, {
+    "ubicacion" : "PALENCIA-AUTILLA PINO",
+    "idema" : "2400E",
+    "lon" : "-4.602777",
+    "lat" : "41.99568"
+  }, {
+    "ubicacion" : "PALENCIA-GRANJA VIÑALTA",
+    "idema" : "2401X",
+    "lon" : "-4.560496",
+    "lat" : "42.009502"
+  }, {
+    "ubicacion" : "VALLADOLID",
+    "idema" : "2422",
+    "lon" : "-4.75441",
+    "lat" : "41.64083"
+  }, {
+    "ubicacion" : "MUÑOTELLO",
+    "idema" : "2430Y",
+    "lon" : "-5.044091",
+    "lat" : "40.543312"
+  }, {
+    "ubicacion" : "ÁVILA",
+    "idema" : "2444",
+    "lon" : "-4.679167",
+    "lat" : "40.65889"
+  }, {
+    "ubicacion" : "GOTARRENDURA (AUTOMATICA)",
+    "idema" : "2453E",
+    "lon" : "-4.742033",
+    "lat" : "40.828964"
+  }, {
+    "ubicacion" : "AREVALO",
+    "idema" : "2456B",
+    "lon" : "-4.729864",
+    "lat" : "41.071484"
+  }, {
+    "ubicacion" : "NAVACERRADA PUERTO",
+    "idema" : "2462",
+    "lon" : "-4.010556",
+    "lat" : "40.793056"
+  }, {
+    "ubicacion" : "SEGOVIA",
+    "idema" : "2465",
+    "lon" : "-4.126389",
+    "lat" : "40.94528"
+  }, {
+    "ubicacion" : "SAN RAFAEL",
+    "idema" : "2471Y",
+    "lon" : "-4.212067",
+    "lat" : "40.71867"
+  }, {
+    "ubicacion" : "MIGUELAÑEZ",
+    "idema" : "2482B",
+    "lon" : "-4.375727",
+    "lat" : "41.126385"
+  }, {
+    "ubicacion" : "LA COVATILLA  ESTACIÓN DE ESQUÍ",
+    "idema" : "2491C",
+    "lon" : "-5.689876",
+    "lat" : "40.355087"
+  }, {
+    "ubicacion" : "OLMEDO  DEPÓSITO AGUA",
+    "idema" : "2503B",
+    "lon" : "-4.691824",
+    "lat" : "41.279922"
+  }, {
+    "ubicacion" : "RUEDA (AUTOMATICA)",
+    "idema" : "2507Y",
+    "lon" : "-4.965172",
+    "lat" : "41.424545"
+  }, {
+    "ubicacion" : "RIVILLA DE BARAJAS",
+    "idema" : "2512Y",
+    "lon" : "-5.018689",
+    "lat" : "40.88213"
+  }, {
+    "ubicacion" : "FUENTE EL SOL",
+    "idema" : "2517A",
+    "lon" : "-4.939637",
+    "lat" : "41.172752"
+  }, {
+    "ubicacion" : "MORALES DEL TORO-DEPOSITO",
+    "idema" : "2536D",
+    "lon" : "-5.271389",
+    "lat" : "41.548332"
+  }, {
+    "ubicacion" : "FUENTESAUCO",
+    "idema" : "2555B",
+    "lon" : "-5.481307",
+    "lat" : "41.236706"
+  }, {
+    "ubicacion" : "CORESES",
+    "idema" : "2565",
+    "lon" : "-5.630556",
+    "lat" : "41.55528"
+  }, {
+    "ubicacion" : "VILLAPUN",
+    "idema" : "2568D",
+    "lon" : "-4.851026",
+    "lat" : "42.523502"
+  }, {
+    "ubicacion" : "VILLALÓN DE CAMPOS",
+    "idema" : "2593D",
+    "lon" : "-5.040989",
+    "lat" : "42.09421"
+  }, {
+    "ubicacion" : "MEDINA DE RIOSECO",
+    "idema" : "2604B",
+    "lon" : "-5.040313",
+    "lat" : "41.875816"
+  }, {
+    "ubicacion" : "VILLAFÁFILA",
+    "idema" : "2611D",
+    "lon" : "-5.59244",
+    "lat" : "41.856388"
+  }, {
+    "ubicacion" : "ZAMORA",
+    "idema" : "2614",
+    "lon" : "-5.735278",
+    "lat" : "41.515556"
+  }, {
+    "ubicacion" : "RIAÑO-ERMITA QUINTANILLA",
+    "idema" : "2624C",
+    "lon" : "-5.007615",
+    "lat" : "42.958458"
+  }, {
+    "ubicacion" : "SAHECHORES-HELIPUERTO",
+    "idema" : "2626Y",
+    "lon" : "-5.193246",
+    "lat" : "42.620094"
+  }, {
+    "ubicacion" : "LEÓN/VIRGEN DEL CAMINO",
+    "idema" : "2661",
+    "lon" : "-5.651111",
+    "lat" : "42.588333"
+  }, {
+    "ubicacion" : "VALENCIA DE DON JUAN",
+    "idema" : "2664B",
+    "lon" : "-5.504765",
+    "lat" : "42.295948"
+  }, {
+    "ubicacion" : "MIÑERA DE LUNA-EMBALSE",
+    "idema" : "2701D",
+    "lon" : "-5.870858",
+    "lat" : "42.885574"
+  }, {
+    "ubicacion" : "VILLAMECA",
+    "idema" : "2728B",
+    "lon" : "-6.070921",
+    "lat" : "42.648216"
+  }, {
+    "ubicacion" : "ASTORGA-DEPÓSITO AGUA",
+    "idema" : "2734D",
+    "lon" : "-6.074338",
+    "lat" : "42.476723"
+  }, {
+    "ubicacion" : "LAGUNAS DE SOMOZA",
+    "idema" : "2737E",
+    "lon" : "-6.196672",
+    "lat" : "42.3775"
+  }, {
+    "ubicacion" : "BUSTILLO DEL PÁRAMO-LAS MATILLAS",
+    "idema" : "2742R",
+    "lon" : "-5.779854",
+    "lat" : "42.466446"
+  }, {
+    "ubicacion" : "BENAVENTE",
+    "idema" : "2755X",
+    "lon" : "-5.666803",
+    "lat" : "42.010906"
+  }, {
+    "ubicacion" : "EL PUENTE (CASA FORESTAL)",
+    "idema" : "2766E",
+    "lon" : "-6.639999",
+    "lat" : "42.08234"
+  }, {
+    "ubicacion" : "VILLARDECIERVOS",
+    "idema" : "2775X",
+    "lon" : "-6.279668",
+    "lat" : "41.9415"
+  }, {
+    "ubicacion" : "SANTIBAÑEZ DE VIDRIALES",
+    "idema" : "2777K",
+    "lon" : "-6.007296",
+    "lat" : "42.078136"
+  }, {
+    "ubicacion" : "POZUELO DE TABARA",
+    "idema" : "2789H",
+    "lon" : "-5.909007",
+    "lat" : "41.785553"
+  }, {
+    "ubicacion" : "VILLADEPERA",
+    "idema" : "2804F",
+    "lon" : "-6.141833",
+    "lat" : "41.533997"
+  }, {
+    "ubicacion" : "BARCO DE AVILA",
+    "idema" : "2828Y",
+    "lon" : "-5.519077",
+    "lat" : "40.355385"
+  }, {
+    "ubicacion" : "PEDROSILLO DE LOS AIRES-CASTILLEJO",
+    "idema" : "2847X",
+    "lon" : "-5.643454",
+    "lat" : "40.6756"
+  }, {
+    "ubicacion" : "PEDRAZA DE ALBA-VALLELARGO",
+    "idema" : "2863C",
+    "lon" : "-5.36619",
+    "lat" : "40.732204"
+  }, {
+    "ubicacion" : "SALAMANCA/MATACAN",
+    "idema" : "2867",
+    "lon" : "-5.498292",
+    "lat" : "40.95957"
+  }, {
+    "ubicacion" : "SALAMANCA OBS.",
+    "idema" : "2870",
+    "lon" : "-5.662271",
+    "lat" : "40.957592"
+  }, {
+    "ubicacion" : "EVC_PEÑAUSENDE",
+    "idema" : "2882D",
+    "lon" : "-5.897441",
+    "lat" : "41.238903"
+  }, {
+    "ubicacion" : "FRESNO DE SAYAGO",
+    "idema" : "2885K",
+    "lon" : "-6.022286",
+    "lat" : "41.304443"
+  }, {
+    "ubicacion" : "VILLARINO DE LOS AIRES",
+    "idema" : "2891A",
+    "lon" : "-6.462222",
+    "lat" : "41.26278"
+  }, {
+    "ubicacion" : "BOADILLA FUENTE SAN ESTEBAN",
+    "idema" : "2914C",
+    "lon" : "-6.20289",
+    "lat" : "40.786037"
+  }, {
+    "ubicacion" : "VITIGUDINO",
+    "idema" : "2916A",
+    "lon" : "-6.437733",
+    "lat" : "41.01144"
+  }, {
+    "ubicacion" : "EL MAILLO (BASE AVIONES - AUTOMATICA)",
+    "idema" : "2918Y",
+    "lon" : "-6.223616",
+    "lat" : "40.569447"
+  }, {
+    "ubicacion" : "BAÑOBAREZ",
+    "idema" : "2926B",
+    "lon" : "-6.60902",
+    "lat" : "40.851425"
+  }, {
+    "ubicacion" : "NAVASFRIAS",
+    "idema" : "2930Y",
+    "lon" : "-6.812855",
+    "lat" : "40.29663"
+  }, {
+    "ubicacion" : "EL BODÓN-BASE AEREA",
+    "idema" : "2945A",
+    "lon" : "-6.57708",
+    "lat" : "40.48512"
+  }, {
+    "ubicacion" : "SAELICES EL CHICO",
+    "idema" : "2946X",
+    "lon" : "-6.600021",
+    "lat" : "40.63502"
+  }, {
+    "ubicacion" : "ALCAÑICES-VIVINERA",
+    "idema" : "2966D",
+    "lon" : "-6.301295",
+    "lat" : "41.683464"
+  }, {
+    "ubicacion" : "MESÓN EROSA",
+    "idema" : "2969U",
+    "lon" : "-7.183055",
+    "lat" : "42.027264"
+  }, {
+    "ubicacion" : "AGUAS DE CABREIROA",
+    "idema" : "2978X",
+    "lon" : "-7.422059",
+    "lat" : "41.926666"
+  }, {
+    "ubicacion" : "MOLINA DE ARAGÓN",
+    "idema" : "3013",
+    "lon" : "-1.878928",
+    "lat" : "40.841652"
+  }, {
+    "ubicacion" : "ZAOREJAS",
+    "idema" : "3021Y",
+    "lon" : "-2.200477",
+    "lat" : "40.76274"
+  }, {
+    "ubicacion" : "PASTRANA",
+    "idema" : "3085Y",
+    "lon" : "-2.953058",
+    "lat" : "40.407776"
+  }, {
+    "ubicacion" : "TARANCON",
+    "idema" : "3094B",
+    "lon" : "-3.02139",
+    "lat" : "40.012074"
+  }, {
+    "ubicacion" : "OCAÑA",
+    "idema" : "3099Y",
+    "lon" : "-3.496134",
+    "lat" : "39.935165"
+  }, {
+    "ubicacion" : "ARANJUEZ",
+    "idema" : "3100B",
+    "lon" : "-3.546025",
+    "lat" : "40.06714"
+  }, {
+    "ubicacion" : "PANTANO EL VADO",
+    "idema" : "3103",
+    "lon" : "-3.301944",
+    "lat" : "41.003613"
+  }, {
+    "ubicacion" : "EL PAULAR- RASCAFRÍA (AUTOMÁTICA)",
+    "idema" : "3104Y",
+    "lon" : "-3.888285",
+    "lat" : "40.889687"
+  }, {
+    "ubicacion" : "BUITRAGO",
+    "idema" : "3110C",
+    "lon" : "-3.613809",
+    "lat" : "41.006985"
+  }, {
+    "ubicacion" : "SOMOSIERRA",
+    "idema" : "3111D",
+    "lon" : "-3.580467",
+    "lat" : "41.135685"
+  }, {
+    "ubicacion" : "SAN SEBASTIAN DE LOS REYES",
+    "idema" : "3125Y",
+    "lon" : "-3.616667",
+    "lat" : "40.55"
+  }, {
+    "ubicacion" : "EL GOLOSO (AUTOMÁTICA)",
+    "idema" : "3126Y",
+    "lon" : "-3.711944",
+    "lat" : "40.561386"
+  }, {
+    "ubicacion" : "MADRID/BARAJAS",
+    "idema" : "3129",
+    "lon" : "-3.555593",
+    "lat" : "40.46656"
+  }, {
+    "ubicacion" : "MADRID BARAJAS RS.",
+    "idema" : "3129A",
+    "lon" : "-3.579722",
+    "lat" : "40.46528"
+  }, {
+    "ubicacion" : "SIGÜENZA",
+    "idema" : "3130C",
+    "lon" : "-2.617927",
+    "lat" : "41.086277"
+  }, {
+    "ubicacion" : "MANDAYONA",
+    "idema" : "3140Y",
+    "lon" : "-2.75988",
+    "lat" : "40.985077"
+  }, {
+    "ubicacion" : "EVC_CAMPISABALOS",
+    "idema" : "3158D",
+    "lon" : "-3.142474",
+    "lat" : "41.274166"
+  }, {
+    "ubicacion" : "GUADALAJARA",
+    "idema" : "3168D",
+    "lon" : "-3.149995",
+    "lat" : "40.630283"
+  }, {
+    "ubicacion" : "ALCALA DE HENARES-ENCÍN",
+    "idema" : "3170Y",
+    "lon" : "-3.289711",
+    "lat" : "40.52836"
+  }, {
+    "ubicacion" : "ARGANDA DEL REY",
+    "idema" : "3182Y",
+    "lon" : "-3.497784",
+    "lat" : "40.31167"
+  }, {
+    "ubicacion" : "COLMENAR VIEJO/FAMET",
+    "idema" : "3191E",
+    "lon" : "-3.765135",
+    "lat" : "40.696068"
+  }, {
+    "ubicacion" : "MADRID  C. UNIVERSITARIA",
+    "idema" : "3194U",
+    "lon" : "-3.724167",
+    "lat" : "40.45167"
+  }, {
+    "ubicacion" : "POZUELO DE ALARCON (AUTOMÁTICA)",
+    "idema" : "3194Y",
+    "lon" : "-3.813369",
+    "lat" : "40.448437"
+  }, {
+    "ubicacion" : "MADRID RETIRO",
+    "idema" : "3195",
+    "lon" : "-3.678095",
+    "lat" : "40.411804"
+  }, {
+    "ubicacion" : "BRIHUEGA",
+    "idema" : "3209Y",
+    "lon" : "-2.874063",
+    "lat" : "40.765198"
+  }, {
+    "ubicacion" : "TIELMES",
+    "idema" : "3229Y",
+    "lon" : "-3.311671",
+    "lat" : "40.247227"
+  }, {
+    "ubicacion" : "TEMBLEQUE",
+    "idema" : "3245Y",
+    "lon" : "-3.505837",
+    "lat" : "39.696114"
+  }, {
+    "ubicacion" : "MORA DE TOLEDO (AUTOMÁTICA)",
+    "idema" : "3254Y",
+    "lon" : "-3.780687",
+    "lat" : "39.68689"
+  }, {
+    "ubicacion" : "TOLEDO",
+    "idema" : "3260B",
+    "lon" : "-4.045278",
+    "lat" : "39.884445"
+  }, {
+    "ubicacion" : "ALTO DE LOS LEONES",
+    "idema" : "3266A",
+    "lon" : "-4.141883",
+    "lat" : "40.70634"
+  }, {
+    "ubicacion" : "ALPEDRETE",
+    "idema" : "3268C",
+    "lon" : "-4.017505",
+    "lat" : "40.659725"
+  }, {
+    "ubicacion" : "SAN PABLO DE LOS MONTES",
+    "idema" : "3298X",
+    "lon" : "-4.350468",
+    "lat" : "39.546833"
+  }, {
+    "ubicacion" : "NAVAHERMOSA",
+    "idema" : "3305Y",
+    "lon" : "-4.476945",
+    "lat" : "39.630554"
+  }, {
+    "ubicacion" : "PUERTO EL PICO",
+    "idema" : "3319D",
+    "lon" : "-5.012748",
+    "lat" : "40.339664"
+  }, {
+    "ubicacion" : "ROZAS DE PUERTO REAL",
+    "idema" : "3330Y",
+    "lon" : "-4.487227",
+    "lat" : "40.31305"
+  }, {
+    "ubicacion" : "CEBREROS",
+    "idema" : "3337U",
+    "lon" : "-4.455763",
+    "lat" : "40.467503"
+  }, {
+    "ubicacion" : "ROBLEDO DE CHAVELA",
+    "idema" : "3338",
+    "lon" : "-4.249927",
+    "lat" : "40.42775"
+  }, {
+    "ubicacion" : "VALDEMORILLO",
+    "idema" : "3343Y",
+    "lon" : "-4.061107",
+    "lat" : "40.496662"
+  }, {
+    "ubicacion" : "CASTILLO BAYUELA",
+    "idema" : "3362Y",
+    "lon" : "-4.680608",
+    "lat" : "40.108208"
+  }, {
+    "ubicacion" : "TALAVERA DE LA REINA",
+    "idema" : "3365A",
+    "lon" : "-4.863596",
+    "lat" : "39.958607"
+  }, {
+    "ubicacion" : "NAVALVILLAR DE IBOR",
+    "idema" : "3386A",
+    "lon" : "-5.391666",
+    "lat" : "39.591663"
+  }, {
+    "ubicacion" : "SOTILLO DE LA ADRADA",
+    "idema" : "3391",
+    "lon" : "-4.590932",
+    "lat" : "40.288563"
+  }, {
+    "ubicacion" : "CANDELEDA (AUTOMATICA)",
+    "idema" : "3422D",
+    "lon" : "-5.311326",
+    "lat" : "40.1392"
+  }, {
+    "ubicacion" : "MADRIGAL DE LA VERA",
+    "idema" : "3423I",
+    "lon" : "-5.373329",
+    "lat" : "40.15389"
+  }, {
+    "ubicacion" : "OROPESA DEHESÓN DEL  ENCINAR",
+    "idema" : "3427Y",
+    "lon" : "-5.114443",
+    "lat" : "39.99334"
+  }, {
+    "ubicacion" : "NAVALMORAL DE LA MATA",
+    "idema" : "3434X",
+    "lon" : "-5.582629",
+    "lat" : "39.94576"
+  }, {
+    "ubicacion" : "GARGANTA LA OLLA",
+    "idema" : "3436D",
+    "lon" : "-5.784718",
+    "lat" : "40.11111"
+  }, {
+    "ubicacion" : "SERRADILLA (AUTOMATICA)",
+    "idema" : "3448X",
+    "lon" : "-6.127483",
+    "lat" : "39.820717"
+  }, {
+    "ubicacion" : "JARAICEJO",
+    "idema" : "3455X",
+    "lon" : "-5.808349",
+    "lat" : "39.66995"
+  }, {
+    "ubicacion" : "TRUJILLO",
+    "idema" : "3463Y",
+    "lon" : "-5.874167",
+    "lat" : "39.46417"
+  }, {
+    "ubicacion" : "CÁCERES",
+    "idema" : "3469A",
+    "lon" : "-6.338889",
+    "lat" : "39.47139"
+  }, {
+    "ubicacion" : "CAÑAVERAL",
+    "idema" : "3475X",
+    "lon" : "-6.376392",
+    "lat" : "39.790558"
+  }, {
+    "ubicacion" : "NUÑOMORAL",
+    "idema" : "3494U",
+    "lon" : "-6.239733",
+    "lat" : "40.40809"
+  }, {
+    "ubicacion" : "GUIJO DE GRANADILLA",
+    "idema" : "3503",
+    "lon" : "-6.1675",
+    "lat" : "40.189445"
+  }, {
+    "ubicacion" : "HERVAS",
+    "idema" : "3504X",
+    "lon" : "-5.861212",
+    "lat" : "40.265087"
+  }, {
+    "ubicacion" : "MONTEHERMOSO",
+    "idema" : "3512X",
+    "lon" : "-6.338888",
+    "lat" : "40.08083"
+  }, {
+    "ubicacion" : "TORNAVACAS",
+    "idema" : "3514B",
+    "lon" : "-5.678336",
+    "lat" : "40.258614"
+  }, {
+    "ubicacion" : "PIORNAL (AUTOMATICA)",
+    "idema" : "3516X",
+    "lon" : "-5.832386",
+    "lat" : "40.12078"
+  }, {
+    "ubicacion" : "PLASENCIA",
+    "idema" : "3519X",
+    "lon" : "-6.085781",
+    "lat" : "40.043053"
+  }, {
+    "ubicacion" : "CORIA",
+    "idema" : "3526X",
+    "lon" : "-6.557527",
+    "lat" : "40.00354"
+  }, {
+    "ubicacion" : "TORRECILLA DE LOS ANGELES",
+    "idema" : "3531X",
+    "lon" : "-6.411707",
+    "lat" : "40.254925"
+  }, {
+    "ubicacion" : "HOYOS",
+    "idema" : "3536X",
+    "lon" : "-6.724444",
+    "lat" : "40.17483"
+  }, {
+    "ubicacion" : "ZARZA LA MAYOR",
+    "idema" : "3540X",
+    "lon" : "-6.860004",
+    "lat" : "39.871387"
+  }, {
+    "ubicacion" : "VALVERDE DE FRESNO",
+    "idema" : "3547X",
+    "lon" : "-6.896107",
+    "lat" : "40.207226"
+  }, {
+    "ubicacion" : "ALISEDA  LA UMBRÍA",
+    "idema" : "3562X",
+    "lon" : "-6.736389",
+    "lat" : "39.4275"
+  }, {
+    "ubicacion" : "BROZAS (AUTOMATICA)",
+    "idema" : "3565X",
+    "lon" : "-6.744998",
+    "lat" : "39.61806"
+  }, {
+    "ubicacion" : "VALENCIA DE ALCÁNTARA",
+    "idema" : "3576X",
+    "lon" : "-7.231135",
+    "lat" : "39.41486"
+  }, {
+    "ubicacion" : "ALCÁZAR DEL REY",
+    "idema" : "4051Y",
+    "lon" : "-2.80695",
+    "lat" : "40.06111"
+  }, {
+    "ubicacion" : "QUINTANAR DE LA ORDEN",
+    "idema" : "4061X",
+    "lon" : "-3.046938",
+    "lat" : "39.597515"
+  }, {
+    "ubicacion" : "ALCAZAR DE SAN JUAN",
+    "idema" : "4064Y",
+    "lon" : "-3.215832",
+    "lat" : "39.390827"
+  }, {
+    "ubicacion" : "MADRIDEJOS",
+    "idema" : "4067",
+    "lon" : "-3.528358",
+    "lat" : "39.492065"
+  }, {
+    "ubicacion" : "ABIA DE OBISPALIA",
+    "idema" : "4070Y",
+    "lon" : "-2.395207",
+    "lat" : "40.018784"
+  }, {
+    "ubicacion" : "VILLARES DEL SAZ",
+    "idema" : "4075Y",
+    "lon" : "-2.503334",
+    "lat" : "39.84028"
+  }, {
+    "ubicacion" : "ALBERCA DE ZANCARA",
+    "idema" : "4089A",
+    "lon" : "-2.49575",
+    "lat" : "39.51697"
+  }, {
+    "ubicacion" : "SAN CLEMENTE",
+    "idema" : "4090Y",
+    "lon" : "-2.420691",
+    "lat" : "39.416737"
+  }, {
+    "ubicacion" : "VILLARROBLEDO",
+    "idema" : "4091Y",
+    "lon" : "-2.592567",
+    "lat" : "39.261894"
+  }, {
+    "ubicacion" : "OSA DE LA VEGA (AUTOMÁTICA)",
+    "idema" : "4093Y",
+    "lon" : "-2.759997",
+    "lat" : "39.656116"
+  }, {
+    "ubicacion" : "BELMONTE",
+    "idema" : "4095Y",
+    "lon" : "-2.705556",
+    "lat" : "39.555283"
+  }, {
+    "ubicacion" : "MUNERA  SAN BARTOLOMÉ (AUTOMÁTICA)",
+    "idema" : "4096Y",
+    "lon" : "-2.488886",
+    "lat" : "39.016663"
+  }, {
+    "ubicacion" : "TOMELLOSO",
+    "idema" : "4103X",
+    "lon" : "-3.00749",
+    "lat" : "39.169044"
+  }, {
+    "ubicacion" : "CIUDAD REAL",
+    "idema" : "4121",
+    "lon" : "-3.920278",
+    "lat" : "38.989166"
+  }, {
+    "ubicacion" : "VILLANUEVA DE LOS INFANTES",
+    "idema" : "4138Y",
+    "lon" : "-3.004441",
+    "lat" : "38.737495"
+  }, {
+    "ubicacion" : "VALDEPEÑAS",
+    "idema" : "4147X",
+    "lon" : "-3.391368",
+    "lat" : "38.750423"
+  }, {
+    "ubicacion" : "VISO DEL MARQUÉS",
+    "idema" : "4148",
+    "lon" : "-3.566724",
+    "lat" : "38.518047"
+  }, {
+    "ubicacion" : "ABENOJAR (AUTOMATICA)",
+    "idema" : "4210Y",
+    "lon" : "-4.291943",
+    "lat" : "38.898056"
+  }, {
+    "ubicacion" : "PUEBLA DE DON RODRIGO",
+    "idema" : "4220X",
+    "lon" : "-4.616461",
+    "lat" : "39.088833"
+  }, {
+    "ubicacion" : "PUERTO DEL REY",
+    "idema" : "4236Y",
+    "lon" : "-5.020365",
+    "lat" : "39.446552"
+  }, {
+    "ubicacion" : "HERRERA DEL DUQUE",
+    "idema" : "4244X",
+    "lon" : "-5.062271",
+    "lat" : "39.169353"
+  }, {
+    "ubicacion" : "GUADALUPE (AUTOMATICA)",
+    "idema" : "4245X",
+    "lon" : "-5.333333",
+    "lat" : "39.455273"
+  }, {
+    "ubicacion" : "PERALEDA DEL ZAUCEJO",
+    "idema" : "4260",
+    "lon" : "-5.577502",
+    "lat" : "38.479717"
+  }, {
+    "ubicacion" : "VALSEQUILLO",
+    "idema" : "4263X",
+    "lon" : "-5.350555",
+    "lat" : "38.409447"
+  }, {
+    "ubicacion" : "HINOJOSA DEL DUQUE",
+    "idema" : "4267X",
+    "lon" : "-5.121442",
+    "lat" : "38.498367"
+  }, {
+    "ubicacion" : "MINAS DE ALMADÉN",
+    "idema" : "4300Y",
+    "lon" : "-4.845277",
+    "lat" : "38.775284"
+  }, {
+    "ubicacion" : "CASTUERA",
+    "idema" : "4325Y",
+    "lon" : "-5.529083",
+    "lat" : "38.741814"
+  }, {
+    "ubicacion" : "CAÑAMERO  EL PINAR",
+    "idema" : "4339X",
+    "lon" : "-5.369009",
+    "lat" : "39.314167"
+  }, {
+    "ubicacion" : "NAVALVILLAR DE PELA",
+    "idema" : "4340",
+    "lon" : "-5.461334",
+    "lat" : "39.10346"
+  }, {
+    "ubicacion" : "ZORITA",
+    "idema" : "4347X",
+    "lon" : "-5.710276",
+    "lat" : "39.28278"
+  }, {
+    "ubicacion" : "DON BENITO",
+    "idema" : "4358X",
+    "lon" : "-5.880481",
+    "lat" : "38.95559"
+  }, {
+    "ubicacion" : "RETAMAL DE LLERENA ",
+    "idema" : "4362X",
+    "lon" : "-5.845813",
+    "lat" : "38.576492"
+  }, {
+    "ubicacion" : "LLERENA",
+    "idema" : "4386B",
+    "lon" : "-6.017048",
+    "lat" : "38.23171"
+  }, {
+    "ubicacion" : "VILLAFRANCA DE LOS BARROS",
+    "idema" : "4395X",
+    "lon" : "-6.306664",
+    "lat" : "38.551666"
+  }, {
+    "ubicacion" : "MÉRIDA",
+    "idema" : "4410X",
+    "lon" : "-6.385632",
+    "lat" : "38.915882"
+  }, {
+    "ubicacion" : "ALCUESCAR",
+    "idema" : "4411C",
+    "lon" : "-6.231012",
+    "lat" : "39.197636"
+  }, {
+    "ubicacion" : "ZAFRA (AUTOMATICA)",
+    "idema" : "4427X",
+    "lon" : "-6.436641",
+    "lat" : "38.425854"
+  }, {
+    "ubicacion" : "ALMENDRALEJO",
+    "idema" : "4436Y",
+    "lon" : "-6.361046",
+    "lat" : "38.688904"
+  }, {
+    "ubicacion" : "BADAJOZ/TALAVERA LA REAL",
+    "idema" : "4452",
+    "lon" : "-6.81389",
+    "lat" : "38.883396"
+  }, {
+    "ubicacion" : "ALBURQUERQUE",
+    "idema" : "4464X",
+    "lon" : "-6.995182",
+    "lat" : "39.181934"
+  }, {
+    "ubicacion" : "PUEBLA DE OBANDO (AUTOMATICA)",
+    "idema" : "4468X",
+    "lon" : "-6.600769",
+    "lat" : "39.176624"
+  }, {
+    "ubicacion" : "BADAJOZ CMT",
+    "idema" : "4478X",
+    "lon" : "-7.008088",
+    "lat" : "38.887474"
+  }, {
+    "ubicacion" : "OLIVENZA",
+    "idema" : "4486X",
+    "lon" : "-7.084439",
+    "lat" : "38.697502"
+  }, {
+    "ubicacion" : "ALCONCHEL (AUTOMATICA)",
+    "idema" : "4489X",
+    "lon" : "-7.28194",
+    "lat" : "38.48472"
+  }, {
+    "ubicacion" : "EVC_BARCARROTA",
+    "idema" : "4492F",
+    "lon" : "-6.923611",
+    "lat" : "38.473076"
+  }, {
+    "ubicacion" : "VILLANUEVA DEL FRESNO",
+    "idema" : "4497X",
+    "lon" : "-7.158056",
+    "lat" : "38.37222"
+  }, {
+    "ubicacion" : "MONESTERIO (AUTOMATICA)",
+    "idema" : "4499X",
+    "lon" : "-6.271862",
+    "lat" : "38.081295"
+  }, {
+    "ubicacion" : "FUENTE DE CANTOS",
+    "idema" : "4501X",
+    "lon" : "-6.311317",
+    "lat" : "38.20874"
+  }, {
+    "ubicacion" : "JEREZ DE LOS CABALLEROS",
+    "idema" : "4511C",
+    "lon" : "-6.765058",
+    "lat" : "38.298515"
+  }, {
+    "ubicacion" : "FREGENAL DE LA SIERRA",
+    "idema" : "4520X",
+    "lon" : "-6.661793",
+    "lat" : "38.178436"
+  }, {
+    "ubicacion" : "AROCHE (MASERA - AUTOMATICA)",
+    "idema" : "4527X",
+    "lon" : "-6.975941",
+    "lat" : "37.98028"
+  }, {
+    "ubicacion" : "EL GRANADO (BOCACHANZA - AUTOMÁTICA)",
+    "idema" : "4541X",
+    "lon" : "-7.51994",
+    "lat" : "37.553658"
+  }, {
+    "ubicacion" : "AYAMONTE  ISLA CANELA",
+    "idema" : "4549Y",
+    "lon" : "-7.394999",
+    "lat" : "37.19472"
+  }, {
+    "ubicacion" : "CARTAYA   PEMARES ",
+    "idema" : "4554X",
+    "lon" : "-7.08361",
+    "lat" : "37.218334"
+  }, {
+    "ubicacion" : "ALAJAR  CABEZO MOLINOS",
+    "idema" : "4560Y",
+    "lon" : "-6.674999",
+    "lat" : "37.868614"
+  }, {
+    "ubicacion" : "VALVERDE CAMINO (CH.GUADIANA AUTOMATICA)",
+    "idema" : "4575X",
+    "lon" : "-6.751955",
+    "lat" : "37.571583"
+  }, {
+    "ubicacion" : "EL CERRO DE ANDEVALO",
+    "idema" : "4584X",
+    "lon" : "-6.942237",
+    "lat" : "37.73158"
+  }, {
+    "ubicacion" : "ALOSNO  THARSIS-MINAS ",
+    "idema" : "4589X",
+    "lon" : "-7.11944",
+    "lat" : "37.597782"
+  }, {
+    "ubicacion" : "EL CAMPILLO  EL ZUMAJO ",
+    "idema" : "4608X",
+    "lon" : "-6.630003",
+    "lat" : "37.677227"
+  }, {
+    "ubicacion" : "VILLARRASA  PLANTA DE RECICLAJE",
+    "idema" : "4622X",
+    "lon" : "-6.636671",
+    "lat" : "37.450836"
+  }, {
+    "ubicacion" : "HUELVA  RONDA ESTE",
+    "idema" : "4642E",
+    "lon" : "-6.911722",
+    "lat" : "37.278385"
+  }, {
+    "ubicacion" : "CEUTA",
+    "idema" : "5000C",
+    "lon" : "-5.346967",
+    "lat" : "35.888725"
+  }, {
+    "ubicacion" : "CAZORLA (AUTOMATICA)",
+    "idema" : "5038Y",
+    "lon" : "-3.003891",
+    "lat" : "37.915836"
+  }, {
+    "ubicacion" : "BAZA  CRUZ ROJA",
+    "idema" : "5047E",
+    "lon" : "-2.734995",
+    "lat" : "37.50583"
+  }, {
+    "ubicacion" : "TOPARES",
+    "idema" : "5060X",
+    "lon" : "-2.228056",
+    "lat" : "37.860832"
+  }, {
+    "ubicacion" : "DÓLAR",
+    "idema" : "5107D",
+    "lon" : "-2.986406",
+    "lat" : "37.179935"
+  }, {
+    "ubicacion" : "BAEZA",
+    "idema" : "5164B",
+    "lon" : "-3.461951",
+    "lat" : "37.99667"
+  }, {
+    "ubicacion" : "TORRES",
+    "idema" : "5165X",
+    "lon" : "-3.563581",
+    "lat" : "37.78084"
+  }, {
+    "ubicacion" : "ARROYO DEL OJANCO",
+    "idema" : "5181D",
+    "lon" : "-2.889717",
+    "lat" : "38.314724"
+  }, {
+    "ubicacion" : "VILLARRODRIGO",
+    "idema" : "5192",
+    "lon" : "-2.637568",
+    "lat" : "38.48925"
+  }, {
+    "ubicacion" : "VILLANUEVA DEL ARZOBISPO",
+    "idema" : "5210X",
+    "lon" : "-2.998059",
+    "lat" : "38.175"
+  }, {
+    "ubicacion" : "SANTA ELENA",
+    "idema" : "5246",
+    "lon" : "-3.535273",
+    "lat" : "38.344448"
+  }, {
+    "ubicacion" : "JAÉN",
+    "idema" : "5270B",
+    "lon" : "-3.808889",
+    "lat" : "37.7775"
+  }, {
+    "ubicacion" : "LINARES (VOR - AUTOMATICA)",
+    "idema" : "5279X",
+    "lon" : "-3.629453",
+    "lat" : "38.151108"
+  }, {
+    "ubicacion" : "BAILÉN",
+    "idema" : "5281X",
+    "lon" : "-3.782624",
+    "lat" : "38.092983"
+  }, {
+    "ubicacion" : "PUERTOLLANO",
+    "idema" : "5304Y",
+    "lon" : "-4.059165",
+    "lat" : "38.668888"
+  }, {
+    "ubicacion" : "FUENCALIENTE",
+    "idema" : "5341C",
+    "lon" : "-4.301663",
+    "lat" : "38.428886"
+  }, {
+    "ubicacion" : "CARDEÑA (SANTA ELENA - AUTOMATICA)",
+    "idema" : "5346X",
+    "lon" : "-4.272506",
+    "lat" : "38.186672"
+  }, {
+    "ubicacion" : "MONTORO VEGA ARMIJO",
+    "idema" : "5361X",
+    "lon" : "-4.330275",
+    "lat" : "38.01333"
+  }, {
+    "ubicacion" : "VILLANUEVA DE CÓRDOBA",
+    "idema" : "5390Y",
+    "lon" : "-4.608886",
+    "lat" : "38.333057"
+  }, {
+    "ubicacion" : "CORDOBA  EMBALSE DE GUADANUÑO",
+    "idema" : "5394X",
+    "lon" : "-4.796664",
+    "lat" : "38.020836"
+  }, {
+    "ubicacion" : "CÓRDOBA/AEROPUERTO",
+    "idema" : "5402",
+    "lon" : "-4.846558",
+    "lat" : "37.848892"
+  }, {
+    "ubicacion" : "CHARILLA",
+    "idema" : "5406X",
+    "lon" : "-3.908059",
+    "lat" : "37.49749"
+  }, {
+    "ubicacion" : "PRIEGO DE CÓRDOBA  SAN FELIX",
+    "idema" : "5412X",
+    "lon" : "-4.207785",
+    "lat" : "37.48473"
+  }, {
+    "ubicacion" : "DOÑA MENCIA",
+    "idema" : "5427X",
+    "lon" : "-4.353893",
+    "lat" : "37.556114"
+  }, {
+    "ubicacion" : "CÓRDOBA  PRAGDENA",
+    "idema" : "5429X",
+    "lon" : "-4.462227",
+    "lat" : "37.81039"
+  }, {
+    "ubicacion" : "ESPIEL-C.TÉRMICA",
+    "idema" : "5459X",
+    "lon" : "-4.928728",
+    "lat" : "38.11111"
+  }, {
+    "ubicacion" : "FUENTE PALMERA-LOS ARROYONES",
+    "idema" : "5470",
+    "lon" : "-5.100552",
+    "lat" : "37.753056"
+  }, {
+    "ubicacion" : "AZUAGA (AUTOMATICA)",
+    "idema" : "5473X",
+    "lon" : "-5.686015",
+    "lat" : "38.267803"
+  }, {
+    "ubicacion" : "GRANADA/BASE AÉREA",
+    "idema" : "5514Z",
+    "lon" : "-3.633331",
+    "lat" : "37.13611"
+  }, {
+    "ubicacion" : "EVC_VÍZNAR",
+    "idema" : "5515D",
+    "lon" : "-3.534187",
+    "lat" : "37.237164"
+  }, {
+    "ubicacion" : "GRANADA-CARTUJA",
+    "idema" : "5515X",
+    "lon" : "-3.59555",
+    "lat" : "37.18972"
+  }, {
+    "ubicacion" : "SIERRA NEVADA",
+    "idema" : "5516D",
+    "lon" : "-3.386944",
+    "lat" : "37.063057"
+  }, {
+    "ubicacion" : "GRANADA/AEROPUERTO",
+    "idema" : "5530E",
+    "lon" : "-3.789429",
+    "lat" : "37.18968"
+  }, {
+    "ubicacion" : "LOJA",
+    "idema" : "5582A",
+    "lon" : "-4.152781",
+    "lat" : "37.16111"
+  }, {
+    "ubicacion" : "BENAMEJÍ-ALCACHOFARES ALTOS",
+    "idema" : "5598X",
+    "lon" : "-4.547788",
+    "lat" : "37.23093"
+  }, {
+    "ubicacion" : "RODA DE ANDALUCÍA",
+    "idema" : "5612B",
+    "lon" : "-4.769994",
+    "lat" : "37.194443"
+  }, {
+    "ubicacion" : "LORA DE ESTEPA (AUTOMATICA)",
+    "idema" : "5612X",
+    "lon" : "-4.82695",
+    "lat" : "37.270275"
+  }, {
+    "ubicacion" : "AGUILAR (LAGUNA ZOÑAR AUTOMATICA)",
+    "idema" : "5624X",
+    "lon" : "-4.685919",
+    "lat" : "37.481945"
+  }, {
+    "ubicacion" : "LA RAMBLA   PRIVILEGIO",
+    "idema" : "5625X",
+    "lon" : "-4.763865",
+    "lat" : "37.638523"
+  }, {
+    "ubicacion" : "ECIJA",
+    "idema" : "5641X",
+    "lon" : "-5.085113",
+    "lat" : "37.516228"
+  }, {
+    "ubicacion" : "LA PUEBLA DE LOS INFANTES",
+    "idema" : "5654X",
+    "lon" : "-5.37114",
+    "lat" : "37.786804"
+  }, {
+    "ubicacion" : "CARMONA  VILLEGAS",
+    "idema" : "5702X",
+    "lon" : "-5.740475",
+    "lat" : "37.565483"
+  }, {
+    "ubicacion" : "CAZALLA DE LA SIERRA",
+    "idema" : "5704B",
+    "lon" : "-5.769728",
+    "lat" : "37.926388"
+  }, {
+    "ubicacion" : "GUADALCANAL  CRISTO",
+    "idema" : "5726X",
+    "lon" : "-5.81917",
+    "lat" : "38.099445"
+  }, {
+    "ubicacion" : "ALMADEN PLATA (LAS NAVAS AUTOMATICA)",
+    "idema" : "5733X",
+    "lon" : "-6.074995",
+    "lat" : "37.791115"
+  }, {
+    "ubicacion" : "CALA",
+    "idema" : "5769X",
+    "lon" : "-6.322225",
+    "lat" : "37.97361"
+  }, {
+    "ubicacion" : "SEVILLA/SAN PABLO",
+    "idema" : "5783",
+    "lon" : "-5.879167",
+    "lat" : "37.416668"
+  }, {
+    "ubicacion" : "Tomares  Zaudín",
+    "idema" : "5788X",
+    "lon" : "-6.059722",
+    "lat" : "37.361668"
+  }, {
+    "ubicacion" : "TABLADA",
+    "idema" : "5790Y",
+    "lon" : "-6.005918",
+    "lat" : "37.36425"
+  }, {
+    "ubicacion" : "MORÓN DE LA FRONTERA",
+    "idema" : "5796",
+    "lon" : "-5.611474",
+    "lat" : "37.164528"
+  }, {
+    "ubicacion" : "CARRION DE LOS CESPEDES",
+    "idema" : "5835X",
+    "lon" : "-6.334168",
+    "lat" : "37.36"
+  }, {
+    "ubicacion" : "ALMONTE  DOÑANA ",
+    "idema" : "5858X",
+    "lon" : "-6.443024",
+    "lat" : "36.988552"
+  }, {
+    "ubicacion" : "EL ARENOSILLO",
+    "idema" : "5860E",
+    "lon" : "-6.738088",
+    "lat" : "37.097942"
+  }, {
+    "ubicacion" : "LAS CABEZAS DE SAN JUAN (MAJOLETO AUTOMATICA)",
+    "idema" : "5891X",
+    "lon" : "-5.846666",
+    "lat" : "36.95334"
+  }, {
+    "ubicacion" : "CHIPIONA  ECA",
+    "idema" : "5906X",
+    "lon" : "-6.400558",
+    "lat" : "36.75"
+  }, {
+    "ubicacion" : "ROTA BASE NAVAL",
+    "idema" : "5910X",
+    "lon" : "-6.332591",
+    "lat" : "36.638878"
+  }, {
+    "ubicacion" : "GRAZALEMA",
+    "idema" : "5911A",
+    "lon" : "-5.37403",
+    "lat" : "36.76044"
+  }, {
+    "ubicacion" : "OLVERA-COOP.AGRÍCOLA",
+    "idema" : "5919X",
+    "lon" : "-5.259446",
+    "lat" : "36.931667"
+  }, {
+    "ubicacion" : "EL BOSQUE  SAN JOSÉ",
+    "idema" : "5941X",
+    "lon" : "-5.512225",
+    "lat" : "36.729446"
+  }, {
+    "ubicacion" : "SAN JOSE DEL VALLE-PT GUADALCACÍN",
+    "idema" : "5950X",
+    "lon" : "-5.783332",
+    "lat" : "36.663887"
+  }, {
+    "ubicacion" : "JEREZ DE LA FRONTERA/AEROPUERTO",
+    "idema" : "5960",
+    "lon" : "-6.055857",
+    "lat" : "36.750496"
+  }, {
+    "ubicacion" : "SAN FERNANDO",
+    "idema" : "5972X",
+    "lon" : "-6.205557",
+    "lat" : "36.465557"
+  }, {
+    "ubicacion" : "CÁDIZ  OBSERVATORIO",
+    "idema" : "5973",
+    "lon" : "-6.257861",
+    "lat" : "36.49972"
+  }, {
+    "ubicacion" : "MEDINA SIDONIA (EL HUNDIDO - AUTOMATICA)",
+    "idema" : "5983X",
+    "lon" : "-5.920278",
+    "lat" : "36.406113"
+  }, {
+    "ubicacion" : "VEJER DE LA FRONTERA",
+    "idema" : "5995B",
+    "lon" : "-5.965005",
+    "lat" : "36.245556"
+  }, {
+    "ubicacion" : "BARBATE  DEPURADORA",
+    "idema" : "5996B",
+    "lon" : "-5.909444",
+    "lat" : "36.184723"
+  }, {
+    "ubicacion" : "OSUNA  SEA",
+    "idema" : "5998X",
+    "lon" : "-5.112503",
+    "lat" : "37.243336"
+  }, {
+    "ubicacion" : "MELILLA",
+    "idema" : "6000A",
+    "lon" : "-2.95638",
+    "lat" : "35.276325"
+  }, {
+    "ubicacion" : "TARIFA",
+    "idema" : "6001",
+    "lon" : "-5.59883",
+    "lat" : "36.013985"
+  }, {
+    "ubicacion" : "RONDA  IES",
+    "idema" : "6032X",
+    "lon" : "-5.168615",
+    "lat" : "36.749996"
+  }, {
+    "ubicacion" : "CORTES DE LA FRONTERA",
+    "idema" : "6040X",
+    "lon" : "-5.386393",
+    "lat" : "36.54445"
+  }, {
+    "ubicacion" : "JIMENA DE LA FRONTERA-EL DORADO",
+    "idema" : "6042I",
+    "lon" : "-5.394945",
+    "lat" : "36.435608"
+  }, {
+    "ubicacion" : "ALPANDEIRE",
+    "idema" : "6045X",
+    "lon" : "-5.20306",
+    "lat" : "36.6325"
+  }, {
+    "ubicacion" : "GAUCÍN",
+    "idema" : "6050X",
+    "lon" : "-5.318613",
+    "lat" : "36.51861"
+  }, {
+    "ubicacion" : "SAN ROQUE  SOTOGRANDE",
+    "idema" : "6056X",
+    "lon" : "-5.284446",
+    "lat" : "36.273056"
+  }, {
+    "ubicacion" : "MANILVA",
+    "idema" : "6057X",
+    "lon" : "-5.26",
+    "lat" : "36.378334"
+  }, {
+    "ubicacion" : "ESTEPONA",
+    "idema" : "6058I",
+    "lon" : "-5.154988",
+    "lat" : "36.416954"
+  }, {
+    "ubicacion" : "BENAHAVIS (LA ZAGALETA - AUTOMATICA)",
+    "idema" : "6069X",
+    "lon" : "-5.024724",
+    "lat" : "36.543613"
+  }, {
+    "ubicacion" : "MARBELLA (PUERTO BANUS - AUTOMATICA)",
+    "idema" : "6076X",
+    "lon" : "-4.953051",
+    "lat" : "36.484444"
+  }, {
+    "ubicacion" : "MARBELLA  CABOPINO",
+    "idema" : "6083X",
+    "lon" : "-4.740278",
+    "lat" : "36.483334"
+  }, {
+    "ubicacion" : "FUENGIROLA",
+    "idema" : "6084X",
+    "lon" : "-4.618209",
+    "lat" : "36.538494"
+  }, {
+    "ubicacion" : "TORREMOLINOS",
+    "idema" : "6088X",
+    "lon" : "-4.514998",
+    "lat" : "36.620556"
+  }, {
+    "ubicacion" : "ANTEQUERA",
+    "idema" : "6100B",
+    "lon" : "-4.562222",
+    "lat" : "37.02361"
+  }, {
+    "ubicacion" : "ANTEQUERA-BOBADILLA",
+    "idema" : "6106X",
+    "lon" : "-4.748339",
+    "lat" : "37.029446"
+  }, {
+    "ubicacion" : "ÁLORA  LAS PELONAS",
+    "idema" : "6127X",
+    "lon" : "-4.69667",
+    "lat" : "36.854725"
+  }, {
+    "ubicacion" : "COIN (AUTOMATICA)",
+    "idema" : "6143X",
+    "lon" : "-4.760827",
+    "lat" : "36.65778"
+  }, {
+    "ubicacion" : "MÁLAGA/AEROPUERTO",
+    "idema" : "6155A",
+    "lon" : "-4.482358",
+    "lat" : "36.6662"
+  }, {
+    "ubicacion" : "MÁLAGA CMT",
+    "idema" : "6156X",
+    "lon" : "-4.48167",
+    "lat" : "36.717785"
+  }, {
+    "ubicacion" : "MÁLAGA PUERTO",
+    "idema" : "6172O",
+    "lon" : "-4.41972",
+    "lat" : "36.716663"
+  }, {
+    "ubicacion" : "MÁLAGA",
+    "idema" : "6172X",
+    "lon" : "-4.41972",
+    "lat" : "36.716663"
+  }, {
+    "ubicacion" : "RINCON DE LA VICTORIA (AUTOMATICA)",
+    "idema" : "6175X",
+    "lon" : "-4.286128",
+    "lat" : "36.715046"
+  }, {
+    "ubicacion" : "VELEZ MALAGA (AUTOMATICA)",
+    "idema" : "6199X",
+    "lon" : "-4.093611",
+    "lat" : "36.768612"
+  }, {
+    "ubicacion" : "ALGARROBO (LA MAYORA - AUTOMATICA)",
+    "idema" : "6201X",
+    "lon" : "-4.043892",
+    "lat" : "36.755836"
+  }, {
+    "ubicacion" : "TORROX FARO",
+    "idema" : "6205X",
+    "lon" : "-3.95722",
+    "lat" : "36.726383"
+  }, {
+    "ubicacion" : "NERJA (CUEVAS DE NERJA - AUTOMATICA)",
+    "idema" : "6213X",
+    "lon" : "-3.845275",
+    "lat" : "36.762775"
+  }, {
+    "ubicacion" : "LANJARÓN",
+    "idema" : "6258X",
+    "lon" : "-3.4925",
+    "lat" : "36.923058"
+  }, {
+    "ubicacion" : "SALOBREÑA",
+    "idema" : "6267X",
+    "lon" : "-3.578623",
+    "lat" : "36.748337"
+  }, {
+    "ubicacion" : "MOTRIL CLUB NAÚTICO",
+    "idema" : "6268X",
+    "lon" : "-3.530278",
+    "lat" : "36.72278"
+  }, {
+    "ubicacion" : "MOTRIL PUERTO NAÚTICO",
+    "idema" : "6268Y",
+    "lon" : "-3.529267",
+    "lat" : "36.72401"
+  }, {
+    "ubicacion" : "CASTELL DEL FERRO",
+    "idema" : "6272X",
+    "lon" : "-3.380008",
+    "lat" : "36.7343"
+  }, {
+    "ubicacion" : "VÁLOR",
+    "idema" : "6281X",
+    "lon" : "-3.071395",
+    "lat" : "37.005383"
+  }, {
+    "ubicacion" : "EL EJIDO (AYUNTAMIENTO - AUTOMATICA)",
+    "idema" : "6291B",
+    "lon" : "-2.81305",
+    "lat" : "36.77472"
+  }, {
+    "ubicacion" : "ROQUETAS DE MAR-FARO SABINAR",
+    "idema" : "6293X",
+    "lon" : "-2.701667",
+    "lat" : "36.68694"
+  }, {
+    "ubicacion" : "ABLA",
+    "idema" : "6302A",
+    "lon" : "-2.780005",
+    "lat" : "37.141388"
+  }, {
+    "ubicacion" : "LAUJAR DE ANDARAX",
+    "idema" : "6307X",
+    "lon" : "-2.912377",
+    "lat" : "37.03321"
+  }, {
+    "ubicacion" : "ALMERÍA/AEROPUERTO",
+    "idema" : "6325O",
+    "lon" : "-2.356931",
+    "lat" : "36.846344"
+  }, {
+    "ubicacion" : "CABO DE GATA  FARO",
+    "idema" : "6329X",
+    "lon" : "-2.193056",
+    "lat" : "36.721947"
+  }, {
+    "ubicacion" : "CARBONERAS - FARO MESA ROLDÁN",
+    "idema" : "6332Y",
+    "lon" : "-1.906944",
+    "lat" : "36.942223"
+  }, {
+    "ubicacion" : "GARRUCHA  PUERTO",
+    "idema" : "6340X",
+    "lon" : "-1.816589",
+    "lat" : "37.178932"
+  }, {
+    "ubicacion" : "ALBOX",
+    "idema" : "6364X",
+    "lon" : "-2.151523",
+    "lat" : "37.40659"
+  }, {
+    "ubicacion" : "HUERCAL OVERA",
+    "idema" : "6367B",
+    "lon" : "-1.943609",
+    "lat" : "37.390556"
+  }, {
+    "ubicacion" : "FUENTE DE PIEDRA ",
+    "idema" : "6375X",
+    "lon" : "-4.742002",
+    "lat" : "37.132343"
+  }, {
+    "ubicacion" : "ÁGUILAS",
+    "idema" : "7002Y",
+    "lon" : "-1.586878",
+    "lat" : "37.41724"
+  }, {
+    "ubicacion" : "MAZARRÓN/LAS TORRES",
+    "idema" : "7007Y",
+    "lon" : "-1.230556",
+    "lat" : "37.588055"
+  }, {
+    "ubicacion" : "CARTAGENA",
+    "idema" : "7012C",
+    "lon" : "-0.987775",
+    "lat" : "37.601116"
+  }, {
+    "ubicacion" : "CARTAGENA - TENTEGORRA",
+    "idema" : "7012D",
+    "lon" : "-1.023333",
+    "lat" : "37.604443"
+  }, {
+    "ubicacion" : "CARTAGENA/SALINAS CABO PALOS",
+    "idema" : "7019X",
+    "lon" : "-0.715556",
+    "lat" : "37.635834"
+  }, {
+    "ubicacion" : "FUENTE ALAMO",
+    "idema" : "7023X",
+    "lon" : "-1.167175",
+    "lat" : "37.72648"
+  }, {
+    "ubicacion" : "TORRE PACHECO (C.C.A. AUT.)",
+    "idema" : "7026X",
+    "lon" : "-0.967505",
+    "lat" : "37.738884"
+  }, {
+    "ubicacion" : "MURCIA/SAN JAVIER",
+    "idema" : "7031X",
+    "lon" : "-0.805916",
+    "lat" : "37.77833"
+  }, {
+    "ubicacion" : "EMBALSE DE LA FUENSANTA (AUTOMÁTICA)",
+    "idema" : "7066Y",
+    "lon" : "-2.218889",
+    "lat" : "38.393333"
+  }, {
+    "ubicacion" : "CAÑADAS DEL NERPIO",
+    "idema" : "7067Y",
+    "lon" : "-2.412981",
+    "lat" : "38.08842"
+  }, {
+    "ubicacion" : "SEGE",
+    "idema" : "7072Y",
+    "lon" : "-2.293887",
+    "lat" : "38.294994"
+  }, {
+    "ubicacion" : "BENIZAR",
+    "idema" : "7080X",
+    "lon" : "-1.986391",
+    "lat" : "38.268337"
+  }, {
+    "ubicacion" : "HELLÍN",
+    "idema" : "7096B",
+    "lon" : "-1.70307",
+    "lat" : "38.54202"
+  }, {
+    "ubicacion" : "TOBARRA",
+    "idema" : "7103Y",
+    "lon" : "-1.68944",
+    "lat" : "38.58806"
+  }, {
+    "ubicacion" : "CARAVACA FUENTES DEL MARQUÉS",
+    "idema" : "7119B",
+    "lon" : "-1.877167",
+    "lat" : "38.10313"
+  }, {
+    "ubicacion" : "CALASPARRA",
+    "idema" : "7121A",
+    "lon" : "-1.702227",
+    "lat" : "38.234165"
+  }, {
+    "ubicacion" : "BULLAS",
+    "idema" : "7127X",
+    "lon" : "-1.695334",
+    "lat" : "38.0492"
+  }, {
+    "ubicacion" : "JUMILLA  EL ALBAL",
+    "idema" : "7138B",
+    "lon" : "-1.335282",
+    "lat" : "38.458885"
+  }, {
+    "ubicacion" : "CIEZA  PARQUE DE BOMBEROS",
+    "idema" : "7145D",
+    "lon" : "-1.380598",
+    "lat" : "38.23279"
+  }, {
+    "ubicacion" : "ARCHENA",
+    "idema" : "7158X",
+    "lon" : "-1.305839",
+    "lat" : "38.128056"
+  }, {
+    "ubicacion" : "MULA (P. BOMBEROS - AUT.)",
+    "idema" : "7172X",
+    "lon" : "-1.449172",
+    "lat" : "38.041386"
+  }, {
+    "ubicacion" : "MURCIA",
+    "idema" : "7178I",
+    "lon" : "-1.170836",
+    "lat" : "38.002003"
+  }, {
+    "ubicacion" : "CARAVACA (LOS ROYOS- AUT.)",
+    "idema" : "7195X",
+    "lon" : "-2.058228",
+    "lat" : "37.926003"
+  }, {
+    "ubicacion" : "ZARZILLA DE RAMOS",
+    "idema" : "7203A",
+    "lon" : "-1.869755",
+    "lat" : "37.8447"
+  }, {
+    "ubicacion" : "LORCA",
+    "idema" : "7209",
+    "lon" : "-1.687314",
+    "lat" : "37.65484"
+  }, {
+    "ubicacion" : "PUERTO LUMBRERAS",
+    "idema" : "7211B",
+    "lon" : "-1.797223",
+    "lat" : "37.56805"
+  }, {
+    "ubicacion" : "TOTANA",
+    "idema" : "7218Y",
+    "lon" : "-1.5127",
+    "lat" : "37.758556"
+  }, {
+    "ubicacion" : "ALHAMA (COMARZA - AUT.)",
+    "idema" : "7227X",
+    "lon" : "-1.334725",
+    "lat" : "37.86167"
+  }, {
+    "ubicacion" : "MOLINA DE SEGURA (LOS VALIENTES)",
+    "idema" : "7237E",
+    "lon" : "-1.158615",
+    "lat" : "38.13889"
+  }, {
+    "ubicacion" : "ORIHUELA DESAMPARADOS",
+    "idema" : "7244X",
+    "lon" : "-0.981414",
+    "lat" : "38.0678"
+  }, {
+    "ubicacion" : "PINOSO",
+    "idema" : "7247X",
+    "lon" : "-1.037968",
+    "lat" : "38.399586"
+  }, {
+    "ubicacion" : "ABANILLA",
+    "idema" : "7250C",
+    "lon" : "-1.043756",
+    "lat" : "38.204006"
+  }, {
+    "ubicacion" : "ROJALES  EL MOLINO",
+    "idema" : "7261X",
+    "lon" : "-0.715258",
+    "lat" : "38.088036"
+  }, {
+    "ubicacion" : "YECLA",
+    "idema" : "7275C",
+    "lon" : "-1.159669",
+    "lat" : "38.601795"
+  }, {
+    "ubicacion" : "FONTANARS - CASA DELS CUPS",
+    "idema" : "8005X",
+    "lon" : "-0.795955",
+    "lat" : "38.779987"
+  }, {
+    "ubicacion" : "VILLENA",
+    "idema" : "8008Y",
+    "lon" : "-0.865595",
+    "lat" : "38.57697"
+  }, {
+    "ubicacion" : "ELCHE/ALTABIX",
+    "idema" : "8018X",
+    "lon" : "-0.680643",
+    "lat" : "38.287434"
+  }, {
+    "ubicacion" : "ALICANTE-ELCHE/AEROPUERTO",
+    "idema" : "8019",
+    "lon" : "-0.57083",
+    "lat" : "38.28278"
+  }, {
+    "ubicacion" : "ALICANTE",
+    "idema" : "8025",
+    "lon" : "-0.494167",
+    "lat" : "38.3725"
+  }, {
+    "ubicacion" : "BENIDORM (PARC LES FOIETES)",
+    "idema" : "8036Y",
+    "lon" : "-0.137786",
+    "lat" : "38.543655"
+  }, {
+    "ubicacion" : "JÁVEA  AYUNTAMIENTO",
+    "idema" : "8050X",
+    "lon" : "0.166667",
+    "lat" : "38.78417"
+  }, {
+    "ubicacion" : "PEGO",
+    "idema" : "8057C",
+    "lon" : "-0.118261",
+    "lat" : "38.846737"
+  }, {
+    "ubicacion" : "MIRAMAR",
+    "idema" : "8058Y",
+    "lon" : "-0.137697",
+    "lat" : "38.9503"
+  }, {
+    "ubicacion" : "ALCOY",
+    "idema" : "8059C",
+    "lon" : "-0.460071",
+    "lat" : "38.71092"
+  }, {
+    "ubicacion" : "BARX",
+    "idema" : "8072Y",
+    "lon" : "-0.304725",
+    "lat" : "39.016937"
+  }, {
+    "ubicacion" : "CUENCA",
+    "idema" : "8096",
+    "lon" : "-2.131667",
+    "lat" : "40.066944"
+  }, {
+    "ubicacion" : "MOTILLA DEL PALANCAR",
+    "idema" : "8155Y",
+    "lon" : "-1.915278",
+    "lat" : "39.55528"
+  }, {
+    "ubicacion" : "ALBACETE/LOS LLANOS",
+    "idema" : "8175",
+    "lon" : "-1.856389",
+    "lat" : "38.954166"
+  }, {
+    "ubicacion" : "CHINCHILLA/CENAD",
+    "idema" : "8177A",
+    "lon" : "-1.658812",
+    "lat" : "38.9376"
+  }, {
+    "ubicacion" : "ALBACETE OBS.",
+    "idema" : "8178D",
+    "lon" : "-1.862335",
+    "lat" : "39.005577"
+  }, {
+    "ubicacion" : "LAS ERAS",
+    "idema" : "8191Y",
+    "lon" : "-1.435505",
+    "lat" : "39.198746"
+  }, {
+    "ubicacion" : "JALANCE",
+    "idema" : "8193E",
+    "lon" : "-1.094403",
+    "lat" : "39.208416"
+  }, {
+    "ubicacion" : "ALMANSA",
+    "idema" : "8198Y",
+    "lon" : "-1.063051",
+    "lat" : "38.85055"
+  }, {
+    "ubicacion" : "EVC_ZARRA",
+    "idema" : "8203O",
+    "lon" : "-1.100999",
+    "lat" : "39.082893"
+  }, {
+    "ubicacion" : "MIRA",
+    "idema" : "8245Y",
+    "lon" : "-1.442571",
+    "lat" : "39.714375"
+  }, {
+    "ubicacion" : "BICORP",
+    "idema" : "8270X",
+    "lon" : "-0.79",
+    "lat" : "39.13361"
+  }, {
+    "ubicacion" : "ONTINYENT",
+    "idema" : "8283X",
+    "lon" : "-0.607676",
+    "lat" : "38.82944"
+  }, {
+    "ubicacion" : "XÁTIVA",
+    "idema" : "8293X",
+    "lon" : "-0.523056",
+    "lat" : "39.001667"
+  }, {
+    "ubicacion" : "CARCAIXENT",
+    "idema" : "8300X",
+    "lon" : "-0.445908",
+    "lat" : "39.11338"
+  }, {
+    "ubicacion" : "UTIEL  LA CUBERA",
+    "idema" : "8309X",
+    "lon" : "-1.244795",
+    "lat" : "39.575455"
+  }, {
+    "ubicacion" : "POLINYA",
+    "idema" : "8325X",
+    "lon" : "-0.371947",
+    "lat" : "39.184723"
+  }, {
+    "ubicacion" : "TURIS",
+    "idema" : "8337X",
+    "lon" : "-0.624616",
+    "lat" : "39.39214"
+  }, {
+    "ubicacion" : "ALBARRACÍN",
+    "idema" : "8354X",
+    "lon" : "-1.44139",
+    "lat" : "40.41972"
+  }, {
+    "ubicacion" : "TERUEL",
+    "idema" : "8368U",
+    "lon" : "-1.124132",
+    "lat" : "40.350716"
+  }, {
+    "ubicacion" : "JABALOYAS  DEPÓSITO",
+    "idema" : "8376",
+    "lon" : "-1.411672",
+    "lat" : "40.236115"
+  }, {
+    "ubicacion" : "ADEMUZ",
+    "idema" : "8381X",
+    "lon" : "-1.283573",
+    "lat" : "40.06056"
+  }, {
+    "ubicacion" : "CHELVA",
+    "idema" : "8395X",
+    "lon" : "-0.993611",
+    "lat" : "39.75333"
+  }, {
+    "ubicacion" : "LLIRIA",
+    "idema" : "8409X",
+    "lon" : "-0.653993",
+    "lat" : "39.66401"
+  }, {
+    "ubicacion" : "VALENCIA/AEROPUERTO",
+    "idema" : "8414A",
+    "lon" : "-0.474677",
+    "lat" : "39.485016"
+  }, {
+    "ubicacion" : "VALENCIA UPV",
+    "idema" : "8416X",
+    "lon" : "-0.337222",
+    "lat" : "39.479443"
+  }, {
+    "ubicacion" : "VALENCIA DT",
+    "idema" : "8416Y",
+    "lon" : "-0.366387",
+    "lat" : "39.480556"
+  }, {
+    "ubicacion" : "SEGORBE  MASIA HOYA",
+    "idema" : "8439X",
+    "lon" : "-0.485282",
+    "lat" : "39.79555"
+  }, {
+    "ubicacion" : "SAGUNTO (MONTIVER PONTAZGO - SEMIAUTOMATICA)",
+    "idema" : "8446Y",
+    "lon" : "-0.258878",
+    "lat" : "39.700806"
+  }, {
+    "ubicacion" : "CEDRILLAS  ANTENAS",
+    "idema" : "8458X",
+    "lon" : "-0.849428",
+    "lat" : "40.430515"
+  }, {
+    "ubicacion" : "ARENOS-PANTANO",
+    "idema" : "8472A",
+    "lon" : "-0.54685",
+    "lat" : "40.087708"
+  }, {
+    "ubicacion" : "MOSQUERUELA  DEPÓSITO",
+    "idema" : "8486X",
+    "lon" : "-0.454339",
+    "lat" : "40.362514"
+  }, {
+    "ubicacion" : "VILLAFRANCA",
+    "idema" : "8489X",
+    "lon" : "-0.255675",
+    "lat" : "40.433216"
+  }, {
+    "ubicacion" : "CASTELLÓN-ALMASSORA",
+    "idema" : "8500A",
+    "lon" : "-0.071967",
+    "lat" : "39.95728"
+  }, {
+    "ubicacion" : "TORREBLANCA AYUNTAMIENTO (C.AGRARIA LOCAL)",
+    "idema" : "8503Y",
+    "lon" : "0.18354",
+    "lat" : "40.2113"
+  }, {
+    "ubicacion" : "FREDES",
+    "idema" : "8520X",
+    "lon" : "0.165221",
+    "lat" : "40.693718"
+  }, {
+    "ubicacion" : "NESTARES",
+    "idema" : "9001D",
+    "lon" : "-4.160594",
+    "lat" : "42.991882"
+  }, {
+    "ubicacion" : "Alto Campoo",
+    "idema" : "9001S",
+    "lon" : "-4.374447",
+    "lat" : "43.036667"
+  }, {
+    "ubicacion" : "SANTA GADEA DE ALFOZ",
+    "idema" : "9012E",
+    "lon" : "-3.95718",
+    "lat" : "42.951336"
+  }, {
+    "ubicacion" : "CUBILLO DE EBRO",
+    "idema" : "9016X",
+    "lon" : "-4.032219",
+    "lat" : "42.809723"
+  }, {
+    "ubicacion" : "POLIENTES-CASYC",
+    "idema" : "9019B",
+    "lon" : "-3.933916",
+    "lat" : "42.806248"
+  }, {
+    "ubicacion" : "SARGENTES DE LA LORA",
+    "idema" : "9027X",
+    "lon" : "-3.884371",
+    "lat" : "42.7469"
+  }, {
+    "ubicacion" : "BRIVIESCA",
+    "idema" : "9031C",
+    "lon" : "-3.30879",
+    "lat" : "42.559525"
+  }, {
+    "ubicacion" : "MEDINA DE POMAR",
+    "idema" : "9051",
+    "lon" : "-3.482685",
+    "lat" : "42.919903"
+  }, {
+    "ubicacion" : "LALASTRA-PARQUE VALDEREJO",
+    "idema" : "9060X",
+    "lon" : "-3.231729",
+    "lat" : "42.875217"
+  }, {
+    "ubicacion" : "MIRANDA DE EBRO",
+    "idema" : "9069C",
+    "lon" : "-2.960608",
+    "lat" : "42.68716"
+  }, {
+    "ubicacion" : "OPAKUA",
+    "idema" : "9073X",
+    "lon" : "-2.359745",
+    "lat" : "42.82983"
+  }, {
+    "ubicacion" : "VITORIA/FORONDA",
+    "idema" : "9091R",
+    "lon" : "-2.732913",
+    "lat" : "42.871933"
+  }, {
+    "ubicacion" : "BELORADO",
+    "idema" : "9111",
+    "lon" : "-3.170282",
+    "lat" : "42.421116"
+  }, {
+    "ubicacion" : "VALDEZCARAY",
+    "idema" : "9115X",
+    "lon" : "-2.968056",
+    "lat" : "42.255"
+  }, {
+    "ubicacion" : "HARO ",
+    "idema" : "9121X",
+    "lon" : "-2.854717",
+    "lat" : "42.575275"
+  }, {
+    "ubicacion" : "LABASTIDA- REMELLURI",
+    "idema" : "9122I",
+    "lon" : "-2.776667",
+    "lat" : "42.60389"
+  }, {
+    "ubicacion" : "ANGUIANO  VALVANERA ",
+    "idema" : "9136X",
+    "lon" : "-2.871106",
+    "lat" : "42.230835"
+  }, {
+    "ubicacion" : "NÁJERA",
+    "idema" : "9141V",
+    "lon" : "-2.726758",
+    "lat" : "42.41403"
+  }, {
+    "ubicacion" : "LEZA (DFA2)",
+    "idema" : "9145X",
+    "lon" : "-2.632837",
+    "lat" : "42.56724"
+  }, {
+    "ubicacion" : "CENICERO ",
+    "idema" : "9145Y",
+    "lon" : "-2.63944",
+    "lat" : "42.48278"
+  }, {
+    "ubicacion" : "LOGROÑO  AEROPUERTO",
+    "idema" : "9170",
+    "lon" : "-2.331024",
+    "lat" : "42.452343"
+  }, {
+    "ubicacion" : "LOS ARCOS",
+    "idema" : "9171K",
+    "lon" : "-2.183774",
+    "lat" : "42.570415"
+  }, {
+    "ubicacion" : "SANTA CRUZ DE CAMPEZO (DFA)",
+    "idema" : "9178X",
+    "lon" : "-2.346127",
+    "lat" : "42.670654"
+  }, {
+    "ubicacion" : "ENCISO  DEPÓSITO",
+    "idema" : "9188",
+    "lon" : "-2.273211",
+    "lat" : "42.1495"
+  }, {
+    "ubicacion" : "ASTÚN - LA RACA",
+    "idema" : "9195C",
+    "lon" : "-0.505278",
+    "lat" : "42.793056"
+  }, {
+    "ubicacion" : "CANFRANC",
+    "idema" : "9198X",
+    "lon" : "-0.51604",
+    "lat" : "42.749527"
+  }, {
+    "ubicacion" : "JACA",
+    "idema" : "9201K",
+    "lon" : "-0.547043",
+    "lat" : "42.578815"
+  }, {
+    "ubicacion" : "VALLE DE HECHO  HECHO-DEPÓSITO",
+    "idema" : "9207",
+    "lon" : "-0.750538",
+    "lat" : "42.74066"
+  }, {
+    "ubicacion" : "ARAGÜÉS DEL PUERTO  DEPÓSITO",
+    "idema" : "9208E",
+    "lon" : "-0.673056",
+    "lat" : "42.708057"
+  }, {
+    "ubicacion" : "BAILO PUYALTO",
+    "idema" : "9211F",
+    "lon" : "-0.817243",
+    "lat" : "42.514168"
+  }, {
+    "ubicacion" : "ISABA/IZABA",
+    "idema" : "9218A",
+    "lon" : "-0.924622",
+    "lat" : "42.862213"
+  }, {
+    "ubicacion" : "OROZ-BETELU/OROTZ-BETELU  DEPÓSITO",
+    "idema" : "9228J",
+    "lon" : "-1.300216",
+    "lat" : "42.89624"
+  }, {
+    "ubicacion" : "RONCESVALLES/ORREAGA",
+    "idema" : "9228T",
+    "lon" : "-1.325557",
+    "lat" : "43.007877"
+  }, {
+    "ubicacion" : "NAVASCUÉS/NABASKOZE",
+    "idema" : "9238X",
+    "lon" : "-1.117054",
+    "lat" : "42.717236"
+  }, {
+    "ubicacion" : "SOS DEL REY CATÓLICO",
+    "idema" : "9244X",
+    "lon" : "-1.213333",
+    "lat" : "42.490833"
+  }, {
+    "ubicacion" : "CÁSEDA  DEPÓSITO",
+    "idema" : "9245X",
+    "lon" : "-1.366381",
+    "lat" : "42.52139"
+  }, {
+    "ubicacion" : "OLITE/ERRIBERRI",
+    "idema" : "9252X",
+    "lon" : "-1.655553",
+    "lat" : "42.489166"
+  }, {
+    "ubicacion" : "ESTERIBAR  EMBALSE DE EUGI",
+    "idema" : "9257X",
+    "lon" : "-1.516946",
+    "lat" : "42.970554"
+  }, {
+    "ubicacion" : "MONREAL/ELO  DEPÓSITO",
+    "idema" : "9262P",
+    "lon" : "-1.49567",
+    "lat" : "42.70125"
+  }, {
+    "ubicacion" : "PAMPLONA  AEROPUERTO",
+    "idema" : "9263D",
+    "lon" : "-1.649869",
+    "lat" : "42.77695"
+  }, {
+    "ubicacion" : "ARANGUREN  ILUNDAIN",
+    "idema" : "9263X",
+    "lon" : "-1.532487",
+    "lat" : "42.7761"
+  }, {
+    "ubicacion" : "IRURTZUN",
+    "idema" : "9274X",
+    "lon" : "-1.835118",
+    "lat" : "42.918846"
+  }, {
+    "ubicacion" : "LARRAGA",
+    "idema" : "9280B",
+    "lon" : "-1.857382",
+    "lat" : "42.549446"
+  }, {
+    "ubicacion" : "SAN PEDRO MANRIQUE",
+    "idema" : "9287A",
+    "lon" : "-2.230789",
+    "lat" : "42.02646"
+  }, {
+    "ubicacion" : "ALFARO  LA PLANA - DEPÓSITO",
+    "idema" : "9293X",
+    "lon" : "-1.743811",
+    "lat" : "42.176132"
+  }, {
+    "ubicacion" : "BARDENAS REALES  BASE AÉREA",
+    "idema" : "9294E",
+    "lon" : "-1.475169",
+    "lat" : "42.198544"
+  }, {
+    "ubicacion" : "TARAZONA",
+    "idema" : "9299X",
+    "lon" : "-1.723337",
+    "lat" : "41.914867"
+  }, {
+    "ubicacion" : "MONTEAGUDO",
+    "idema" : "9301X",
+    "lon" : "-1.690554",
+    "lat" : "41.95889"
+  }, {
+    "ubicacion" : "TUDELA  ",
+    "idema" : "9302Y",
+    "lon" : "-1.609167",
+    "lat" : "42.05528"
+  }, {
+    "ubicacion" : "EJEA DE LOS CABALLEROS",
+    "idema" : "9321X",
+    "lon" : "-1.139723",
+    "lat" : "42.121113"
+  }, {
+    "ubicacion" : "CASTEJÓN DE VALDEJASA  DEPÓSITO",
+    "idema" : "9336D",
+    "lon" : "-0.995737",
+    "lat" : "41.984173"
+  }, {
+    "ubicacion" : "ARCOS DE JALÓN-COEX",
+    "idema" : "9344C",
+    "lon" : "-2.292964",
+    "lat" : "41.216473"
+  }, {
+    "ubicacion" : "ALMAZUL",
+    "idema" : "9352A",
+    "lon" : "-2.140382",
+    "lat" : "41.574635"
+  }, {
+    "ubicacion" : "ALHAMA DE ARAGÓN  DEPÓSITO",
+    "idema" : "9354X",
+    "lon" : "-1.895265",
+    "lat" : "41.293"
+  }, {
+    "ubicacion" : "SANTA EULALIA  DEL CAMPO",
+    "idema" : "9374X",
+    "lon" : "-1.320827",
+    "lat" : "40.56667"
+  }, {
+    "ubicacion" : "EL PEDREGAL",
+    "idema" : "9377Y",
+    "lon" : "-1.568336",
+    "lat" : "40.77861"
+  }, {
+    "ubicacion" : "CALAMOCHA",
+    "idema" : "9381I",
+    "lon" : "-1.293327",
+    "lat" : "40.926113"
+  }, {
+    "ubicacion" : "DAROCA ",
+    "idema" : "9390",
+    "lon" : "-1.409762",
+    "lat" : "41.123425"
+  }, {
+    "ubicacion" : "CALATAYUD  DEPÓSITO",
+    "idema" : "9394X",
+    "lon" : "-1.645297",
+    "lat" : "41.33104"
+  }, {
+    "ubicacion" : "LA ALMUNIA DE DOÑA GODINA",
+    "idema" : "9427X",
+    "lon" : "-1.380829",
+    "lat" : "41.481113"
+  }, {
+    "ubicacion" : "ZARAGOZA  AEROPUERTO",
+    "idema" : "9434",
+    "lon" : "-1.004167",
+    "lat" : "41.660557"
+  }, {
+    "ubicacion" : "ZARAGOZA  VALDESPARTERA",
+    "idema" : "9434P",
+    "lon" : "-0.935",
+    "lat" : "41.620556"
+  }, {
+    "ubicacion" : "FONFRÍA",
+    "idema" : "9436X",
+    "lon" : "-1.087365",
+    "lat" : "40.995373"
+  }, {
+    "ubicacion" : "FORMIGAL  SARRIOS",
+    "idema" : "9445L",
+    "lon" : "-0.392704",
+    "lat" : "42.762405"
+  }, {
+    "ubicacion" : "PANTICOSA  PETROSOS",
+    "idema" : "9451F",
+    "lon" : "-0.275278",
+    "lat" : "42.704445"
+  }, {
+    "ubicacion" : "BIESCAS  EMBALSE DE BÚBAL",
+    "idema" : "9453X",
+    "lon" : "-0.319003",
+    "lat" : "42.699238"
+  }, {
+    "ubicacion" : "SABIÑÁNIGO",
+    "idema" : "9460X",
+    "lon" : "-0.35556",
+    "lat" : "42.51278"
+  }, {
+    "ubicacion" : "ALMUDÉVAR",
+    "idema" : "9491X",
+    "lon" : "-0.585964",
+    "lat" : "42.029354"
+  }, {
+    "ubicacion" : "LECIÑENA",
+    "idema" : "9495Y",
+    "lon" : "-0.617331",
+    "lat" : "41.796795"
+  }, {
+    "ubicacion" : "VALMADRID",
+    "idema" : "9501X",
+    "lon" : "-0.885947",
+    "lat" : "41.443134"
+  }, {
+    "ubicacion" : "QUINTO",
+    "idema" : "9510X",
+    "lon" : "-0.503955",
+    "lat" : "41.429173"
+  }, {
+    "ubicacion" : "MUNIESA",
+    "idema" : "9513X",
+    "lon" : "-0.805655",
+    "lat" : "41.031216"
+  }, {
+    "ubicacion" : "MONTALBÁN",
+    "idema" : "9531Y",
+    "lon" : "-0.792778",
+    "lat" : "40.82861"
+  }, {
+    "ubicacion" : "HÍJAR  DEPÓSITO",
+    "idema" : "9546B",
+    "lon" : "-0.441907",
+    "lat" : "41.171967"
+  }, {
+    "ubicacion" : "ANDORRA  HORCALLANA",
+    "idema" : "9550C",
+    "lon" : "-0.407693",
+    "lat" : "40.974358"
+  }, {
+    "ubicacion" : "CASTELLOTE  DEPÓSITO",
+    "idema" : "9561X",
+    "lon" : "-0.315396",
+    "lat" : "40.798428"
+  }, {
+    "ubicacion" : "MORELLA - PASEO ALAMEDA",
+    "idema" : "9562X",
+    "lon" : "-0.101819",
+    "lat" : "40.621662"
+  }, {
+    "ubicacion" : "CASTELLFORT",
+    "idema" : "9563X",
+    "lon" : "-0.186663",
+    "lat" : "40.498608"
+  }, {
+    "ubicacion" : "CALANDA",
+    "idema" : "9569A",
+    "lon" : "-0.237653",
+    "lat" : "40.946556"
+  }, {
+    "ubicacion" : "ALCAÑIZ",
+    "idema" : "9573X",
+    "lon" : "-0.141596",
+    "lat" : "41.058037"
+  }, {
+    "ubicacion" : "CASPE  PLANA DEL PILÓN",
+    "idema" : "9574B",
+    "lon" : "-0.068611",
+    "lat" : "41.2425"
+  }, {
+    "ubicacion" : "LA MOLINA",
+    "idema" : "9585",
+    "lon" : "1.939446",
+    "lat" : "42.3325"
+  }, {
+    "ubicacion" : "MARTINET",
+    "idema" : "9590",
+    "lon" : "1.693256",
+    "lat" : "42.362118"
+  }, {
+    "ubicacion" : "CAP DE REC",
+    "idema" : "9590D",
+    "lon" : "1.6675",
+    "lat" : "42.43028"
+  }, {
+    "ubicacion" : "LA SEO D?URGELL",
+    "idema" : "9619",
+    "lon" : "1.462778",
+    "lat" : "42.35472"
+  }, {
+    "ubicacion" : "COLL DE NARGÓ",
+    "idema" : "9638D",
+    "lon" : "1.311946",
+    "lat" : "42.15445"
+  }, {
+    "ubicacion" : "TORÀ",
+    "idema" : "9647X",
+    "lon" : "1.395552",
+    "lat" : "41.805836"
+  }, {
+    "ubicacion" : "ARTESA DE SEGRE",
+    "idema" : "9650X",
+    "lon" : "1.108615",
+    "lat" : "41.88139"
+  }, {
+    "ubicacion" : "ESTERRI D?ANEU",
+    "idema" : "9657X",
+    "lon" : "1.126203",
+    "lat" : "42.62511"
+  }, {
+    "ubicacion" : "PORT AINE  L?ORRI",
+    "idema" : "9677",
+    "lon" : "1.214647",
+    "lat" : "42.410007"
+  }, {
+    "ubicacion" : "TALARN",
+    "idema" : "9698U",
+    "lon" : "0.864722",
+    "lat" : "42.204723"
+  }, {
+    "ubicacion" : "LLIMIANA",
+    "idema" : "9707",
+    "lon" : "0.907217",
+    "lat" : "42.06694"
+  }, {
+    "ubicacion" : "TORDERA - GRANYANELLA",
+    "idema" : "9718X",
+    "lon" : "1.223051",
+    "lat" : "41.68111"
+  }, {
+    "ubicacion" : "LLORAC",
+    "idema" : "9726E",
+    "lon" : "1.309439",
+    "lat" : "41.55722"
+  }, {
+    "ubicacion" : "MOLLERUSSA",
+    "idema" : "9729X",
+    "lon" : "0.866659",
+    "lat" : "41.616943"
+  }, {
+    "ubicacion" : "BARRUERA",
+    "idema" : "9744B",
+    "lon" : "0.798893",
+    "lat" : "42.50333"
+  }, {
+    "ubicacion" : "SOPEIRA",
+    "idema" : "9751",
+    "lon" : "0.746943",
+    "lat" : "42.31861"
+  }, {
+    "ubicacion" : "BENABARRE",
+    "idema" : "9756X",
+    "lon" : "0.479998",
+    "lat" : "42.1125"
+  }, {
+    "ubicacion" : "LLEIDA",
+    "idema" : "9771C",
+    "lon" : "0.598058",
+    "lat" : "41.626106"
+  }, {
+    "ubicacion" : "LA POBLA DE CERVOLES",
+    "idema" : "9772X",
+    "lon" : "0.913608",
+    "lat" : "41.366116"
+  }, {
+    "ubicacion" : "EL SOLERÀS",
+    "idema" : "9775X",
+    "lon" : "0.67833",
+    "lat" : "41.41361"
+  }, {
+    "ubicacion" : "BIELSA",
+    "idema" : "9784P",
+    "lon" : "0.224707",
+    "lat" : "42.629967"
+  }, {
+    "ubicacion" : "AÍNSA-SOBRARBE  LA SERRETA-DEPÓSITO",
+    "idema" : "9808X",
+    "lon" : "0.138052",
+    "lat" : "42.421665"
+  }, {
+    "ubicacion" : "TORLA-ORDESA  EL CEBOLLAR",
+    "idema" : "9814I",
+    "lon" : "-0.124444",
+    "lat" : "42.656113"
+  }, {
+    "ubicacion" : "TORLA-ORDESA  DEPÓSITO",
+    "idema" : "9814X",
+    "lon" : "-0.112686",
+    "lat" : "42.63759"
+  }, {
+    "ubicacion" : "BENASQUE",
+    "idema" : "9838B",
+    "lon" : "0.521752",
+    "lat" : "42.600582"
+  }, {
+    "ubicacion" : "CERLER  COGULLA",
+    "idema" : "9839V",
+    "lon" : "0.543056",
+    "lat" : "42.555"
+  }, {
+    "ubicacion" : "SEIRA",
+    "idema" : "9843A",
+    "lon" : "0.434167",
+    "lat" : "42.476948"
+  }, {
+    "ubicacion" : "CAPELLA  LAGUARRES",
+    "idema" : "9855E",
+    "lon" : "0.466105",
+    "lat" : "42.20139"
+  }, {
+    "ubicacion" : "BARBASTRO",
+    "idema" : "9866C",
+    "lon" : "0.140556",
+    "lat" : "42.02139"
+  }, {
+    "ubicacion" : "SARIÑENA  DEPÓSITO",
+    "idema" : "9894Y",
+    "lon" : "-0.160778",
+    "lat" : "41.799297"
+  }, {
+    "ubicacion" : "HUESCA  AEROPUERTO",
+    "idema" : "9898",
+    "lon" : "-0.325555",
+    "lat" : "42.084557"
+  }, {
+    "ubicacion" : "HUESCA",
+    "idema" : "9901X",
+    "lon" : "-0.394996",
+    "lat" : "42.13889"
+  }, {
+    "ubicacion" : "LANAJA  DEPÓSITO",
+    "idema" : "9908X",
+    "lon" : "-0.333059",
+    "lat" : "41.77389"
+  }, {
+    "ubicacion" : "BALLOBAR  DEPÓSITO",
+    "idema" : "9911X",
+    "lon" : "0.187782",
+    "lat" : "41.619446"
+  }, {
+    "ubicacion" : "TAMARITE DE LITERA  LA MELUSA",
+    "idema" : "9918Y",
+    "lon" : "0.376949",
+    "lat" : "41.780834"
+  }, {
+    "ubicacion" : "FRAGA",
+    "idema" : "9924X",
+    "lon" : "0.355555",
+    "lat" : "41.52472"
+  }, {
+    "ubicacion" : "VALDERROBRES ",
+    "idema" : "9935X",
+    "lon" : "0.146111",
+    "lat" : "40.873337"
+  }, {
+    "ubicacion" : "HORTA DE SANT JOAN",
+    "idema" : "9946X",
+    "lon" : "0.311668",
+    "lat" : "40.953056"
+  }, {
+    "ubicacion" : "MASSALUCA",
+    "idema" : "9947X",
+    "lon" : "0.353329",
+    "lat" : "41.17722"
+  }, {
+    "ubicacion" : "CABACÉS",
+    "idema" : "9961X",
+    "lon" : "0.735283",
+    "lat" : "41.249443"
+  }, {
+    "ubicacion" : "RASQUERA",
+    "idema" : "9975X",
+    "lon" : "0.613616",
+    "lat" : "41.005"
+  }, {
+    "ubicacion" : "TORTOSA",
+    "idema" : "9981A",
+    "lon" : "0.493056",
+    "lat" : "40.82"
+  }, {
+    "ubicacion" : "CAP DE VAQUEIRA",
+    "idema" : "9988B",
+    "lon" : "0.973793",
+    "lat" : "42.69196"
+  }, {
+    "ubicacion" : "ARTIES",
+    "idema" : "9990X",
+    "lon" : "0.876944",
+    "lat" : "42.70028"
+  }, {
+    "ubicacion" : "BOSSOST-CENTRAL",
+    "idema" : "9994X",
+    "lon" : "0.689719",
+    "lat" : "42.776108"
+  }, {
+    "ubicacion" : "VALCARLOS/LUZAIDE",
+    "idema" : "9995Y",
+    "lon" : "-1.300831",
+    "lat" : "43.091114"
+  }, {
+    "ubicacion" : "BELLO",
+    "idema" : "9998X",
+    "lon" : "-1.494444",
+    "lat" : "40.92139"
+  }, {
+    "ubicacion" : "LLUC",
+    "idema" : "B013X",
+    "lon" : "2.885828",
+    "lat" : "39.823338"
+  }, {
+    "ubicacion" : "Sóller",
+    "idema" : "B051A",
+    "lon" : "2.691486",
+    "lat" : "39.795555"
+  }, {
+    "ubicacion" : "BANYALBUFAR ",
+    "idema" : "B087X",
+    "lon" : "2.512777",
+    "lat" : "39.689167"
+  }, {
+    "ubicacion" : "ANDRATX - SANT ELM",
+    "idema" : "B103B",
+    "lon" : "2.368936",
+    "lat" : "39.57947"
+  }, {
+    "ubicacion" : "ES CAPDELLÀ- SON VIC NOU ",
+    "idema" : "B158X",
+    "lon" : "2.466476",
+    "lat" : "39.551468"
+  }, {
+    "ubicacion" : "PALMA-PORTOPÍ",
+    "idema" : "B228",
+    "lon" : "2.625268",
+    "lat" : "39.554256"
+  }, {
+    "ubicacion" : "PALMA DIC DE L?OEST",
+    "idema" : "B228D",
+    "lon" : "2.638889",
+    "lat" : "39.5525"
+  }, {
+    "ubicacion" : "PALMA-UNIVERSITAT",
+    "idema" : "B236C",
+    "lon" : "2.643755",
+    "lat" : "39.642162"
+  }, {
+    "ubicacion" : "SIERRA DE ALFABIA",
+    "idema" : "B248",
+    "lon" : "2.713058",
+    "lat" : "39.734997"
+  }, {
+    "ubicacion" : "SON BONET  AEROPUERTO",
+    "idema" : "B275E",
+    "lon" : "2.706667",
+    "lat" : "39.60583"
+  }, {
+    "ubicacion" : "PALMA DE MALLORCA/SON SANT JOAN",
+    "idema" : "B278",
+    "lon" : "2.736706",
+    "lat" : "39.5608"
+  }, {
+    "ubicacion" : "LLUCMAJOR-RADAR",
+    "idema" : "B301",
+    "lon" : "2.785002",
+    "lat" : "39.379723"
+  }, {
+    "ubicacion" : "LLUCMAJOR II",
+    "idema" : "B334X",
+    "lon" : "2.891662",
+    "lat" : "39.495556"
+  }, {
+    "ubicacion" : "PORRERES-SA MESQUIDA",
+    "idema" : "B341X",
+    "lon" : "3.005556",
+    "lat" : "39.50611"
+  }, {
+    "ubicacion" : "CAMPOS-CAN SION ",
+    "idema" : "B362X",
+    "lon" : "3.064166",
+    "lat" : "39.405834"
+  }, {
+    "ubicacion" : "CAMPOS-SALINES  LEVANT",
+    "idema" : "B373X",
+    "lon" : "3.011862",
+    "lat" : "39.351143"
+  }, {
+    "ubicacion" : "SANTANYÍ",
+    "idema" : "B410B",
+    "lon" : "3.145785",
+    "lat" : "39.340054"
+  }, {
+    "ubicacion" : "PORTO COLOM",
+    "idema" : "B434X",
+    "lon" : "3.271687",
+    "lat" : "39.414555"
+  }, {
+    "ubicacion" : "SON SERVERA-CAN PEP MONJO",
+    "idema" : "B496X",
+    "lon" : "3.383603",
+    "lat" : "39.630276"
+  }, {
+    "ubicacion" : "ARTÀ-MOLI D?EN LEU ",
+    "idema" : "B526X",
+    "lon" : "3.351112",
+    "lat" : "39.68861"
+  }, {
+    "ubicacion" : "CAPDEPERA-FARO",
+    "idema" : "B569X",
+    "lon" : "3.478002",
+    "lat" : "39.716694"
+  }, {
+    "ubicacion" : "COLÒNIA SANT PERE-CAN MENGOL",
+    "idema" : "B603X",
+    "lon" : "3.278571",
+    "lat" : "39.723183"
+  }, {
+    "ubicacion" : "MURO-S?ALBUFERA ",
+    "idema" : "B605X",
+    "lon" : "3.104721",
+    "lat" : "39.796665"
+  }, {
+    "ubicacion" : "MANACOR-POLIESPORTIU",
+    "idema" : "B614E",
+    "lon" : "3.21778",
+    "lat" : "39.556824"
+  }, {
+    "ubicacion" : "PETRA",
+    "idema" : "B640X",
+    "lon" : "3.1212",
+    "lat" : "39.616463"
+  }, {
+    "ubicacion" : "SINEU-POLIESPORTIU",
+    "idema" : "B644B",
+    "lon" : "3.002128",
+    "lat" : "39.643265"
+  }, {
+    "ubicacion" : "SANTA MARÍA",
+    "idema" : "B656A",
+    "lon" : "2.800156",
+    "lat" : "39.652473"
+  }, {
+    "ubicacion" : "BINISSALEM-SA VINYOTA",
+    "idema" : "B662X",
+    "lon" : "2.873775",
+    "lat" : "39.677963"
+  }, {
+    "ubicacion" : "ESCORCA-SON TORRELLA",
+    "idema" : "B684A",
+    "lon" : "2.787778",
+    "lat" : "39.792778"
+  }, {
+    "ubicacion" : "SA POBLA-SA CANOVA",
+    "idema" : "B691Y",
+    "lon" : "3.01667",
+    "lat" : "39.749165"
+  }, {
+    "ubicacion" : "POLLENÇA-POLIESPORTIU",
+    "idema" : "B760X",
+    "lon" : "3.024159",
+    "lat" : "39.87694"
+  }, {
+    "ubicacion" : "PORT POLLENÇA-AERODROM ",
+    "idema" : "B780X",
+    "lon" : "3.100277",
+    "lat" : "39.909447"
+  }, {
+    "ubicacion" : "MERCADAL",
+    "idema" : "B825B",
+    "lon" : "4.086385",
+    "lat" : "39.990555"
+  }, {
+    "ubicacion" : "CIUTADELLA-SON QUIM ",
+    "idema" : "B860X",
+    "lon" : "3.853866",
+    "lat" : "39.992775"
+  }, {
+    "ubicacion" : "CIUTADELLA-CALA GALDANA",
+    "idema" : "B870C",
+    "lon" : "3.956643",
+    "lat" : "39.944786"
+  }, {
+    "ubicacion" : "MENORCA/AEROPUERTO",
+    "idema" : "B893",
+    "lon" : "4.215556",
+    "lat" : "39.854725"
+  }, {
+    "ubicacion" : "SANT JOAN DE LABRITJA ",
+    "idema" : "B908X",
+    "lon" : "1.492503",
+    "lat" : "39.05611"
+  }, {
+    "ubicacion" : "SANT ANTONI DE PORTMANY",
+    "idema" : "B925",
+    "lon" : "1.321389",
+    "lat" : "38.963055"
+  }, {
+    "ubicacion" : "IBIZA/ES CODOLÁ",
+    "idema" : "B954",
+    "lon" : "1.384446",
+    "lat" : "38.876385"
+  }, {
+    "ubicacion" : "EIVISSA",
+    "idema" : "B957",
+    "lon" : "1.441516",
+    "lat" : "38.922638"
+  }, {
+    "ubicacion" : "FORMENTERA",
+    "idema" : "B986",
+    "lon" : "1.463528",
+    "lat" : "38.69371"
+  }, {
+    "ubicacion" : "TIAS-LAS VEGAS",
+    "idema" : "C018J",
+    "lon" : "-13.690277",
+    "lat" : "28.969727"
+  }, {
+    "ubicacion" : "YAIZA-PLAYA BLANCA",
+    "idema" : "C019V",
+    "lon" : "-13.834999",
+    "lat" : "28.858885"
+  }, {
+    "ubicacion" : "LANZAROTE/AEROPUERTO",
+    "idema" : "C029O",
+    "lon" : "-13.600279",
+    "lat" : "28.951942"
+  }, {
+    "ubicacion" : "HARÍA-CEMENTERIO",
+    "idema" : "C038N",
+    "lon" : "-13.489167",
+    "lat" : "29.143612"
+  }, {
+    "ubicacion" : "TINAJO-LOS DOLORES",
+    "idema" : "C048W",
+    "lon" : "-13.680833",
+    "lat" : "29.0425"
+  }, {
+    "ubicacion" : "ROQUE DE LOS MUCHACHOS",
+    "idema" : "C101A",
+    "lon" : "-17.895279",
+    "lat" : "28.755833"
+  }, {
+    "ubicacion" : "PUNTAGORDA",
+    "idema" : "C117A",
+    "lon" : "-17.985556",
+    "lat" : "28.760555"
+  }, {
+    "ubicacion" : "TIJARAFE-MIRADOR TIME",
+    "idema" : "C117Z",
+    "lon" : "-17.936666",
+    "lat" : "28.674723"
+  }, {
+    "ubicacion" : "EL PASO-C.F.",
+    "idema" : "C126A",
+    "lon" : "-17.853056",
+    "lat" : "28.653889"
+  }, {
+    "ubicacion" : "FUENCALIENTE-SALINAS",
+    "idema" : "C129V",
+    "lon" : "-17.84111",
+    "lat" : "28.455"
+  }, {
+    "ubicacion" : "TAZACORTE",
+    "idema" : "C129Z",
+    "lon" : "-17.915277",
+    "lat" : "28.595833"
+  }, {
+    "ubicacion" : "LA PALMA/AEROPUERTO",
+    "idema" : "C139E",
+    "lon" : "-17.755005",
+    "lat" : "28.633057"
+  }, {
+    "ubicacion" : "SAUCES-S.ANDRÉS-BALSA ADEYAHAME",
+    "idema" : "C148F",
+    "lon" : "-17.782223",
+    "lat" : "28.804722"
+  }, {
+    "ubicacion" : "PÁJARA-PUERTO MORRO JABLE",
+    "idema" : "C229J",
+    "lon" : "-14.358002",
+    "lat" : "28.04904"
+  }, {
+    "ubicacion" : "TUINEJE-PUERTO GRAN TARAJAL",
+    "idema" : "C239N",
+    "lon" : "-14.023056",
+    "lat" : "28.20861"
+  }, {
+    "ubicacion" : "ANTIGUA-EL CARBÓN",
+    "idema" : "C248E",
+    "lon" : "-14.019167",
+    "lat" : "28.416945"
+  }, {
+    "ubicacion" : "FUERTEVENTURA/AEROPUERTO",
+    "idema" : "C249I",
+    "lon" : "-13.863055",
+    "lat" : "28.44472"
+  }, {
+    "ubicacion" : "LA OLIVA (CARRETERA DEL COTILLO)",
+    "idema" : "C258K",
+    "lon" : "-13.931667",
+    "lat" : "28.6125"
+  }, {
+    "ubicacion" : "LA OLIVA-PUERTO DE CORRALEJO",
+    "idema" : "C259X",
+    "lon" : "-13.863056",
+    "lat" : "28.740557"
+  }, {
+    "ubicacion" : "VALLEHERMOSO-ALTO IGUALERO",
+    "idema" : "C314Z",
+    "lon" : "-17.249166",
+    "lat" : "28.106943"
+  }, {
+    "ubicacion" : "ARURE CEMENTERIO",
+    "idema" : "C316I",
+    "lon" : "-17.315",
+    "lat" : "28.128332"
+  }, {
+    "ubicacion" : "AGULO-JUEGO BOLAS",
+    "idema" : "C317B",
+    "lon" : "-17.213057",
+    "lat" : "28.178888"
+  }, {
+    "ubicacion" : "VALLEHERMOSO-DAMA",
+    "idema" : "C319W",
+    "lon" : "-17.306389",
+    "lat" : "28.054167"
+  }, {
+    "ubicacion" : "HERMIGUA-DEPÓSITO AYUNTAMIENTO",
+    "idema" : "C328W",
+    "lon" : "-17.194166",
+    "lat" : "28.16361"
+  }, {
+    "ubicacion" : "SAN SEBASTIÁN DE LA GOMERA",
+    "idema" : "C329Z",
+    "lon" : "-17.11139",
+    "lat" : "28.089722"
+  }, {
+    "ubicacion" : "CAÑADAS PARADOR",
+    "idema" : "C406G",
+    "lon" : "-16.62611",
+    "lat" : "28.224167"
+  }, {
+    "ubicacion" : "Lomo del Balo",
+    "idema" : "C419L",
+    "lon" : "-16.792028",
+    "lat" : "28.207056"
+  }, {
+    "ubicacion" : "ADEJE-CALDERA B",
+    "idema" : "C419X",
+    "lon" : "-16.710556",
+    "lat" : "28.081388"
+  }, {
+    "ubicacion" : "ARICO-DEPURADORA LA DEGOLLADA",
+    "idema" : "C428T",
+    "lon" : "-16.483334",
+    "lat" : "28.180834"
+  }, {
+    "ubicacion" : "TENERIFE/SUR",
+    "idema" : "C429I",
+    "lon" : "-16.561157",
+    "lat" : "28.046991"
+  }, {
+    "ubicacion" : "IZAÑA",
+    "idema" : "C430E",
+    "lon" : "-16.499445",
+    "lat" : "28.308891"
+  }, {
+    "ubicacion" : "CANDELARIA-DEPOSITO CUEVECITAS",
+    "idema" : "C438N",
+    "lon" : "-16.401735",
+    "lat" : "28.359247"
+  }, {
+    "ubicacion" : "TENERIFE-GÜIMAR",
+    "idema" : "C439J",
+    "lon" : "-16.382229",
+    "lat" : "28.318405"
+  }, {
+    "ubicacion" : "LAS MERCEDES-LLANO LOS LOROS",
+    "idema" : "C446G",
+    "lon" : "-16.280277",
+    "lat" : "28.526388"
+  }, {
+    "ubicacion" : "TENERIFE/LOS RODEOS",
+    "idema" : "C447A",
+    "lon" : "-16.329445",
+    "lat" : "28.477497"
+  }, {
+    "ubicacion" : "SANTA CRUZ DE TENERIFE ",
+    "idema" : "C449C",
+    "lon" : "-16.255281",
+    "lat" : "28.463337"
+  }, {
+    "ubicacion" : "ANAGA-COL. REP. ARGENTINA",
+    "idema" : "C449F",
+    "lon" : "-16.195557",
+    "lat" : "28.508057"
+  }, {
+    "ubicacion" : "VICTORIA-DEPÓSITO MARRERO",
+    "idema" : "C457I",
+    "lon" : "-16.454445",
+    "lat" : "28.434444"
+  }, {
+    "ubicacion" : "TACORONTE-A S.E.A.",
+    "idema" : "C458A",
+    "lon" : "-16.420065",
+    "lat" : "28.496473"
+  }, {
+    "ubicacion" : "PUERTO DE LA CRUZ",
+    "idema" : "C459Z",
+    "lon" : "-16.548332",
+    "lat" : "28.418056"
+  }, {
+    "ubicacion" : "LLANOS DE MESA ",
+    "idema" : "C468X",
+    "lon" : "-16.625834",
+    "lat" : "28.373056"
+  }, {
+    "ubicacion" : "SAN MATEO (CORRAL DE LOS JUNCOS)",
+    "idema" : "C611E",
+    "lon" : "-15.583889",
+    "lat" : "27.976667"
+  }, {
+    "ubicacion" : "TEJEDA-CRUZ DE TEJEDA",
+    "idema" : "C612F",
+    "lon" : "-15.598889",
+    "lat" : "28.006945"
+  }, {
+    "ubicacion" : "TEJEDA CASCO",
+    "idema" : "C614H",
+    "lon" : "-15.615833",
+    "lat" : "27.995"
+  }, {
+    "ubicacion" : "AGAETE-CASCO",
+    "idema" : "C619X",
+    "lon" : "-15.712778",
+    "lat" : "28.10111"
+  }, {
+    "ubicacion" : "LA ALDEA DE SAN NICOLAS",
+    "idema" : "C619Y",
+    "lon" : "-15.8075",
+    "lat" : "28.00111"
+  }, {
+    "ubicacion" : "SAN BARTOLOME TIRAJANA (CUEVAS DEL PINAR)",
+    "idema" : "C623I",
+    "lon" : "-15.599722",
+    "lat" : "27.926666"
+  }, {
+    "ubicacion" : "SAN BARTOLOME TIRAJANA-LOMO PEDRO ALFONSO",
+    "idema" : "C625O",
+    "lon" : "-15.645",
+    "lat" : "27.856943"
+  }, {
+    "ubicacion" : "SAN NICOLAS T.-TASARTE/COPARLITA",
+    "idema" : "C628B",
+    "lon" : "-15.77",
+    "lat" : "27.90889"
+  }, {
+    "ubicacion" : "MOGAN (PUERTO RICO)",
+    "idema" : "C629Q",
+    "lon" : "-15.711111",
+    "lat" : "27.78"
+  }, {
+    "ubicacion" : "PUERTO DE MOGÁN",
+    "idema" : "C629X",
+    "lon" : "-15.764167",
+    "lat" : "27.81639"
+  }, {
+    "ubicacion" : "SAN BARTOLOME TIRAJANA-H.LAS TIRAJANAS",
+    "idema" : "C635B",
+    "lon" : "-15.574167",
+    "lat" : "27.92"
+  }, {
+    "ubicacion" : "SAN BARTOLOME TIRAJANA-C.INSULAR TURISMO",
+    "idema" : "C639M",
+    "lon" : "-15.575556",
+    "lat" : "27.758057"
+  }, {
+    "ubicacion" : "SAN BARTOLOME TIRAJANA (EL MATORRAL)",
+    "idema" : "C639U",
+    "lon" : "-15.453056",
+    "lat" : "27.8125"
+  }, {
+    "ubicacion" : "AGÜIMES-EL MILANO",
+    "idema" : "C648C",
+    "lon" : "-15.453889",
+    "lat" : "27.9025"
+  }, {
+    "ubicacion" : "TELDE-CENTRO FORESTAL DORAMAS",
+    "idema" : "C648N",
+    "lon" : "-15.457778",
+    "lat" : "27.9875"
+  }, {
+    "ubicacion" : "LAS PALMAS DE GRAN CANARIA/GANDO",
+    "idema" : "C649I",
+    "lon" : "-15.395303",
+    "lat" : "27.917725"
+  }, {
+    "ubicacion" : "TELDE-MELENARA",
+    "idema" : "C649R",
+    "lon" : "-15.377778",
+    "lat" : "27.986668"
+  }, {
+    "ubicacion" : "TEROR-OSORIO",
+    "idema" : "C656V",
+    "lon" : "-15.547222",
+    "lat" : "28.075277"
+  }, {
+    "ubicacion" : "LAS PALMAS G.C.-TAFIRA/ZURBARÁN",
+    "idema" : "C658X",
+    "lon" : "-15.453333",
+    "lat" : "28.078056"
+  }, {
+    "ubicacion" : "LAS PALMAS G.C. SAN CRISTÓBAL",
+    "idema" : "C659H",
+    "lon" : "-15.416111",
+    "lat" : "28.089722"
+  }, {
+    "ubicacion" : "LAS PALMAS DE GC. PLAZA  DE LA FERIA",
+    "idema" : "C659M",
+    "lon" : "-15.421389",
+    "lat" : "28.113056"
+  }, {
+    "ubicacion" : "VALLESECO",
+    "idema" : "C665T",
+    "lon" : "-15.565556",
+    "lat" : "28.065556"
+  }, {
+    "ubicacion" : "AGAETE - SUERTE ALTA",
+    "idema" : "C668V",
+    "lon" : "-15.674914",
+    "lat" : "28.094479"
+  }, {
+    "ubicacion" : "ARUCAS-BAÑADEROS",
+    "idema" : "C669B",
+    "lon" : "-15.506667",
+    "lat" : "28.141666"
+  }, {
+    "ubicacion" : "MASPALOMAS",
+    "idema" : "C689E",
+    "lon" : "-15.595833",
+    "lat" : "27.735832"
+  }, {
+    "ubicacion" : "TEGUISE LA GRACIOSA-HELIPUERTO",
+    "idema" : "C839X",
+    "lon" : "-13.51021",
+    "lat" : "29.229586"
+  }, {
+    "ubicacion" : "PINAR-DEPÓSITO",
+    "idema" : "C916Q",
+    "lon" : "-17.978056",
+    "lat" : "27.71889"
+  }, {
+    "ubicacion" : "DEHESA-REFUGIO",
+    "idema" : "C917E",
+    "lon" : "-18.115",
+    "lat" : "27.725279"
+  }, {
+    "ubicacion" : "TACORÓN-LAPILLAS-TORTUGA",
+    "idema" : "C919K",
+    "lon" : "-18.017778",
+    "lat" : "27.666668"
+  }, {
+    "ubicacion" : "SAN ANDRÉS-DEPÓSITO CABILDO",
+    "idema" : "C925F",
+    "lon" : "-17.960417",
+    "lat" : "27.768951"
+  }, {
+    "ubicacion" : "VALVERDE",
+    "idema" : "C928I",
+    "lon" : "-17.919443",
+    "lat" : "27.810833"
+  }, {
+    "ubicacion" : "EL HIERRO/AEROPUERTO",
+    "idema" : "C929I",
+    "lon" : "-17.88889",
+    "lat" : "27.818888"
+  }, {
+    "ubicacion" : "SABINOSA-BALNEARIO",
+    "idema" : "C939T",
+    "lon" : "-18.107374",
+    "lat" : "27.756441"
+  } ]
+}

@@ -1,6 +1,7 @@
 package main;
 
 import java.awt.EventQueue;
+import java.awt.Frame;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -79,8 +80,8 @@ public class Main extends JFrame {
 		setBounds(100, 100, 452, 314);
 		getContentPane().setLayout(null);
 		this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
-		this.setMinimumSize(new Dimension(640, 480));		
-		
+		this.setMinimumSize(new Dimension(640, 480));
+
 		JLabel lblCoords = new JLabel("Coordenadas:");
         lblCoords.setBounds(20, 123, 497, 14);
         getContentPane().add(lblCoords);
