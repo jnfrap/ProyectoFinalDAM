@@ -7,8 +7,20 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.mail.Authenticator;
+import javax.mail.Message;
+import javax.mail.Multipart;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -224,5 +236,58 @@ public class Utils {
             return true;
         }
         return false;
+	}
+
+	public static String generatePassword(int length) {
+		String password = "";
+		for (int i=0;i<length;i++) {
+			password += (char)(Math.random()*26+97);
+		}
+		return password;
+	}
+	
+	public static void sendEmail(String reciver, String subject, String body) {
+		JSONObject json = new JSONObject(Utils.getFileContent("secret.json")).getJSONObject("secret").getJSONObject("sendgrid");
+		String user = json.getString("user");
+		String apiKey = json.getString("key"); //Is the password too
+		String server = json.getString("server");
+		String port = json.getString("port");
+		String from = json.getString("from");
+		
+		Properties prop = new Properties();
+		prop.put("mail.smtp.auth", true);
+		prop.put("mail.smtp.starttls.enable", "true");
+		prop.put("mail.smtp.host", server);
+		prop.put("mail.smtp.port", port);
+		prop.put("mail.smtp.ssl.trust", server);
+		
+		Session session = Session.getInstance(prop, new Authenticator() {
+		    @Override
+		    protected PasswordAuthentication getPasswordAuthentication() {
+		        return new PasswordAuthentication(user, apiKey);
+		    }
+		});
+		
+		Message message = new MimeMessage(session);
+		try {
+			message.setFrom(new InternetAddress(from));
+			message.setRecipients(
+			  Message.RecipientType.TO, InternetAddress.parse(reciver));
+			message.setSubject(subject);
+
+			String msg = body;
+
+			MimeBodyPart mimeBodyPart = new MimeBodyPart();
+			mimeBodyPart.setContent(msg, "text/html; charset=utf-8");
+
+			Multipart multipart = new MimeMultipart();
+			multipart.addBodyPart(mimeBodyPart);
+
+			message.setContent(multipart);
+
+			Transport.send(message);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 }

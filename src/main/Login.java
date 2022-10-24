@@ -89,6 +89,8 @@ public class Login extends JFrame {
 					String pass = new String(passwordField.getPassword());
 					
 					boolean userExist = false;
+					String reName = null;
+					int activated = 0;
 					try {
 						AES256 decryptor = new AES256();
 						BDDConnection bdd = new BDDConnection();
@@ -102,6 +104,8 @@ public class Login extends JFrame {
 						while(rs.next()) {
 							String reUser = rs.getString(1);
 							String rePass = decryptor.decrypt(rs.getString(2));
+							reName = rs.getString(3);
+							activated = rs.getInt(4);
 							
 							if (reUser.equalsIgnoreCase(email) && rePass.equals(pass)) {
 								userExist = true;
@@ -122,8 +126,12 @@ public class Login extends JFrame {
 								break;
 							}
 						}
-						JOptionPane.showMessageDialog(null, "Bienvenido");
-						dispose();
+						if (activated == 1) {
+							JOptionPane.showMessageDialog(null, "Bienvenido, "+reName);
+							dispose();
+						}else {
+							//Pedir cambio de contraseña y activar en la base de datos
+						}
 					}else {
 						JOptionPane.showMessageDialog(null, "El correo y/o la contraseña no coinciden");
 					}
@@ -148,6 +156,14 @@ public class Login extends JFrame {
 		contentPane.add(lblNoAccount);
 		
 		JButton btnRegister = new JButton("Registrate");
+		btnRegister.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Register rFrame = new Register();
+				rFrame.setVisible(true);
+				rFrame.setTitle("Registro");
+				rFrame.setLocationRelativeTo(null);
+			}
+		});
 		btnRegister.setBounds(169, 187, 97, 23);
 		contentPane.add(btnRegister);
 		
