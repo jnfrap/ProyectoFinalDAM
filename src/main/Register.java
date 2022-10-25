@@ -211,7 +211,12 @@ public class Register extends JFrame {
 					JOptionPane.showMessageDialog(null, "El teléfono debe tener 9 dígitos");
 				}
 
-				if ((""+zip).length() != 5) {
+				String szip = ""+zip;
+				if (szip.length() == 4) {
+				    szip = "0"+szip;
+				}
+				
+				if (szip.length() != 5) {
 					allCorrect = false;
 					JOptionPane.showMessageDialog(null, "El código postal debe tener 5 dígitos");
 				}

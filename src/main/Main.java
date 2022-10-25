@@ -8,6 +8,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.MouseInputListener;
 
+import org.json.JSONObject;
 import org.jxmapviewer.JXMapViewer;
 import org.jxmapviewer.OSMTileFactoryInfo;
 import org.jxmapviewer.input.CenterMapListener;
@@ -49,6 +50,7 @@ import javax.swing.JTextField;
 
 public class Main extends JFrame {
 	private JTextField textField;
+	private static JLabel lblWelcome = new JLabel("Bienvenido, ");
 
 	/**
 	 * Launch the application.
@@ -80,7 +82,7 @@ public class Main extends JFrame {
 		setBounds(100, 100, 452, 314);
 		getContentPane().setLayout(null);
 		this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
-		this.setMinimumSize(new Dimension(640, 480));
+		this.setMinimumSize(new Dimension(1280, 720));
 
 		JLabel lblCoords = new JLabel("Coordenadas:");
         lblCoords.setBounds(20, 123, 497, 14);
@@ -101,6 +103,20 @@ public class Main extends JFrame {
         mapViewer.setZoom(7);
         mapViewer.setAddressLocation(center);
         mapViewer.setBorder(BorderFactory.createLineBorder(Color.black));
+        
+        JButton btnGoToSettings = new JButton("Opciones");
+        btnGoToSettings.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                Settings settings = new Settings();
+                settings.setTitle("Settings");
+                settings.setVisible(true);
+				settings.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
+        btnGoToSettings.setBounds(20, 647, 89, 23);
+        btnGoToSettings.setLocation(10,30);
+        getContentPane().add(btnGoToSettings);
         
         //Set location of things
         this.addComponentListener(new ComponentAdapter() {
@@ -159,6 +175,7 @@ public class Main extends JFrame {
         };
         waypointPainter.setWaypoints(java.util.Collections.singleton(wp));
         mapViewer.setOverlayPainter(waypointPainter);
+        lblCoords.setText("Coordenadas: 38.9942400, -1.8564300");
         
         JComboBox<String> cbMunicipios = new JComboBox<String>();
         cbMunicipios.setBounds(20, 179, 224, 41);
@@ -195,17 +212,64 @@ public class Main extends JFrame {
         getContentPane().add(textField);
         textField.setColumns(10);
         
+        lblWelcome.setBounds(20, 11, 241, 14);
+        getContentPane().add(lblWelcome);
+        
+        JLabel lblTemperatura = new JLabel("Temperatura:");
+        lblTemperatura.setBounds(20, 397, 241, 14);
+        getContentPane().add(lblTemperatura);
+        
+        JLabel lblHumedad = new JLabel("Humedad:");
+        lblHumedad.setBounds(20, 422, 224, 14);
+        getContentPane().add(lblHumedad);
+        
+        JLabel lblVelViento = new JLabel("Velocidad del viento:");
+        lblVelViento.setBounds(20, 447, 241, 14);
+        getContentPane().add(lblVelViento);
+        
+        JButton btnCheckCoords = new JButton("<html><body>Comprobar<br>marcador</body></html>");
+        btnCheckCoords.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String lat = lblCoords.getText().split(",")[0].split(":")[1].trim();
+                String lon = lblCoords.getText().split(",")[1].trim();
+                 
+                JSONObject json = new JSONObject(Utils.getOpenWeatherAPIResponse(lat,lon));
+                JSONObject jsonMain = json.getJSONObject("main");
+                JSONObject jsonWind = json.getJSONObject("wind");
+                
+                float temperatura = jsonMain.getFloat("temp")-273.15f;
+                float humedad = jsonMain.getFloat("humidity");
+                float velViento = jsonWind.getFloat("speed");
+                
+                lblTemperatura.setText("Temperatura: "+temperatura);
+                lblHumedad.setText("Humedad: "+humedad);
+                lblVelViento.setText("Velocidad del viento: "+velViento);
+            }
+        });
+        btnCheckCoords.setBounds(69, 327, 124, 48);
+        getContentPane().add(btnCheckCoords);
+        
+        JButton btnExit = new JButton("Salir");
+        btnExit.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+        btnExit.setBounds(104, 30, 89, 23);
+        getContentPane().add(btnExit);
+        
         textField.addKeyListener(new KeyAdapter() {
         	@Override
         	public void keyReleased(KeyEvent e) {
-        		String text = textField.getText();
-        		cbMunicipios.removeAllItems();
-        		ArrayList<Municipio> municipios = Utils.getMunicipiosArray();
-        		for (int i = 0; i < municipios.size(); i++) {
-        			if (municipios.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
-        				cbMunicipios.addItem(municipios.get(i).getNombre());
-        			}
-        		}
+        	    String text = textField.getText();
+                cbMunicipios.removeAllItems();
+                ArrayList<Municipio> municipios = Utils.getMunicipiosArray();
+                for (int i = 0; i < municipios.size(); i++) {
+                    if (municipios.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
+                        cbMunicipios.addItem(municipios.get(i).getNombre());
+                    }
+                }
+				
         		
         		if (e.getKeyCode()==KeyEvent.VK_ENTER) {
         			String index = cbMunicipios.getSelectedItem().toString();
@@ -243,5 +307,9 @@ public class Main extends JFrame {
             }
         });
         //End of map////////////////////////        
+	}
+	
+	public static JLabel getWelcomeLabel() {
+	    return lblWelcome;
 	}
 }

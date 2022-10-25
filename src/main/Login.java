@@ -1,8 +1,10 @@
 package main;
 
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.EventQueue;
 import java.awt.Frame;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -19,6 +21,9 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JPasswordField;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusEvent;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowFocusListener;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -130,7 +135,7 @@ public class Login extends JFrame {
 							JOptionPane.showMessageDialog(null, "Bienvenido, "+reName);
 							dispose();
 						}else {
-						    JOptionPane.showMessageDialog(null, "Bienvenido, "+reName+"./nPor favor, cambia tu contraseña");
+						    JOptionPane.showMessageDialog(null, "<html><body>Bienvenido, "+reName+"<br>Por favor, cambia tu contraseña</body></html>");
 						    Settings settings = new Settings();
 						    settings.setVisible(true);
 						    settings.setTitle("Opciones");
@@ -138,6 +143,7 @@ public class Login extends JFrame {
 						    settings.getDoneButton().setEnabled(false);
 			                dispose();
 						}
+						Main.getWelcomeLabel().setText(email+" | Bienvenido, "+reName);
 					}else {
 						JOptionPane.showMessageDialog(null, "El correo y/o la contraseña no coinciden");
 					}
