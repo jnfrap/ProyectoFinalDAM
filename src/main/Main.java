@@ -215,40 +215,6 @@ public class Main extends JFrame {
         lblWelcome.setBounds(20, 11, 241, 14);
         getContentPane().add(lblWelcome);
         
-        JLabel lblTemperatura = new JLabel("Temperatura:");
-        lblTemperatura.setBounds(20, 397, 241, 14);
-        getContentPane().add(lblTemperatura);
-        
-        JLabel lblHumedad = new JLabel("Humedad:");
-        lblHumedad.setBounds(20, 422, 224, 14);
-        getContentPane().add(lblHumedad);
-        
-        JLabel lblVelViento = new JLabel("Velocidad del viento:");
-        lblVelViento.setBounds(20, 447, 241, 14);
-        getContentPane().add(lblVelViento);
-        
-        JButton btnCheckCoords = new JButton("<html><body>Comprobar<br>marcador</body></html>");
-        btnCheckCoords.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                String lat = lblCoords.getText().split(",")[0].split(":")[1].trim();
-                String lon = lblCoords.getText().split(",")[1].trim();
-                 
-                JSONObject json = new JSONObject(Utils.getOpenWeatherAPIResponse(lat,lon));
-                JSONObject jsonMain = json.getJSONObject("main");
-                JSONObject jsonWind = json.getJSONObject("wind");
-                
-                float temperatura = jsonMain.getFloat("temp")-273.15f;
-                float humedad = jsonMain.getFloat("humidity");
-                float velViento = jsonWind.getFloat("speed");
-                
-                lblTemperatura.setText("Temperatura: "+temperatura);
-                lblHumedad.setText("Humedad: "+humedad);
-                lblVelViento.setText("Velocidad del viento: "+velViento);
-            }
-        });
-        btnCheckCoords.setBounds(69, 327, 124, 48);
-        getContentPane().add(btnCheckCoords);
-        
         JButton btnExit = new JButton("Salir");
         btnExit.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -257,6 +223,45 @@ public class Main extends JFrame {
         });
         btnExit.setBounds(104, 30, 89, 23);
         getContentPane().add(btnExit);
+        
+        JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
+        btnCheckAll.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            }
+        });
+        btnCheckAll.setBounds(69, 537, 209, 74);
+        getContentPane().add(btnCheckAll);
+        
+        JButton btnHistory = new JButton("Historial");
+        btnHistory.setBounds(129, 627, 89, 23);
+        getContentPane().add(btnHistory);
+        
+        JPanel panelInfoMarker = new JPanel();
+        panelInfoMarker.setBounds(20, 386, 277, 129);
+        getContentPane().add(panelInfoMarker);
+        panelInfoMarker.setLayout(null);
+
+        panelInfoMarker.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
+        
+        JLabel lblTemperatura = new JLabel("Temperatura:");
+        lblTemperatura.setBounds(10, 11, 241, 14);
+        panelInfoMarker.add(lblTemperatura);
+        
+        JLabel lblHumedad = new JLabel("Humedad:");
+        lblHumedad.setBounds(10, 36, 224, 14);
+        panelInfoMarker.add(lblHumedad);
+        
+        JLabel lblVelViento = new JLabel("Velocidad del viento:");
+        lblVelViento.setBounds(10, 61, 241, 14);
+        panelInfoMarker.add(lblVelViento);
+        
+        JLabel lblTipoSuelo = new JLabel("Tipo de suelo predominante:");
+        lblTipoSuelo.setBounds(10, 86, 474, 14);
+        panelInfoMarker.add(lblTipoSuelo);
+        
+        JLabel lblRiskOfFire = new JLabel("Riesgo de incendio:");
+        lblRiskOfFire.setBounds(10, 111, 258, 14);
+        panelInfoMarker.add(lblRiskOfFire);
         
         textField.addKeyListener(new KeyAdapter() {
         	@Override
@@ -307,6 +312,46 @@ public class Main extends JFrame {
             }
         });
         //End of map////////////////////////        
+        
+        JButton btnCheckCoords = new JButton("<html><body>Comprobar<br>marcador</body></html>");
+        btnCheckCoords.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String lat = lblCoords.getText().split(",")[0].split(":")[1].trim();
+                String lon = lblCoords.getText().split(",")[1].trim();
+                 
+                JSONObject json = new JSONObject(Utils.getOpenWeatherAPIResponse(lat,lon));
+                JSONObject jsonMain = json.getJSONObject("main");
+                JSONObject jsonWind = json.getJSONObject("wind");
+                
+                float temperatura = jsonMain.getFloat("temp")-273.15f;
+                float humedad = jsonMain.getFloat("humidity");
+                float velViento = jsonWind.getFloat("speed");
+                
+                ArrayList<String> tiposSuelo = Utils.getSoilGridsAPIResponse(lat,lon);
+                String suelo = tiposSuelo.get(0);
+                
+                lblTemperatura.setText("Temperatura: "+temperatura);
+                lblHumedad.setText("Humedad: "+humedad);
+                lblVelViento.setText("Velocidad del viento: "+velViento);
+                lblTipoSuelo.setText("Tipo de suelo predominante: "+suelo);
+                
+                int baseRisk = 30;
+                float risk = (temperatura+velViento)-(humedad/2);
+                if (risk>baseRisk) {
+                    lblRiskOfFire.setText("Riesgo de incendio: Extremo");
+                }else if (risk>baseRisk-10) {
+                    lblRiskOfFire.setText("Riesgo de incendio: Alto");
+                }else if (risk>baseRisk-20) {
+                    lblRiskOfFire.setText("Riesgo de incendio: Medio");
+                }else if (risk>baseRisk-30) {
+                    lblRiskOfFire.setText("Riesgo de incendio: Bajo");
+                }else {
+                    lblRiskOfFire.setText("Riesgo de incendio: Muy bajo");
+                }
+            }
+        });
+        btnCheckCoords.setBounds(69, 327, 124, 48);
+        getContentPane().add(btnCheckCoords);
 	}
 	
 	public static JLabel getWelcomeLabel() {
