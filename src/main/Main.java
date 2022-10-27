@@ -227,6 +227,11 @@ public class Main extends JFrame {
         JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
         btnCheckAll.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                Results results = new Results();
+                results.setTitle("Results");
+                results.setVisible(true);
+                results.setLocationRelativeTo(null);
+                setEnabled(false);
             }
         });
         btnCheckAll.setBounds(69, 537, 209, 74);
