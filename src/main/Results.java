@@ -12,9 +12,17 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import misc.Resultados;
+import misc.Utils;
+
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import javax.swing.JList;
 
@@ -80,14 +88,39 @@ public class Results extends JFrame {
         //Create a model for the table
         DefaultTableModel model = new DefaultTableModel();
         model.setColumnIdentifiers(columnNames);
+        
+        //Recoger datos////////////
+        String dataLabel = Main.getDataLabel().getText();
+        String[] data = dataLabel.split("\\|");
+        double tlLat = Double.parseDouble(data[0]);
+        double brLat = Double.parseDouble(data[1]);
+        double tlLon = Double.parseDouble(data[2]);
+        double brLon = Double.parseDouble(data[3]);
+        JSONObject json = new JSONObject(Utils.getFileContent("estacionesAEMET.json"));
+        JSONArray estacionesJsonArray = json.getJSONArray("estaciones");
+        
+        ArrayList<Resultados> finalArray = new ArrayList<Resultados>();
+        
+        for (int i=0;i<estacionesJsonArray.length();i++) {
+            double lat = Double.parseDouble(estacionesJsonArray.getJSONObject(i).getString("lat"));
+            double lon = Double.parseDouble(estacionesJsonArray.getJSONObject(i).getString("lon"));
 
+            if (lat>tlLat && lat<brLat && lon>tlLon && lon<brLon) {
+                ArrayList<Resultados> array = Utils.getAemetStationAPIResponse("idema");
+                for (int j=0;j<array.size();j++) {
+                    finalArray.add(array.get(j));
+                }
+            }
+        }
+        
         //Add data to the model
-        for (int i=0;i<30;i++) {
-            model.addRow(new Object[]{"1", "John", "Doe", "25"});
+        for (int i=0;i<finalArray.size();i++) {
+            Resultados r = finalArray.get(i);
+            model.addRow(new Object[]{r.getNombre(), r.getIdema(), r.getTemperatura(), r.getHumedad(),r.getVelViento(),r.getFecha(),r.getTiposSuelo().get(0)});
         }
 
         //Set the model to the table
         table.setModel(model);
-        
+        Main.getDataLabel().setText("");        
     }
 }

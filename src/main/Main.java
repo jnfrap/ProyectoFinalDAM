@@ -2,12 +2,14 @@ package main;
 
 import java.awt.EventQueue;
 import java.awt.Frame;
+import java.awt.Point;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.MouseInputListener;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jxmapviewer.JXMapViewer;
 import org.jxmapviewer.OSMTileFactoryInfo;
@@ -23,6 +25,7 @@ import org.jxmapviewer.viewer.WaypointPainter;
 
 import misc.BDDConnection;
 import misc.Municipio;
+import misc.Resultados;
 import misc.Utils;
 
 import java.awt.BorderLayout;
@@ -51,6 +54,7 @@ import javax.swing.JTextField;
 public class Main extends JFrame {
 	private JTextField textField;
 	private static JLabel lblWelcome = new JLabel("Bienvenido, ");
+	private static JLabel lblData = new JLabel("Data");
 
 	/**
 	 * Launch the application.
@@ -224,19 +228,6 @@ public class Main extends JFrame {
         btnExit.setBounds(104, 30, 89, 23);
         getContentPane().add(btnExit);
         
-        JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
-        btnCheckAll.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                Results results = new Results();
-                results.setTitle("Results");
-                results.setVisible(true);
-                results.setLocationRelativeTo(null);
-                setEnabled(false);
-            }
-        });
-        btnCheckAll.setBounds(69, 537, 209, 74);
-        getContentPane().add(btnCheckAll);
-        
         JButton btnHistory = new JButton("Historial");
         btnHistory.setBounds(129, 627, 89, 23);
         getContentPane().add(btnHistory);
@@ -318,6 +309,10 @@ public class Main extends JFrame {
         });
         //End of map////////////////////////        
         
+        lblData.setBounds(20, 656, 46, 14);
+        lblData.setVisible(false);
+        getContentPane().add(lblData);
+        
         JButton btnCheckCoords = new JButton("<html><body>Comprobar<br>marcador</body></html>");
         btnCheckCoords.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -357,9 +352,39 @@ public class Main extends JFrame {
         });
         btnCheckCoords.setBounds(69, 327, 124, 48);
         getContentPane().add(btnCheckCoords);
+        
+        JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
+        btnCheckAll.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+
+                //Get coordinates of visible map (No funciona bien)
+                GeoPosition gp1 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getLocation()));
+                GeoPosition gp2 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getLocation().x+mapViewer.getWidth(),mapViewer.getLocation().y+mapViewer.getHeight()));
+                
+                double tlLat = gp1.getLatitude();
+                double tlLon = gp1.getLongitude();
+                
+                double brLat = gp2.getLatitude();
+                double brLon = gp2.getLongitude();
+                
+                lblData.setText(tlLat+"|"+tlLon+"|"+brLat+"|"+brLon+"|");
+                
+                Results results = new Results();
+                results.setTitle("Results");
+                results.setVisible(true);
+                results.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
+        btnCheckAll.setBounds(69, 537, 209, 74);
+        getContentPane().add(btnCheckAll);
 	}
 	
 	public static JLabel getWelcomeLabel() {
 	    return lblWelcome;
+	}
+	
+	public static JLabel getDataLabel() {
+	    return lblData;
 	}
 }
