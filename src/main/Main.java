@@ -357,10 +357,10 @@ public class Main extends JFrame {
         btnCheckAll.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
-                //Get coordinates of visible map (No funciona bien)
-                GeoPosition gp1 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getLocation()));
-                GeoPosition gp2 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getLocation().x+mapViewer.getWidth(),mapViewer.getLocation().y+mapViewer.getHeight()));
-                
+                //Get coordinates of visible map
+                GeoPosition gp1 = mapViewer.convertPointToGeoPosition(new Point(0,0));
+                GeoPosition gp2 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getWidth(),mapViewer.getHeight()));
+
                 double tlLat = gp1.getLatitude();
                 double tlLon = gp1.getLongitude();
                 
