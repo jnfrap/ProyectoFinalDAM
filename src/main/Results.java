@@ -1,8 +1,6 @@
 package main;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.EventQueue;
 import java.awt.Frame;
 
@@ -17,6 +15,7 @@ import javax.swing.table.DefaultTableModel;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import misc.BDDConnection;
 import misc.Municipio;
 import misc.Resultados;
 import misc.Utils;
@@ -24,11 +23,13 @@ import misc.Utils;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
-import java.sql.Date;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
-import javax.swing.JList;
 
 public class Results extends JFrame {
 
@@ -101,6 +102,35 @@ public class Results extends JFrame {
         DefaultTableModel model = new DefaultTableModel();
         model.setColumnIdentifiers(columnNames);
         
+        String email = Main.getWelcomeLabel().getText().split("\\|")[0].trim();
+        String currentDate = LocalDateTime.now().toString();
+        int petitionID = -1;
+        int userID = -1;
+        try {
+            BDDConnection bdd = new BDDConnection();
+            Connection con = bdd.getConnection();
+            
+            //User ID
+            PreparedStatement sentence = con.prepareStatement("SELECT id from usuarios where UPPER(email)=?");
+            sentence.setString(1, email.toUpperCase());
+            ResultSet rs = sentence.executeQuery();
+            
+            while(rs.next()) {
+                userID = rs.getInt(1);
+            }
+
+            //Petition ID
+            PreparedStatement sentence2 = con.prepareStatement("SELECT max(id) from peticiones");
+            ResultSet rs2 = sentence2.executeQuery();
+            while(rs2.next()) {
+                petitionID = rs2.getInt(1)+1;
+            }
+            
+            bdd.closeConnection();
+        } catch (Exception e1) {
+            e1.printStackTrace();
+        }
+        
         //Recoger datos////////////
         String dataLabel = Main.getDataLabel().getText();
         String[] data = dataLabel.split("\\|");
@@ -144,6 +174,32 @@ public class Results extends JFrame {
                 ArrayList<String> tiposSuelo = Utils.getSoilGridsAPIResponse(lat+"",lon+"");
                 
                 model.addRow(new Object[]{municipios.get(i).getNombre(),"",temperatura,humedad,velViento,LocalDateTime.now(),tiposSuelo.toString()});
+                try {
+                    BDDConnection bdd = new BDDConnection();
+                    Connection con = bdd.getConnection();
+                    
+                    Statement stmt=con.createStatement();
+                    ResultSet rs1 = stmt.executeQuery("SELECT max(id) from llamadas");
+                    rs1.next();
+                    int id = (Integer)rs1.getInt(1)+1;
+                    String query = "insert into llamadas (id,peticion_id,nombre,idema,temperatura,humedad,velViento,fecha,suelo) values (?,?,?,?,?,?,?,?,?)";
+                    PreparedStatement preparedStmt = con.prepareStatement(query);
+                    preparedStmt.setInt(1, id);
+                    preparedStmt.setInt(2, petitionID);
+                    preparedStmt.setString(3, municipios.get(i).getNombre());
+                    preparedStmt.setString(4, "");
+                    preparedStmt.setString(5, temperatura+"");
+                    preparedStmt.setString(6, humedad+"");
+                    preparedStmt.setString(7, velViento+"");
+                    preparedStmt.setString(8, currentDate);
+                    preparedStmt.setString(9, tiposSuelo.toString());
+                    preparedStmt.execute();
+                    
+                    bdd.closeConnection();
+                }catch(Exception e) {
+                    System.out.println("Error insertando llamada, primer bloque");
+                    e.printStackTrace();
+                }
             }
         }
         
@@ -151,6 +207,54 @@ public class Results extends JFrame {
         for (int i=0;i<finalArray.size();i++) {
             Resultados r = finalArray.get(i);
             model.addRow(new Object[]{"<html><body><b>(AEMET)</b>"+r.getNombre()+"</body></html>", r.getIdema(), r.getTemperatura(), r.getHumedad(),r.getVelViento(),r.getFecha()});
+            
+            try {
+                BDDConnection bdd = new BDDConnection();
+                Connection con = bdd.getConnection();
+                
+                Statement stmt=con.createStatement();
+                ResultSet rs1 = stmt.executeQuery("SELECT max(id) from llamadas");
+                rs1.next();
+                int id = (Integer)rs1.getInt(1)+1;
+                String query = "insert into llamadas (id,peticion_id,nombre,idema,temperatura,humedad,velViento,fecha,suelo) values (?,?,?,?,?,?,?,?,?)";
+                PreparedStatement preparedStmt = con.prepareStatement(query);
+                preparedStmt.setInt(1, id);
+                preparedStmt.setInt(2, petitionID);
+                preparedStmt.setString(3, "<html><body><b>(AEMET)</b>"+r.getNombre()+"</body></html>");
+                preparedStmt.setString(4, r.getIdema());
+                preparedStmt.setString(5, r.getTemperatura()+"");
+                preparedStmt.setString(6, r.getHumedad()+"");
+                preparedStmt.setString(7, r.getVelViento()+"");
+                preparedStmt.setString(8, r.getFecha());
+                preparedStmt.setString(9, "");
+                preparedStmt.execute();
+                
+                bdd.closeConnection();
+            }catch(Exception e) {
+                System.out.println("Error insertando llamada, segundo bloque");
+                e.printStackTrace();
+            }
+        }
+        
+        try {
+            BDDConnection bdd = new BDDConnection();
+            Connection con = bdd.getConnection();
+            
+            Statement stmt=con.createStatement();
+            ResultSet rs1 = stmt.executeQuery("SELECT max(id) from peticiones");
+            rs1.next();
+            int id = (Integer)rs1.getInt(1)+1;
+            String query = "insert into peticiones (id,user_id,date) values (?,?,?)";
+            PreparedStatement preparedStmt = con.prepareStatement(query);
+            preparedStmt.setInt(1, id);
+            preparedStmt.setInt(2, userID);
+            preparedStmt.setString(3, currentDate);
+            preparedStmt.execute();
+            
+            bdd.closeConnection();
+        }catch(Exception e) {
+            System.out.println("Error insertando peticion");
+            e.printStackTrace();
         }
 
         //Set the model to the table

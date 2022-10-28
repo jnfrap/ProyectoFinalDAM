@@ -1,34 +1,27 @@
 package main;
 
 import java.awt.EventQueue;
-import java.awt.Frame;
 import java.awt.Point;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
 import javax.swing.event.MouseInputListener;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jxmapviewer.JXMapViewer;
 import org.jxmapviewer.OSMTileFactoryInfo;
 import org.jxmapviewer.input.CenterMapListener;
 import org.jxmapviewer.input.PanKeyListener;
 import org.jxmapviewer.input.PanMouseInputListener;
-import org.jxmapviewer.input.ZoomMouseWheelListenerCursor;
 import org.jxmapviewer.viewer.DefaultTileFactory;
 import org.jxmapviewer.viewer.GeoPosition;
 import org.jxmapviewer.viewer.TileFactoryInfo;
 import org.jxmapviewer.viewer.Waypoint;
 import org.jxmapviewer.viewer.WaypointPainter;
 
-import misc.BDDConnection;
 import misc.Municipio;
-import misc.Resultados;
 import misc.Utils;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 
 import javax.swing.JLabel;
@@ -41,13 +34,9 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.geom.Point2D;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import java.awt.Dimension;
-import javax.swing.JTable;
 import javax.swing.JComboBox;
 import javax.swing.JTextField;
 
@@ -89,7 +78,7 @@ public class Main extends JFrame {
 		this.setMinimumSize(new Dimension(1280, 720));
 
 		JLabel lblCoords = new JLabel("Coordenadas:");
-        lblCoords.setBounds(20, 123, 497, 14);
+        lblCoords.setBounds(27, 301, 497, 14);
         getContentPane().add(lblCoords);
 		
 		///////////////////Map
@@ -169,6 +158,9 @@ public class Main extends JFrame {
         btnZoomOut.setBounds(20, 56, 41, 41);
         getContentPane().add(btnZoomOut);
         
+        JComboBox<String> cbMunicipios = new JComboBox<String>();
+        cbMunicipios.setBounds(30, 43, 224, 41);
+        
         //WayPoint
         WaypointPainter<Waypoint> waypointPainter = new WaypointPainter<Waypoint>();
         Waypoint wp = new Waypoint() {
@@ -180,41 +172,10 @@ public class Main extends JFrame {
         waypointPainter.setWaypoints(java.util.Collections.singleton(wp));
         mapViewer.setOverlayPainter(waypointPainter);
         lblCoords.setText("Coordenadas: 38.9942400, -1.8564300");
-        
-        JComboBox<String> cbMunicipios = new JComboBox<String>();
-        cbMunicipios.setBounds(20, 179, 224, 41);
-        getContentPane().add(cbMunicipios);
-        
-        cbMunicipios.removeAllItems();
 		ArrayList<Municipio> municipios = Utils.getMunicipiosArray();
 		for (int i = 0; i < municipios.size(); i++) {
 			cbMunicipios.addItem(municipios.get(i).getNombre());
 		}
-        
-        JButton btnSubmitMunicipio = new JButton("Ir");
-        btnSubmitMunicipio.addActionListener(new ActionListener() {
-        	public void actionPerformed(ActionEvent e) {
-        		String index = cbMunicipios.getSelectedItem().toString();
-        		
-        		Municipio municipio = null;
-        		for (int i=0;i<municipios.size();i++) {
-        			if (index.equals(municipios.get(i).getNombre())) {
-        				municipio = municipios.get(i);
-        			}
-        		}
-        		
-        		double lat = municipio.getLatitud();
-        		double lon = municipio.getLongitud();
-        		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
-        	}
-        });
-        btnSubmitMunicipio.setBounds(86, 283, 89, 23);
-        getContentPane().add(btnSubmitMunicipio);
-        
-        textField = new JTextField();
-        textField.setBounds(20, 231, 224, 41);
-        getContentPane().add(textField);
-        textField.setColumns(10);
         
         lblWelcome.setBounds(20, 11, 241, 14);
         getContentPane().add(lblWelcome);
@@ -229,6 +190,15 @@ public class Main extends JFrame {
         getContentPane().add(btnExit);
         
         JButton btnHistory = new JButton("Historial");
+        btnHistory.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                History history = new History();
+                history.setTitle("History");
+                history.setVisible(true);
+                history.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
         btnHistory.setBounds(129, 627, 89, 23);
         getContentPane().add(btnHistory);
         
@@ -258,35 +228,6 @@ public class Main extends JFrame {
         JLabel lblRiskOfFire = new JLabel("Riesgo de incendio:");
         lblRiskOfFire.setBounds(10, 111, 258, 14);
         panelInfoMarker.add(lblRiskOfFire);
-        
-        textField.addKeyListener(new KeyAdapter() {
-        	@Override
-        	public void keyReleased(KeyEvent e) {
-        	    String text = textField.getText();
-                cbMunicipios.removeAllItems();
-                ArrayList<Municipio> municipios = Utils.getMunicipiosArray();
-                for (int i = 0; i < municipios.size(); i++) {
-                    if (municipios.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
-                        cbMunicipios.addItem(municipios.get(i).getNombre());
-                    }
-                }
-				
-        		
-        		if (e.getKeyCode()==KeyEvent.VK_ENTER) {
-        			String index = cbMunicipios.getSelectedItem().toString();
-            		
-            		Municipio municipio = null;
-            		for (int i=0;i<municipios.size();i++) {
-            			if (index.equals(municipios.get(i).getNombre())) {
-            				municipio = municipios.get(i);
-            			}
-            		}            		
-            		double lat = municipio.getLatitud();
-            		double lon = municipio.getLongitud();
-            		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
-        		}
-        	}
-        });
         
         //Get coordinates where clicked
         mapViewer.addMouseListener(new MouseAdapter() {
@@ -350,7 +291,7 @@ public class Main extends JFrame {
                 }
             }
         });
-        btnCheckCoords.setBounds(69, 327, 124, 48);
+        btnCheckCoords.setBounds(94, 326, 124, 48);
         getContentPane().add(btnCheckCoords);
         
         JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
@@ -378,6 +319,74 @@ public class Main extends JFrame {
         });
         btnCheckAll.setBounds(69, 537, 209, 74);
         getContentPane().add(btnCheckAll);
+        
+        JPanel panelSearch = new JPanel();
+        panelSearch.setBounds(10, 84, 284, 181);
+        getContentPane().add(panelSearch);
+        panelSearch.setLayout(null);
+        panelSearch.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
+        
+        JButton btnSubmitMunicipio = new JButton("Ir");
+        btnSubmitMunicipio.setBounds(96, 147, 89, 23);
+        panelSearch.add(btnSubmitMunicipio);
+        
+        textField = new JTextField();
+        textField.setBounds(30, 95, 224, 41);
+        panelSearch.add(textField);
+        textField.setColumns(10);
+        
+        cbMunicipios.removeAllItems();
+        panelSearch.add(cbMunicipios);
+        
+        JLabel lblMunSearch = new JLabel("Buscador de municipios");
+        lblMunSearch.setBounds(76, 11, 138, 14);
+        panelSearch.add(lblMunSearch);
+        
+        textField.addKeyListener(new KeyAdapter() {
+        	@Override
+        	public void keyReleased(KeyEvent e) {
+        	    String text = textField.getText();
+                cbMunicipios.removeAllItems();
+                ArrayList<Municipio> municipios = Utils.getMunicipiosArray();
+                for (int i = 0; i < municipios.size(); i++) {
+                    if (municipios.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
+                        cbMunicipios.addItem(municipios.get(i).getNombre());
+                    }
+                }
+				
+        		
+        		if (e.getKeyCode()==KeyEvent.VK_ENTER) {
+        			String index = cbMunicipios.getSelectedItem().toString();
+            		
+            		Municipio municipio = null;
+            		for (int i=0;i<municipios.size();i++) {
+            			if (index.equals(municipios.get(i).getNombre())) {
+            				municipio = municipios.get(i);
+            			}
+            		}            		
+            		double lat = municipio.getLatitud();
+            		double lon = municipio.getLongitud();
+            		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
+        		}
+        	}
+        });
+        btnSubmitMunicipio.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		String index = cbMunicipios.getSelectedItem().toString();
+        		
+        		Municipio municipio = null;
+        		for (int i=0;i<municipios.size();i++) {
+        			if (index.equals(municipios.get(i).getNombre())) {
+        				municipio = municipios.get(i);
+        			}
+        		}
+        		
+        		double lat = municipio.getLatitud();
+        		double lon = municipio.getLongitud();
+        		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
+        	}
+        });
+        
 	}
 	
 	public static JLabel getWelcomeLabel() {
