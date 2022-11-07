@@ -130,6 +130,9 @@ public class Main extends JFrame {
             	mapViewer.setLocation(w-(w-10),h-(h-30));
             	mapViewer.setSize(w-40,h-120);
             	
+            	btnZoomIn.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-55,btnZoomIn.getLocation().y);
+            	btnZoomOut.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-25,btnZoomOut.getLocation().y);
+            	
             	panelInfoMarker.setLocation(10, h-87);
             	panelInfoMarker.setSize(w-40,23);
             }
