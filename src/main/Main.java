@@ -52,6 +52,7 @@ public class Main extends JFrame {
 	private static JLabel lblWelcome = new JLabel("Bienvenido a Incendios");
 	private static JLabel lblData = new JLabel("Data");
 	private JPanel panelInfoMarker = new JPanel();
+	private JLabel lblDataCoords = new JLabel("Coordenadas: 38.9942400, -1.8564300");
 
 	/**
 	 * Launch the application.
@@ -123,10 +124,7 @@ public class Main extends JFrame {
             public void componentResized(ComponentEvent e) {
             	int w = (int)Math.round(e.getComponent().getSize().width);
             	int h = (int)Math.round(e.getComponent().getSize().height);
-            	int wm = (int)Math.round(w*0.68);
-            	int hm = (int)Math.round(h*0.9);
-            	int ws = (int)Math.round(w*0.3);
-            	int hs = (h-(hm))/2;
+            	
             	mapViewer.setLocation(w-(w-10),h-(h-30));
             	mapViewer.setSize(w-40,h-120);
             	
@@ -168,7 +166,7 @@ public class Main extends JFrame {
         getContentPane().add(btnZoomOut);
         
         JComboBox<String> cbMunicipios = new JComboBox<String>();
-        cbMunicipios.setBounds(134, 3, 224, 19);
+        cbMunicipios.setBounds(151, 3, 224, 19);
         
         //WayPoint
         WaypointPainter<Waypoint> waypointPainter = new WaypointPainter<Waypoint>();
@@ -223,6 +221,7 @@ public class Main extends JFrame {
                 double lat = gp.getLatitude();
                 double lon = gp.getLongitude();
                 lblCoords.setText(String.format("Coordenadas: %.7f, %.7f",lat,lon));
+                lblDataCoords.setText("Coordenadas: "+lat+", "+lon);
                 
                 Waypoint wp = new Waypoint() {
                     @Override
@@ -243,8 +242,8 @@ public class Main extends JFrame {
         JButton btnCheckCoords = new JButton("<html><body>Comprobar marcador</body></html>");
         btnCheckCoords.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                String lat = lblCoords.getText().split(",")[0].split(":")[1].trim();
-                String lon = lblCoords.getText().split(",")[1].trim();
+                String lat = lblDataCoords.getText().split(",")[0].split(":")[1].trim();
+                String lon = lblDataCoords.getText().split(",")[1].trim();
                  
                 JSONObject json = new JSONObject(Utils.getOpenWeatherAPIResponse(lat,lon));
                 JSONObject jsonMain = json.getJSONObject("main");
@@ -257,7 +256,7 @@ public class Main extends JFrame {
                 ArrayList<String> tiposSuelo = Utils.getSoilGridsAPIResponse(lat,lon);
                 String suelo = tiposSuelo.get(0);
                 
-                lblTemperatura.setText("Temperatura: "+temperatura);
+                lblTemperatura.setText(String.format("Temperatura: %.2f", temperatura));
                 lblHumedad.setText("Humedad: "+humedad);
                 lblVelViento.setText("Velocidad del viento: "+velViento);
                 lblTipoSuelo.setText("Tipo de suelo predominante: "+suelo);
@@ -287,17 +286,17 @@ public class Main extends JFrame {
         getContentPane().add(btnCheckCoords);
         
         JPanel panelSearch = new JPanel();
-        panelSearch.setBounds(697, 2, 701, 25);
+        panelSearch.setBounds(697, 2, 718, 25);
         getContentPane().add(panelSearch);
         panelSearch.setLayout(null);
         panelSearch.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
         
         JButton btnSubmitMunicipio = new JButton("Ir");
-        btnSubmitMunicipio.setBounds(602, 5, 89, 15);
+        btnSubmitMunicipio.setBounds(619, 5, 89, 15);
         panelSearch.add(btnSubmitMunicipio);
         
         textField = new JTextField();
-        textField.setBounds(368, 3, 224, 19);
+        textField.setBounds(385, 3, 224, 19);
         panelSearch.add(textField);
         textField.setColumns(10);
         
@@ -307,6 +306,10 @@ public class Main extends JFrame {
         JLabel lblMunSearch = new JLabel("Buscador de municipios");
         lblMunSearch.setBounds(10, 5, 138, 14);
         panelSearch.add(lblMunSearch);
+        
+        lblDataCoords.setBounds(124, 445, 102, 14);
+        lblDataCoords.setVisible(false);
+        getContentPane().add(lblDataCoords);
         
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
