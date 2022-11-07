@@ -93,14 +93,14 @@ public class Main extends JFrame {
 		///////////////////Map
 		JButton btnZoomIn = new JButton("");
 		try {
-            Image img = ImageIO.read(getClass().getResource("../images/plus.png"));
+            Image img = ImageIO.read(getClass().getResource("/images/plus.png"));
             btnZoomIn.setIcon(new ImageIcon(img));
         } catch (IOException e1) {
             e1.printStackTrace();
         }
 		JButton btnZoomOut = new JButton("");
 		try {
-            Image img = ImageIO.read(getClass().getResource("../images/minus.png"));
+            Image img = ImageIO.read(getClass().getResource("/images/minus.png"));
             btnZoomOut.setIcon(new ImageIcon(img));
         } catch (IOException e1) {
             e1.printStackTrace();
@@ -278,7 +278,7 @@ public class Main extends JFrame {
         });
         btnCheckCoords.setBounds(500, 5, 187, 23);
         try {
-            Image img = ImageIO.read(getClass().getResource("../images/SendIcon.png"));
+            Image img = ImageIO.read(getClass().getResource("/images/SendIcon.png"));
             btnCheckCoords.setIcon(new ImageIcon(img));
         } catch (IOException e1) {
             e1.printStackTrace();

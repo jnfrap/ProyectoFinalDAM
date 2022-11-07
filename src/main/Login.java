@@ -78,7 +78,8 @@ public class Login extends JFrame {
 		
 		JButton btnLogin = new JButton("Iniciar sesión");
 		btnLogin.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+			@SuppressWarnings("unlikely-arg-type")
+            public void actionPerformed(ActionEvent e) {
 				if (tfLoginEmail.getText().equals("") || passwordField.getPassword().equals("")) {
 					JOptionPane.showMessageDialog(null, "Rellena los datos de inicio de sesión para continuar");
 				}else if(!Utils.checkIfEmail(tfLoginEmail.getText())) {
