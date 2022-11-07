@@ -219,12 +219,34 @@ public class Settings extends JFrame {
                             BDDConnection bdd = new BDDConnection();
                             Connection con = bdd.getConnection();
                             
-                            PreparedStatement sentence = con.prepareStatement("SELECT email,password from usuarios where email=upper(?) and password=?");
+                            PreparedStatement sentence = con.prepareStatement("SELECT email,password,name,surname,phone,address,city,country,zip from usuarios where email=upper(?) and password=?");
                             sentence.setString(1, email.toUpperCase());
                             sentence.setString(2, decryptor.encrypt(writtenPass));
                             ResultSet rs = sentence.executeQuery();
                             
                             if (rs.next()) {
+                                String dbEmail = rs.getString(1);
+                                String dbPassword = rs.getString(2);
+                                String dbName = rs.getString(3);
+                                String dbSurname = rs.getString(4);
+                                int dbPhone = rs.getInt(5);
+                                String dbAdress = rs.getString(6);
+                                String dbCity = rs.getString(7);
+                                String dbCountry = rs.getString(8);
+                                int dbZip = rs.getInt(9);
+                                
+                                sentence = con.prepareStatement("insert into deleted_users(email,password,name,surname,phone,address,city,country,zip) values(?,?,?,?,?,?,?,?,?)");
+                                sentence.setString(1, dbEmail);
+                                sentence.setString(2, dbPassword);
+                                sentence.setString(3, dbName);
+                                sentence.setString(4, dbSurname);
+                                sentence.setInt(5, dbPhone);
+                                sentence.setString(6, dbAdress);
+                                sentence.setString(7, dbCity);
+                                sentence.setString(8, dbCountry);
+                                sentence.setInt(9, dbZip);
+                                sentence.executeUpdate();
+                                
                                 sentence = con.prepareStatement("DELETE FROM usuarios WHERE email=upper(?)");
                                 sentence.setString(1, email.toUpperCase());
                                 sentence.executeUpdate();
