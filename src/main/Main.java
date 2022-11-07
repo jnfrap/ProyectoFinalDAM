@@ -39,6 +39,9 @@ import java.awt.event.ActionEvent;
 import java.awt.Dimension;
 import javax.swing.JComboBox;
 import javax.swing.JTextField;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
 
 public class Main extends JFrame {
 	private JTextField textField;
@@ -96,20 +99,6 @@ public class Main extends JFrame {
         mapViewer.setZoom(7);
         mapViewer.setAddressLocation(center);
         mapViewer.setBorder(BorderFactory.createLineBorder(Color.black));
-        
-        JButton btnGoToSettings = new JButton("Opciones");
-        btnGoToSettings.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                Settings settings = new Settings();
-                settings.setTitle("Settings");
-                settings.setVisible(true);
-				settings.setLocationRelativeTo(null);
-                setEnabled(false);
-            }
-        });
-        btnGoToSettings.setBounds(20, 647, 89, 23);
-        btnGoToSettings.setLocation(10,30);
-        getContentPane().add(btnGoToSettings);
         
         //Set location of things
         this.addComponentListener(new ComponentAdapter() {
@@ -179,28 +168,6 @@ public class Main extends JFrame {
         
         lblWelcome.setBounds(20, 11, 241, 14);
         getContentPane().add(lblWelcome);
-        
-        JButton btnExit = new JButton("Salir");
-        btnExit.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
-        });
-        btnExit.setBounds(104, 30, 89, 23);
-        getContentPane().add(btnExit);
-        
-        JButton btnHistory = new JButton("Historial");
-        btnHistory.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                History history = new History();
-                history.setTitle("History");
-                history.setVisible(true);
-                history.setLocationRelativeTo(null);
-                setEnabled(false);
-            }
-        });
-        btnHistory.setBounds(129, 627, 89, 23);
-        getContentPane().add(btnHistory);
         
         JPanel panelInfoMarker = new JPanel();
         panelInfoMarker.setBounds(20, 386, 277, 129);
@@ -294,32 +261,6 @@ public class Main extends JFrame {
         btnCheckCoords.setBounds(94, 326, 124, 48);
         getContentPane().add(btnCheckCoords);
         
-        JButton btnCheckAll = new JButton("<html><body align=\"center\">Comprobar datos de pueblos<br>y estaciones AEMET<br>visibles en el mapa</body></html>");
-        btnCheckAll.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-
-                //Get coordinates of visible map
-                GeoPosition gp1 = mapViewer.convertPointToGeoPosition(new Point(0,0));
-                GeoPosition gp2 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getWidth(),mapViewer.getHeight()));
-
-                double tlLat = gp1.getLatitude();
-                double tlLon = gp1.getLongitude();
-                
-                double brLat = gp2.getLatitude();
-                double brLon = gp2.getLongitude();
-                
-                lblData.setText(tlLat+"|"+tlLon+"|"+brLat+"|"+brLon+"|");
-                
-                Results results = new Results();
-                results.setTitle("Results");
-                results.setVisible(true);
-                results.setLocationRelativeTo(null);
-                setEnabled(false);
-            }
-        });
-        btnCheckAll.setBounds(69, 537, 209, 74);
-        getContentPane().add(btnCheckAll);
-        
         JPanel panelSearch = new JPanel();
         panelSearch.setBounds(10, 84, 284, 181);
         getContentPane().add(panelSearch);
@@ -341,6 +282,76 @@ public class Main extends JFrame {
         JLabel lblMunSearch = new JLabel("Buscador de municipios");
         lblMunSearch.setBounds(76, 11, 138, 14);
         panelSearch.add(lblMunSearch);
+        
+        JMenuBar menuBar = new JMenuBar();
+        setJMenuBar(menuBar);
+        
+        JMenu mnAEMET = new JMenu("AEMET");
+        menuBar.add(mnAEMET);
+        
+        JMenuItem mntmSeeAll = new JMenuItem("Datos de todo lo visible en el mapa");
+        mnAEMET.add(mntmSeeAll);
+        
+        mntmSeeAll.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ev) {
+                GeoPosition gp1 = mapViewer.convertPointToGeoPosition(new Point(0,0));
+                GeoPosition gp2 = mapViewer.convertPointToGeoPosition(new Point(mapViewer.getWidth(),mapViewer.getHeight()));
+
+                double tlLat = gp1.getLatitude();
+                double tlLon = gp1.getLongitude();
+                
+                double brLat = gp2.getLatitude();
+                double brLon = gp2.getLongitude();
+                
+                lblData.setText(tlLat+"|"+tlLon+"|"+brLat+"|"+brLon+"|");
+                
+                Results results = new Results();
+                results.setTitle("Results");
+                results.setVisible(true);
+                results.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
+        mnAEMET.addSeparator();
+        
+        JMenuItem mntmHistorial = new JMenuItem("Historial");
+        mnAEMET.add(mntmHistorial);
+        
+        mntmHistorial.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ev) {
+                History history = new History();
+                history.setTitle("History");
+                history.setVisible(true);
+                history.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
+        
+        JMenu mnOpciones = new JMenu("Opciones");
+        menuBar.add(mnOpciones);
+        
+        JMenuItem mntmOpciones = new JMenuItem("Opciones");
+        mnOpciones.add(mntmOpciones);
+        
+        mntmOpciones.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ev) {
+                Settings settings = new Settings();
+                settings.setTitle("Settings");
+                settings.setVisible(true);
+                settings.setLocationRelativeTo(null);
+                setEnabled(false);
+            }
+        });
+        mnOpciones.addSeparator();
+        
+        JMenuItem mntmSalir = new JMenuItem("Salir");
+        mnOpciones.add(mntmSalir);
+        
+        mntmSalir.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ev) {
+                    System.exit(0);
+            }
+        });
         
         textField.addKeyListener(new KeyAdapter() {
         	@Override
