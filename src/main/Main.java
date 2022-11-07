@@ -1,6 +1,7 @@
 package main;
 
 import java.awt.EventQueue;
+import java.awt.Image;
 import java.awt.Point;
 
 import javax.swing.JFrame;
@@ -25,7 +26,9 @@ import misc.Utils;
 import java.awt.Color;
 
 import javax.swing.JLabel;
+import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
@@ -34,6 +37,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.awt.event.ActionEvent;
 import java.awt.Dimension;
@@ -45,8 +49,9 @@ import javax.swing.JMenuItem;
 
 public class Main extends JFrame {
 	private JTextField textField;
-	private static JLabel lblWelcome = new JLabel("Bienvenido, ");
+	private static JLabel lblWelcome = new JLabel("Bienvenido a Incendios");
 	private static JLabel lblData = new JLabel("Data");
+	private JPanel panelInfoMarker = new JPanel();
 
 	/**
 	 * Launch the application.
@@ -75,18 +80,30 @@ public class Main extends JFrame {
 	 */
 	public Main() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 452, 314);
+		setBounds(100, 100, 1500, 720);
 		getContentPane().setLayout(null);
 		this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
-		this.setMinimumSize(new Dimension(1280, 720));
+		this.setMinimumSize(new Dimension(1500, 720));
 
 		JLabel lblCoords = new JLabel("Coordenadas:");
-        lblCoords.setBounds(27, 301, 497, 14);
+        lblCoords.setBounds(273, 11, 347, 14);
         getContentPane().add(lblCoords);
 		
 		///////////////////Map
-		JButton btnZoomIn = new JButton("+");
-		JButton btnZoomOut = new JButton("-");
+		JButton btnZoomIn = new JButton("");
+		try {
+            Image img = ImageIO.read(getClass().getResource("../images/plus.png"));
+            btnZoomIn.setIcon(new ImageIcon(img));
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+		JButton btnZoomOut = new JButton("");
+		try {
+            Image img = ImageIO.read(getClass().getResource("../images/minus.png"));
+            btnZoomOut.setIcon(new ImageIcon(img));
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
 		TileFactoryInfo info = new OSMTileFactoryInfo();
         DefaultTileFactory tileFactory = new DefaultTileFactory(info);
         tileFactory.setThreadPoolSize(8);
@@ -110,11 +127,11 @@ public class Main extends JFrame {
             	int hm = (int)Math.round(h*0.9);
             	int ws = (int)Math.round(w*0.3);
             	int hs = (h-(hm))/2;
-            	mapViewer.setLocation(ws,hs/2);
-            	mapViewer.setSize(wm,hm);
+            	mapViewer.setLocation(w-(w-10),h-(h-30));
+            	mapViewer.setSize(w-40,h-120);
             	
-            	btnZoomIn.setLocation(ws-(btnZoomIn.getSize().width+5), hs);
-            	btnZoomOut.setLocation(btnZoomIn.getLocation().x, hs+btnZoomIn.getSize().height+5);
+            	panelInfoMarker.setLocation(10, h-87);
+            	panelInfoMarker.setSize(w-40,23);
             }
         });
         
@@ -134,7 +151,7 @@ public class Main extends JFrame {
         		mapViewer.setZoom(mapViewer.getZoom()-1);
         	}
         });
-        btnZoomIn.setBounds(10, 11, 41, 41);
+        btnZoomIn.setBounds(1408, 3, 25, 25);
         getContentPane().add(btnZoomIn);
 
         btnZoomOut.addActionListener(new ActionListener() {
@@ -144,11 +161,11 @@ public class Main extends JFrame {
         		}
         	}
         });
-        btnZoomOut.setBounds(20, 56, 41, 41);
+        btnZoomOut.setBounds(1440, 3, 25, 25);
         getContentPane().add(btnZoomOut);
         
         JComboBox<String> cbMunicipios = new JComboBox<String>();
-        cbMunicipios.setBounds(30, 43, 224, 41);
+        cbMunicipios.setBounds(134, 3, 224, 19);
         
         //WayPoint
         WaypointPainter<Waypoint> waypointPainter = new WaypointPainter<Waypoint>();
@@ -166,34 +183,33 @@ public class Main extends JFrame {
 			cbMunicipios.addItem(municipios.get(i).getNombre());
 		}
         
-        lblWelcome.setBounds(20, 11, 241, 14);
+        lblWelcome.setBounds(11, 11, 260, 14);
         getContentPane().add(lblWelcome);
         
-        JPanel panelInfoMarker = new JPanel();
-        panelInfoMarker.setBounds(20, 386, 277, 129);
+        panelInfoMarker.setBounds(10, 625, 1244, 23);
         getContentPane().add(panelInfoMarker);
         panelInfoMarker.setLayout(null);
 
         panelInfoMarker.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
         
         JLabel lblTemperatura = new JLabel("Temperatura:");
-        lblTemperatura.setBounds(10, 11, 241, 14);
+        lblTemperatura.setBounds(10, 5, 139, 14);
         panelInfoMarker.add(lblTemperatura);
         
         JLabel lblHumedad = new JLabel("Humedad:");
-        lblHumedad.setBounds(10, 36, 224, 14);
+        lblHumedad.setBounds(142, 5, 145, 14);
         panelInfoMarker.add(lblHumedad);
         
         JLabel lblVelViento = new JLabel("Velocidad del viento:");
-        lblVelViento.setBounds(10, 61, 241, 14);
+        lblVelViento.setBounds(284, 5, 241, 14);
         panelInfoMarker.add(lblVelViento);
         
         JLabel lblTipoSuelo = new JLabel("Tipo de suelo predominante:");
-        lblTipoSuelo.setBounds(10, 86, 474, 14);
+        lblTipoSuelo.setBounds(492, 5, 381, 14);
         panelInfoMarker.add(lblTipoSuelo);
         
         JLabel lblRiskOfFire = new JLabel("Riesgo de incendio:");
-        lblRiskOfFire.setBounds(10, 111, 258, 14);
+        lblRiskOfFire.setBounds(817, 5, 258, 14);
         panelInfoMarker.add(lblRiskOfFire);
         
         //Get coordinates where clicked
@@ -203,7 +219,7 @@ public class Main extends JFrame {
                 GeoPosition gp = mapViewer.convertPointToGeoPosition(e.getPoint());
                 double lat = gp.getLatitude();
                 double lon = gp.getLongitude();
-                lblCoords.setText("Coordenadas: "+lat+", "+lon);
+                lblCoords.setText(String.format("Coordenadas: %.7f, %.7f",lat,lon));
                 
                 Waypoint wp = new Waypoint() {
                     @Override
@@ -221,7 +237,7 @@ public class Main extends JFrame {
         lblData.setVisible(false);
         getContentPane().add(lblData);
         
-        JButton btnCheckCoords = new JButton("<html><body>Comprobar<br>marcador</body></html>");
+        JButton btnCheckCoords = new JButton("<html><body>Comprobar marcador</body></html>");
         btnCheckCoords.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String lat = lblCoords.getText().split(",")[0].split(":")[1].trim();
@@ -258,21 +274,27 @@ public class Main extends JFrame {
                 }
             }
         });
-        btnCheckCoords.setBounds(94, 326, 124, 48);
+        btnCheckCoords.setBounds(500, 5, 187, 23);
+        try {
+            Image img = ImageIO.read(getClass().getResource("../images/SendIcon.png"));
+            btnCheckCoords.setIcon(new ImageIcon(img));
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
         getContentPane().add(btnCheckCoords);
         
         JPanel panelSearch = new JPanel();
-        panelSearch.setBounds(10, 84, 284, 181);
+        panelSearch.setBounds(697, 2, 701, 25);
         getContentPane().add(panelSearch);
         panelSearch.setLayout(null);
         panelSearch.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
         
         JButton btnSubmitMunicipio = new JButton("Ir");
-        btnSubmitMunicipio.setBounds(96, 147, 89, 23);
+        btnSubmitMunicipio.setBounds(602, 5, 89, 15);
         panelSearch.add(btnSubmitMunicipio);
         
         textField = new JTextField();
-        textField.setBounds(30, 95, 224, 41);
+        textField.setBounds(368, 3, 224, 19);
         panelSearch.add(textField);
         textField.setColumns(10);
         
@@ -280,7 +302,7 @@ public class Main extends JFrame {
         panelSearch.add(cbMunicipios);
         
         JLabel lblMunSearch = new JLabel("Buscador de municipios");
-        lblMunSearch.setBounds(76, 11, 138, 14);
+        lblMunSearch.setBounds(10, 5, 138, 14);
         panelSearch.add(lblMunSearch);
         
         JMenuBar menuBar = new JMenuBar();
