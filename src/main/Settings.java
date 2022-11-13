@@ -10,6 +10,7 @@ import javax.swing.border.EmptyBorder;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJPasswordField;
 import customComponents.CustomJTextField;
 import misc.AES256;
 import misc.BDDConnection;
@@ -29,12 +30,12 @@ import java.awt.event.ActionEvent;
 public class Settings extends JFrame {
 
     private JPanel contentPane;
-    private JPasswordField pfActualPass;
-    private JPasswordField pfNewPass;
-    private JPasswordField pfConfirmPass;
+    private CustomJPasswordField pfActualPass;
+    private CustomJPasswordField pfNewPass;
+    private CustomJPasswordField pfConfirmPass;
     private CustomJTextField tfTextDeleteAccount;
     private CustomJButton btnDone;
-    private JPasswordField pfDeleteAccount;
+    private CustomJPasswordField pfDeleteAccount;
 
     /**
      * Launch the application.
@@ -80,28 +81,19 @@ public class Settings extends JFrame {
         lblChangePass.setBounds(123, 11, 169, 14);
         panelChangePass.add(lblChangePass);
         
-        JLabel lblActualPass = new JLabel("Contraseña actual");
-        lblActualPass.setBounds(10, 36, 134, 14);
-        panelChangePass.add(lblActualPass);
-        
-        pfActualPass = new JPasswordField();
-        pfActualPass.setBounds(10, 61, 362, 20);
+        pfActualPass = new CustomJPasswordField();
+        pfActualPass.setLabelText("Contraseña actual");
+        pfActualPass.setBounds(10, 36, 362, 35);
         panelChangePass.add(pfActualPass);
         
-        JLabel lblNewPass = new JLabel("Nueva contraseña");
-        lblNewPass.setBounds(10, 92, 149, 14);
-        panelChangePass.add(lblNewPass);
-        
-        pfNewPass = new JPasswordField();
-        pfNewPass.setBounds(10, 117, 362, 20);
+        pfNewPass = new CustomJPasswordField();
+        pfNewPass.setLabelText("Nueva contraseña");
+        pfNewPass.setBounds(10, 92, 362, 35);
         panelChangePass.add(pfNewPass);
         
-        JLabel lblConfirmPass = new JLabel("Confirmar contraseña");
-        lblConfirmPass.setBounds(10, 150, 159, 14);
-        panelChangePass.add(lblConfirmPass);
-        
-        pfConfirmPass = new JPasswordField();
-        pfConfirmPass.setBounds(10, 175, 362, 20);
+        pfConfirmPass = new CustomJPasswordField();
+        pfConfirmPass.setLabelText("Confirmar contraseña");
+        pfConfirmPass.setBounds(10, 150, 362, 35);
         panelChangePass.add(pfConfirmPass);
         
         CustomJButton btnChangePass = new CustomJButton("Cambiar contraseña");
@@ -275,12 +267,9 @@ public class Settings extends JFrame {
         btnDeleteAccount.setStyle(ButtonStyle.DANGER);
         panel.add(btnDeleteAccount);
         
-        JLabel lblDeletePass = new JLabel("Contraseña:");
-        lblDeletePass.setBounds(10, 49, 155, 14);
-        panel.add(lblDeletePass);
-        
-        pfDeleteAccount = new JPasswordField();
-        pfDeleteAccount.setBounds(10, 74, 362, 20);
+        pfDeleteAccount = new CustomJPasswordField();
+        pfDeleteAccount.setLabelText("Contraseña");
+        pfDeleteAccount.setBounds(10, 74, 362, 35);
         panel.add(pfDeleteAccount);
     }
     

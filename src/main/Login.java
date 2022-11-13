@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJPasswordField;
 import customComponents.CustomJTextField;
 import misc.AES256;
 import misc.BDDConnection;
@@ -30,7 +31,7 @@ public class Login extends JFrame {
 
 	private JPanel contentPane;
 	private CustomJTextField tfLoginEmail;
-	private JPasswordField passwordField;
+	private CustomJPasswordField passwordField;
 
 	/**
 	 * Launch the application.
@@ -71,10 +72,6 @@ public class Login extends JFrame {
 		JLabel lblLogin = new JLabel("Inicia Sesión");
 		lblLogin.setBounds(176, 11, 90, 14);
 		contentPane.add(lblLogin);
-		
-		JLabel lblNewLabel = new JLabel("Contraseña");
-		lblNewLabel.setBounds(122, 86, 72, 14);
-		contentPane.add(lblNewLabel);
 		
 		CustomJButton btnLogin = new CustomJButton("Iniciar sesión");
 		btnLogin.addActionListener(new ActionListener() {
@@ -148,8 +145,9 @@ public class Login extends JFrame {
 		btnLogin.setBounds(154, 133, 122, 23);
 		contentPane.add(btnLogin);
 		
-		passwordField = new JPasswordField();
-		passwordField.setBounds(121, 102, 169, 20);
+		passwordField = new CustomJPasswordField();
+		passwordField.setLabelText("Contraseña");
+		passwordField.setBounds(121, 91, 169, 35);
 		contentPane.add(passwordField);
 		
 		passwordField.addActionListener(new ActionListener() {
