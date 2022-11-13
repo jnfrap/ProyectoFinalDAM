@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
 import misc.AES256;
 import misc.BDDConnection;
 import misc.Utils;
@@ -76,7 +78,7 @@ public class Login extends JFrame {
 		lblNewLabel.setBounds(122, 86, 72, 14);
 		contentPane.add(lblNewLabel);
 		
-		JButton btnLogin = new JButton("Iniciar sesión");
+		CustomJButton btnLogin = new CustomJButton("Iniciar sesión");
 		btnLogin.addActionListener(new ActionListener() {
 			@SuppressWarnings("unlikely-arg-type")
             public void actionPerformed(ActionEvent e) {
@@ -162,7 +164,8 @@ public class Login extends JFrame {
 		lblNoAccount.setBounds(154, 171, 136, 14);
 		contentPane.add(lblNoAccount);
 		
-		JButton btnRegister = new JButton("Registrate");
+		CustomJButton btnRegister = new CustomJButton("Registrate");
+		btnRegister.setStyle(ButtonStyle.SECONDARY);
 		btnRegister.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Register rFrame = new Register();
@@ -175,7 +178,8 @@ public class Login extends JFrame {
 		btnRegister.setBounds(169, 187, 97, 23);
 		contentPane.add(btnRegister);
 		
-		JButton btnSalir = new JButton("Salir");
+		CustomJButton btnSalir = new CustomJButton("Salir");
+		btnSalir.setStyle(ButtonStyle.DESTRUCTIVE);
 		btnSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);

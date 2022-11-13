@@ -20,6 +20,8 @@ import org.jxmapviewer.viewer.TileFactoryInfo;
 import org.jxmapviewer.viewer.Waypoint;
 import org.jxmapviewer.viewer.WaypointPainter;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
 import misc.Municipio;
 import misc.Utils;
 
@@ -91,14 +93,16 @@ public class Main extends JFrame {
         getContentPane().add(lblCoords);
 		
 		///////////////////Map
-		JButton btnZoomIn = new JButton("");
+		CustomJButton btnZoomIn = new CustomJButton("");
+		btnZoomIn.setStyle(ButtonStyle.SECONDARY);
 		try {
             Image img = ImageIO.read(getClass().getResource("/images/plus.png"));
             btnZoomIn.setIcon(new ImageIcon(img));
         } catch (IOException e1) {
             e1.printStackTrace();
         }
-		JButton btnZoomOut = new JButton("");
+		CustomJButton btnZoomOut = new CustomJButton("");
+		btnZoomOut.setStyle(ButtonStyle.SECONDARY);
 		try {
             Image img = ImageIO.read(getClass().getResource("/images/minus.png"));
             btnZoomOut.setIcon(new ImageIcon(img));
@@ -239,7 +243,8 @@ public class Main extends JFrame {
         lblData.setVisible(false);
         getContentPane().add(lblData);
         
-        JButton btnCheckCoords = new JButton("<html><body>Comprobar marcador</body></html>");
+        CustomJButton btnCheckCoords = new CustomJButton("<html><body>Comprobar marcador</body></html>");
+        btnCheckCoords.setStyle(ButtonStyle.SECONDARY);
         btnCheckCoords.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String lat = lblDataCoords.getText().split(",")[0].split(":")[1].trim();
@@ -291,7 +296,8 @@ public class Main extends JFrame {
         panelSearch.setLayout(null);
         panelSearch.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
         
-        JButton btnSubmitMunicipio = new JButton("Ir");
+        CustomJButton btnSubmitMunicipio = new CustomJButton("Ir");
+        btnSubmitMunicipio.setStyle(ButtonStyle.SECONDARY);
         btnSubmitMunicipio.setBounds(619, 5, 89, 15);
         panelSearch.add(btnSubmitMunicipio);
         

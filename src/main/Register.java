@@ -7,6 +7,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
 import misc.AES256;
 import misc.BDDConnection;
 import misc.Utils;
@@ -176,7 +178,7 @@ public class Register extends JFrame {
 			}
 		});
 		
-		JButton btnRegister = new JButton("Registrarse");
+		CustomJButton btnRegister = new CustomJButton("Registrarse");
 		btnRegister.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				AES256 decryptor = new AES256();
@@ -286,7 +288,8 @@ public class Register extends JFrame {
 		btnRegister.setBounds(187, 514, 161, 23);
 		contentPane.add(btnRegister);
 		
-		JButton btnBack = new JButton("Volver");
+		CustomJButton btnBack = new CustomJButton("Volver");
+		btnBack.setStyle(ButtonStyle.DESTRUCTIVE);
 		btnBack.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Login login = new Login();
