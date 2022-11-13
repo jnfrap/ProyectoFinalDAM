@@ -8,6 +8,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJTextField;
 import misc.AES256;
 import misc.BDDConnection;
 
@@ -29,8 +32,8 @@ public class Settings extends JFrame {
     private JPasswordField pfActualPass;
     private JPasswordField pfNewPass;
     private JPasswordField pfConfirmPass;
-    private JTextField tfTextDeleteAccount;
-    private JButton btnDone;
+    private CustomJTextField tfTextDeleteAccount;
+    private CustomJButton btnDone;
     private JPasswordField pfDeleteAccount;
 
     /**
@@ -101,7 +104,7 @@ public class Settings extends JFrame {
         pfConfirmPass.setBounds(10, 175, 362, 20);
         panelChangePass.add(pfConfirmPass);
         
-        JButton btnChangePass = new JButton("Cambiar contraseña");
+        CustomJButton btnChangePass = new CustomJButton("Cambiar contraseña");
         btnChangePass.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 AES256 decryptor = new AES256();
@@ -159,7 +162,8 @@ public class Settings extends JFrame {
         btnChangePass.setBounds(107, 206, 169, 23);
         panelChangePass.add(btnChangePass);
         
-        btnDone = new JButton("Terminar");
+        btnDone = new CustomJButton("Terminar");
+        btnDone.setStyle(ButtonStyle.DESTRUCTIVE);
         btnDone.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Frame[] panels = Frame.getFrames();
@@ -195,12 +199,13 @@ public class Settings extends JFrame {
         lblText.setBounds(34, 117, 327, 50);
         panel.add(lblText);
         
-        tfTextDeleteAccount = new JTextField();
-        tfTextDeleteAccount.setBounds(10, 178, 362, 20);
+        tfTextDeleteAccount = new CustomJTextField();
+        tfTextDeleteAccount.setLabelText("");
+        tfTextDeleteAccount.setBounds(10, 165, 362, 35);
         panel.add(tfTextDeleteAccount);
         tfTextDeleteAccount.setColumns(10);
         
-        JButton btnDeleteAccount = new JButton("Eliminar la cuenta");
+        CustomJButton btnDeleteAccount = new CustomJButton("Eliminar la cuenta");
         btnDeleteAccount.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 AES256 decryptor = new AES256();
@@ -267,7 +272,7 @@ public class Settings extends JFrame {
             }
         });
         btnDeleteAccount.setBounds(127, 209, 137, 23);
-        btnDeleteAccount.setBackground(new Color(255, 102, 102));
+        btnDeleteAccount.setStyle(ButtonStyle.DANGER);
         panel.add(btnDeleteAccount);
         
         JLabel lblDeletePass = new JLabel("Contraseña:");

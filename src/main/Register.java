@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJTextField;
 import misc.AES256;
 import misc.BDDConnection;
 import misc.Utils;
@@ -30,14 +31,14 @@ import java.awt.event.ActionEvent;
 public class Register extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField tfEmail;
-	private JTextField tfName;
-	private JTextField tfSurname;
-	private JTextField tfPhone;
-	private JTextField tfAddress;
-	private JTextField tfCity;
-	private JTextField tfCountry;
-	private JTextField tfZip;
+	private CustomJTextField tfEmail;
+	private CustomJTextField tfName;
+	private CustomJTextField tfSurname;
+	private CustomJTextField tfPhone;
+	private CustomJTextField tfAddress;
+	private CustomJTextField tfCity;
+	private CustomJTextField tfCountry;
+	private CustomJTextField tfZip;
 
 	/**
 	 * Launch the application.
@@ -78,39 +79,27 @@ public class Register extends JFrame {
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
-		JLabel lblRegisterEmail = new JLabel("Correo electronico");
-		lblRegisterEmail.setBounds(24, 11, 108, 14);
-		panel.add(lblRegisterEmail);
-		
-		tfEmail = new JTextField();
-		tfEmail.setBounds(24, 33, 237, 20);
+		tfEmail = new CustomJTextField();
+		tfEmail.setLabelText("Correo electronico");
+		tfEmail.setBounds(24, 11, 237, 35);
 		panel.add(tfEmail);
 		tfEmail.setColumns(10);
 		
-		JLabel lblName = new JLabel("Nombre");
-		lblName.setBounds(24, 64, 65, 14);
-		panel.add(lblName);
-		
-		tfName = new JTextField();
-		tfName.setBounds(24, 84, 237, 20);
+		tfName = new CustomJTextField();
+		tfName.setLabelText("Nombre");
+		tfName.setBounds(24, 68, 237, 35);
 		panel.add(tfName);
 		tfName.setColumns(10);
 		
-		JLabel lblSurname = new JLabel("Apellido");
-		lblSurname.setBounds(24, 114, 65, 14);
-		panel.add(lblSurname);
-		
-		tfSurname = new JTextField();
-		tfSurname.setBounds(24, 139, 237, 20);
+		tfSurname = new CustomJTextField();
+		tfSurname.setLabelText("Apellido");
+		tfSurname.setBounds(24, 123, 237, 35);
 		panel.add(tfSurname);
 		tfSurname.setColumns(10);
 		
-		JLabel lblPhonel = new JLabel("Teléfono");
-		lblPhonel.setBounds(24, 169, 76, 14);
-		panel.add(lblPhonel);
-		
-		tfPhone = new JTextField();
-		tfPhone.setBounds(24, 194, 237, 20);
+		tfPhone = new CustomJTextField();
+		tfPhone.setLabelText("Teléfono");
+		tfPhone.setBounds(24, 178, 237, 35);
 		panel.add(tfPhone);
 		tfPhone.setColumns(10);
 
@@ -128,39 +117,27 @@ public class Register extends JFrame {
 			}
 		});
 		
-		JLabel lblAddress = new JLabel("Dirección");
-		lblAddress.setBounds(24, 225, 65, 14);
-		panel.add(lblAddress);
-		
-		tfAddress = new JTextField();
-		tfAddress.setBounds(24, 250, 237, 20);
+		tfAddress = new CustomJTextField();
+		tfAddress.setLabelText("Dirección");
+		tfAddress.setBounds(24, 234, 237, 35);
 		panel.add(tfAddress);
 		tfAddress.setColumns(10);
 		
-		JLabel lblCity = new JLabel("Ciudad");
-		lblCity.setBounds(24, 281, 65, 14);
-		panel.add(lblCity);
-		
-		tfCity = new JTextField();
-		tfCity.setBounds(24, 306, 237, 20);
+		tfCity = new CustomJTextField();
+		tfCity.setLabelText("Ciudad");
+		tfCity.setBounds(24, 290, 237, 35);
 		panel.add(tfCity);
 		tfCity.setColumns(10);
 		
-		JLabel lblCountry = new JLabel("País");
-		lblCountry.setBounds(24, 337, 65, 14);
-		panel.add(lblCountry);
-		
-		tfCountry = new JTextField();
-		tfCountry.setBounds(24, 362, 237, 20);
+		tfCountry = new CustomJTextField();
+		tfCountry.setLabelText("País");
+		tfCountry.setBounds(24, 346, 237, 35);
 		panel.add(tfCountry);
 		tfCountry.setColumns(10);
 		
-		JLabel lblZip = new JLabel("Código postal");
-		lblZip.setBounds(24, 393, 123, 14);
-		panel.add(lblZip);
-		
-		tfZip = new JTextField();
-		tfZip.setBounds(24, 418, 237, 20);
+		tfZip = new CustomJTextField();
+		tfZip.setLabelText("Código postal");
+		tfZip.setBounds(24, 402, 237, 35);
 		panel.add(tfZip);
 		tfZip.setColumns(10);
 

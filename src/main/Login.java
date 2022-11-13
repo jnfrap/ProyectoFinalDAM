@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJTextField;
 import misc.AES256;
 import misc.BDDConnection;
 import misc.Utils;
@@ -28,7 +29,7 @@ import java.awt.event.ActionEvent;
 public class Login extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField tfLoginEmail;
+	private CustomJTextField tfLoginEmail;
 	private JPasswordField passwordField;
 
 	/**
@@ -61,18 +62,15 @@ public class Login extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		tfLoginEmail = new JTextField();
-		tfLoginEmail.setBounds(121, 55, 169, 20);
+		tfLoginEmail = new CustomJTextField();
+		tfLoginEmail.setLabelText("Correo electronico");
+		tfLoginEmail.setBounds(121, 45, 169, 35);
 		contentPane.add(tfLoginEmail);
 		tfLoginEmail.setColumns(10);
 		
 		JLabel lblLogin = new JLabel("Inicia Sesión");
 		lblLogin.setBounds(176, 11, 90, 14);
 		contentPane.add(lblLogin);
-		
-		JLabel lblCorreo = new JLabel("Correo electronico");
-		lblCorreo.setBounds(121, 40, 145, 14);
-		contentPane.add(lblCorreo);
 		
 		JLabel lblNewLabel = new JLabel("Contraseña");
 		lblNewLabel.setBounds(122, 86, 72, 14);

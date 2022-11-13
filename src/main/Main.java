@@ -22,6 +22,7 @@ import org.jxmapviewer.viewer.WaypointPainter;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
+import customComponents.CustomJTextField;
 import misc.Municipio;
 import misc.Utils;
 
