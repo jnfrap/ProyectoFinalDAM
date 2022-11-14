@@ -13,6 +13,7 @@ public class CutomJButton extends JButton{
         setText("Button");
     }
     
+    @SuppressWarnings("unused")
     private static class RoundedBorder implements Border {
 
         private int radius;

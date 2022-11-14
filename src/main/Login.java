@@ -15,12 +15,9 @@ import misc.AES256;
 import misc.BDDConnection;
 import misc.Utils;
 
-import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JPasswordField;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

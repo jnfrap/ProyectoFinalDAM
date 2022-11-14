@@ -17,8 +17,6 @@ import misc.BDDConnection;
 
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-import javax.swing.JPasswordField;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;

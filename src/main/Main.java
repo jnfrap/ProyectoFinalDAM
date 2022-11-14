@@ -22,7 +22,6 @@ import org.jxmapviewer.viewer.WaypointPainter;
 
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
-import customComponents.CustomJTextField;
 import misc.Municipio;
 import misc.Utils;
 
@@ -32,7 +31,6 @@ import javax.swing.JLabel;
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;

@@ -16,9 +16,7 @@ import misc.Utils;
 
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
 import javax.swing.BorderFactory;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
