@@ -133,6 +133,7 @@ public class Login extends JFrame {
 			                dispose();
 						}
 						Main.getWelcomeLabel().setText(email+" | Bienvenido, "+reName);
+						Main.getWelcomeLabel2().setText("Bienvenido, "+reName);
 					}else {
 						JOptionPane.showMessageDialog(null, "El correo y/o la contraseña no coinciden");
 					}

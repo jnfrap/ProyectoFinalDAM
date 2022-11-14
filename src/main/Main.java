@@ -54,6 +54,7 @@ public class Main extends JFrame {
 	private static JLabel lblData = new JLabel("Data");
 	private JPanel panelInfoMarker = new JPanel();
 	private JLabel lblDataCoords = new JLabel("Coordenadas: 38.9942400, -1.8564300");
+	private static JLabel lblWelcome2 = new JLabel("");
 
 	/**
 	 * Launch the application.
@@ -88,7 +89,7 @@ public class Main extends JFrame {
 		this.setMinimumSize(new Dimension(1500, 720));
 
 		JLabel lblCoords = new JLabel("Coordenadas:");
-        lblCoords.setBounds(273, 11, 347, 14);
+        lblCoords.setBounds(165, 11, 347, 14);
         getContentPane().add(lblCoords);
 		
 		///////////////////Map
@@ -187,7 +188,8 @@ public class Main extends JFrame {
 			cbMunicipios.addItem(municipios.get(i).getNombre());
 		}
         
-        lblWelcome.setBounds(11, 11, 260, 14);
+        lblWelcome.setBounds(10, 75, 260, 14);
+        lblWelcome.setVisible(false);
         getContentPane().add(lblWelcome);
         
         panelInfoMarker.setBounds(10, 625, 1244, 23);
@@ -280,7 +282,7 @@ public class Main extends JFrame {
                 }
             }
         });
-        btnCheckCoords.setBounds(500, 5, 187, 23);
+        btnCheckCoords.setBounds(393, 5, 187, 23);
         try {
             Image img = ImageIO.read(getClass().getResource("/images/SendIcon.png"));
             btnCheckCoords.setIcon(new ImageIcon(img));
@@ -290,7 +292,7 @@ public class Main extends JFrame {
         getContentPane().add(btnCheckCoords);
         
         JPanel panelSearch = new JPanel();
-        panelSearch.setBounds(697, 2, 718, 25);
+        panelSearch.setBounds(590, 4, 718, 25);
         getContentPane().add(panelSearch);
         panelSearch.setLayout(null);
         panelSearch.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 2));
@@ -315,6 +317,9 @@ public class Main extends JFrame {
         lblDataCoords.setBounds(124, 445, 102, 14);
         lblDataCoords.setVisible(false);
         getContentPane().add(lblDataCoords);
+        
+        lblWelcome2.setBounds(11, 11, 144, 14);
+        getContentPane().add(lblWelcome2);
         
         JMenuBar menuBar = new JMenuBar();
         setJMenuBar(menuBar);
@@ -439,5 +444,9 @@ public class Main extends JFrame {
 	
 	public static JLabel getDataLabel() {
 	    return lblData;
+	}
+	
+	public static JLabel getWelcomeLabel2() {
+	    return lblWelcome2;
 	}
 }
