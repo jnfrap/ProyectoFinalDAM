@@ -86,7 +86,7 @@ public class Main extends JFrame {
 		setBounds(100, 100, 1500, 720);
 		getContentPane().setLayout(null);
 		this.setExtendedState(this.getExtendedState() | JFrame.MAXIMIZED_BOTH);
-		this.setMinimumSize(new Dimension(1500, 720));
+		this.setMinimumSize(new Dimension(1430, 720));
 
 		JLabel lblCoords = new JLabel("Coordenadas:");
         lblCoords.setBounds(165, 11, 347, 14);
@@ -132,8 +132,13 @@ public class Main extends JFrame {
             	mapViewer.setLocation(w-(w-10),h-(h-30));
             	mapViewer.setSize(w-40,h-120);
             	
-            	btnZoomIn.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-55,btnZoomIn.getLocation().y);
-            	btnZoomOut.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-25,btnZoomOut.getLocation().y);
+            	if (w>=1430) {
+                    btnZoomIn.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-55,mapViewer.getLocation().y-btnZoomIn.getSize().height-2);
+                    btnZoomOut.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-25,mapViewer.getLocation().y-btnZoomOut.getSize().height-2);
+            	}else {
+            	    btnZoomIn.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-55,mapViewer.getLocation().y+mapViewer.getSize().height+2);
+                    btnZoomOut.setLocation((mapViewer.getLocation().x+mapViewer.getSize().width)-25,mapViewer.getLocation().y+mapViewer.getSize().height+2);
+            	}
             	
             	panelInfoMarker.setLocation(10, h-87);
             	panelInfoMarker.setSize(w-40,23);
