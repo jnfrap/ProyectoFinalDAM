@@ -10,11 +10,12 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
 import misc.BDDConnection;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -93,7 +94,8 @@ public class History extends JFrame {
         table = new JTable();
         scrollPane.setViewportView(table);
         
-        JButton btnBack = new JButton("<- Volver");
+        CustomJButton btnBack = new CustomJButton("<- Volver");
+        btnBack.setStyle(ButtonStyle.DESTRUCTIVE);
         btnBack.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Frame[] panels = Frame.getFrames();
@@ -110,8 +112,10 @@ public class History extends JFrame {
         btnBack.setBounds(10, 566, 89, 23);
         contentPane.add(btnBack);
         
-        JButton btnPrevious = new JButton("<");
-        JButton btnNext = new JButton(">");
+        CustomJButton btnPrevious = new CustomJButton("<");
+        btnPrevious.setStyle(ButtonStyle.SECONDARY);
+        CustomJButton btnNext = new CustomJButton(">");
+        btnNext.setStyle(ButtonStyle.SECONDARY);
         btnNext.setEnabled(false);
         btnNext.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -200,6 +204,43 @@ public class History extends JFrame {
         }
         table.setModel(model);
         
+        String[] dateParts = date.split("T");
+        String[] dateParts2 = dateParts[0].split("-");
+        String[] dateParts3 = dateParts[1].split(":");
+        String[] dateParts4 = dateParts3[2].split("\\.");
+        date = dateParts2[2]+" de "+getMonthName(Integer.parseInt(dateParts2[1]))+" de "+dateParts2[0]+", "+dateParts3[0]+":"+dateParts3[1]+":"+dateParts4[0];
+        
         return email+", "+date;
+    }
+
+    private static String getMonthName(int parseInt) {
+        switch (parseInt) {
+        case 1:
+            return "Enero";
+        case 2:
+            return "Febrero";
+        case 3:
+            return "Marzo";
+        case 4:
+            return "Abril";
+        case 5:
+            return "Mayo";
+        case 6:
+            return "Junio";
+        case 7:
+            return "Julio";
+        case 8:
+            return "Agosto";
+        case 9:
+            return "Septiembre";
+        case 10:
+            return "Octubre";
+        case 11:
+            return "Noviembre";
+        case 12:
+            return "Diciembre";
+        default:
+            return "Error";
+        }
     }
 }

@@ -396,6 +396,15 @@ public class Main extends JFrame {
             }
         });
         
+        String text = textField.getText();
+        ArrayList<Municipio> municipios1 = Utils.getMunicipiosArray();
+        for (int i = 0; i < municipios1.size(); i++) {
+            if (municipios1.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
+                cbMunicipios.addItem(municipios1.get(i).getNombre());
+            }
+        }
+        cbMunicipios.setSelectedItem("Albacete");
+        
         textField.addKeyListener(new KeyAdapter() {
         	@Override
         	public void keyReleased(KeyEvent e) {
@@ -405,6 +414,9 @@ public class Main extends JFrame {
                 for (int i = 0; i < municipios.size(); i++) {
                     if (municipios.get(i).getNombre().toLowerCase().contains(text.toLowerCase())) {
                         cbMunicipios.addItem(municipios.get(i).getNombre());
+                    }
+                    if (municipios.get(i).getNombre().toLowerCase().equals(text.toLowerCase())) {
+                        cbMunicipios.setSelectedItem(municipios.get(i).getNombre());
                     }
                 }
 				
@@ -421,6 +433,7 @@ public class Main extends JFrame {
             		double lat = municipio.getLatitud();
             		double lon = municipio.getLongitud();
             		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
+            		mapViewer.dispatchEvent(new MouseEvent(mapViewer, MouseEvent.MOUSE_CLICKED, System.currentTimeMillis(), 0, mapViewer.getWidth()/2, mapViewer.getHeight()/2, 1, false));
         		}
         	}
         });
@@ -429,15 +442,16 @@ public class Main extends JFrame {
         		String index = cbMunicipios.getSelectedItem().toString();
         		
         		Municipio municipio = null;
-        		for (int i=0;i<municipios.size();i++) {
-        			if (index.equals(municipios.get(i).getNombre())) {
-        				municipio = municipios.get(i);
+        		for (int i=0;i<municipios1.size();i++) {
+        			if (index.equals(municipios1.get(i).getNombre())) {
+        				municipio = municipios1.get(i);
         			}
         		}
         		
         		double lat = municipio.getLatitud();
         		double lon = municipio.getLongitud();
         		mapViewer.setAddressLocation(new GeoPosition(lat,lon));
+        		mapViewer.dispatchEvent(new MouseEvent(mapViewer, MouseEvent.MOUSE_CLICKED, System.currentTimeMillis(), 0, mapViewer.getWidth()/2, mapViewer.getHeight()/2, 1, false));
         	}
         });
         

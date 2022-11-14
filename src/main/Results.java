@@ -15,12 +15,13 @@ import javax.swing.table.DefaultTableModel;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import customComponents.CustomJButton;
+import customComponents.CustomJButton.ButtonStyle;
 import misc.BDDConnection;
 import misc.Municipio;
 import misc.Resultados;
 import misc.Utils;
 
-import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
@@ -66,7 +67,8 @@ public class Results extends JFrame {
         setContentPane(contentPane);
         contentPane.setLayout(null);
         
-        JButton btnBack = new JButton("<- Volver");
+        CustomJButton btnBack = new CustomJButton("<- Volver");
+        btnBack.setStyle(ButtonStyle.DESTRUCTIVE);
         btnBack.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Frame[] panels = Frame.getFrames();
@@ -83,8 +85,8 @@ public class Results extends JFrame {
         btnBack.setBounds(10, 566, 89, 23);
         contentPane.add(btnBack);
         
-        JLabel lblResults = new JLabel("<html><body><h1>Resultados</h1></body></html>");
-        lblResults.setBounds(344, 11, 218, 43);
+        JLabel lblResults = new JLabel("<html><body><h3 align=\"center\">Datos de los municipios y las estaciones AEMET visibles en pantalla</h3></body></html>");
+        lblResults.setBounds(307, 11, 264, 52);
         contentPane.add(lblResults);
         
         JScrollPane scrollPane = new JScrollPane();
