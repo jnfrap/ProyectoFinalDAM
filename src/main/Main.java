@@ -7,7 +7,6 @@ import java.awt.Point;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.event.MouseInputListener;
-
 import org.json.JSONObject;
 import org.jxmapviewer.JXMapViewer;
 import org.jxmapviewer.OSMTileFactoryInfo;
@@ -275,15 +274,15 @@ public class Main extends JFrame {
                 int baseRisk = 30;
                 float risk = (temperatura+velViento)-(humedad/2);
                 if (risk>baseRisk) {
-                    lblRiskOfFire.setText("Riesgo de incendio: Extremo");
+                    lblRiskOfFire.setText("<html><body>Riesgo de incendio: Extremo <font color=\"#890000\">&#9632;</font></body></html>");
                 }else if (risk>baseRisk-10) {
-                    lblRiskOfFire.setText("Riesgo de incendio: Alto");
+                    lblRiskOfFire.setText("<html><body>Riesgo de incendio: Alto <font color=\"#EC6363\">&#9632;</font></body></html>");
                 }else if (risk>baseRisk-20) {
-                    lblRiskOfFire.setText("Riesgo de incendio: Medio");
+                    lblRiskOfFire.setText("<html><body>Riesgo de incendio: Medio <font color=\"#ECC763\">&#9632;</font></body></html>");
                 }else if (risk>baseRisk-30) {
-                    lblRiskOfFire.setText("Riesgo de incendio: Bajo");
+                    lblRiskOfFire.setText("<html><body>Riesgo de incendio: Bajo <font color=\"#7AEC63\">&#9632;</font></body></html>");
                 }else {
-                    lblRiskOfFire.setText("Riesgo de incendio: Muy bajo");
+                    lblRiskOfFire.setText("<html><body>Riesgo de incendio: Muy bajo <font color=\"#63B8EC\">&#9632;</font></body></html>");
                 }
             }
         });
