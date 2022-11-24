@@ -102,7 +102,7 @@ public class History extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Frame[] panels = Frame.getFrames();
                 for (Frame frame : panels) {
-                    if (frame.getTitle().equals("Incendios")) {
+                    if (frame.getTitle().equals("WildFireTraker")) {
                         frame.setEnabled(true);
                         frame.toFront();
                         break;

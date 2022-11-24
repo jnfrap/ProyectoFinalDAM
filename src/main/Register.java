@@ -238,7 +238,7 @@ public class Register extends JFrame {
 				            preparedStmt.setString(11, hash);
 				            preparedStmt.execute();
 				            
-				            String subject = name+", activa tu cuenta en Incendios";
+				            String subject = name+", activa tu cuenta en WildFireTraker";
 				            String body = "Hola "+name+", gracias por registrarte en nuestra aplicación."
 				            		+ "\nEsta es tu contraseña de acceso: "+pass
 				            		+ "\nSi no has creado una cuenta, ignora este mensaje";

@@ -114,7 +114,7 @@ public class Login extends JFrame {
 					if (userExist) {
 						Frame[] panels = Frame.getFrames();
 						for (Frame frame : panels) {
-							if (frame.getTitle().equals("Incendios")) {
+							if (frame.getTitle().equals("WildFireTraker")) {
 								frame.setEnabled(true);
 								frame.toFront();
 								break;
