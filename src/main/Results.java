@@ -58,7 +58,7 @@ public class Results extends JFrame {
      */
     public Results() {
         setUndecorated(true);
-        getRootPane().setBorder(BorderFactory.createMatteBorder(4, 4, 4, 4, Color.BLACK));
+        getRootPane().setBorder(BorderFactory.createMatteBorder(3, 3, 3, 3, Color.DARK_GRAY));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 900, 600);
         contentPane = new JPanel();
