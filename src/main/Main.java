@@ -63,7 +63,7 @@ public class Main extends JFrame {
 			public void run() {
 				try {
 					Main frame = new Main();
-					frame.setTitle("Incendios");
+					frame.setTitle("WildFireTraker");
 					Login lFrame = new Login();
 					lFrame.setTitle("Login");
 					frame.setVisible(true);
