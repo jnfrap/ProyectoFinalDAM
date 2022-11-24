@@ -175,7 +175,7 @@ public class Results extends JFrame {
                 
                 ArrayList<String> tiposSuelo = Utils.getSoilGridsAPIResponse(lat+"",lon+"");
                 
-                model.addRow(new Object[]{municipios.get(i).getNombre(),"",temperatura,humedad,velViento,LocalDateTime.now(),tiposSuelo.toString()});
+                model.addRow(new Object[]{municipios.get(i).getNombre(),"",String.format("%.2f", temperatura),String.format("%.0f", humedad),String.format("%.2f", velViento),Utils.parseDate(currentDate),Utils.parseSuelo(tiposSuelo.toString())});
                 try {
                     BDDConnection bdd = new BDDConnection();
                     Connection con = bdd.getConnection();
@@ -208,7 +208,7 @@ public class Results extends JFrame {
         //Add data to the model
         for (int i=0;i<finalArray.size();i++) {
             Resultados r = finalArray.get(i);
-            model.addRow(new Object[]{"<html><body><b>(AEMET)</b>"+r.getNombre()+"</body></html>", r.getIdema(), r.getTemperatura(), r.getHumedad(),r.getVelViento(),r.getFecha()});
+            model.addRow(new Object[]{"<html><body><b>(AEMET)</b>"+r.getNombre()+"</body></html>", r.getIdema(), String.format("%.2f", r.getTemperatura()), String.format("%.0f",r.getHumedad()),String.format("%.2f", r.getVelViento()),Utils.parseDate(r.getFecha())});
             
             try {
                 BDDConnection bdd = new BDDConnection();

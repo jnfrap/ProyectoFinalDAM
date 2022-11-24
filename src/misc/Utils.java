@@ -290,4 +290,24 @@ public class Utils {
 			e.printStackTrace();
 		}
 	}
+	
+	public static String parseDate(String date) {
+	    String[] ph = date.split("T");
+	    String[] phDate = ph[0].split("-");
+	    String day = phDate[2]+"/"+phDate[1]+"/"+phDate[0];
+	    String[] phHour = ph[1].split(":");
+	    String hour = phHour[0]+":"+phHour[1];
+	    
+	    return day+" | "+hour;
+	}
+	
+	public static String parseSuelo(String suelo) {
+	    try {
+	        String tipo = suelo.split(",")[0].replace("\"", "").replace("[", "").trim();
+	        String porc = suelo.split(",")[1].replace("]", "").trim();
+	        return tipo+", "+porc+"%";
+	    }catch(Exception e) {
+	        return "";
+	    }
+	}
 }

@@ -259,6 +259,8 @@ public class Main extends JFrame {
                 JSONObject jsonMain = json.getJSONObject("main");
                 JSONObject jsonWind = json.getJSONObject("wind");
                 
+                
+                
                 float temperatura = jsonMain.getFloat("temp")-273.15f;
                 float humedad = jsonMain.getFloat("humidity");
                 float velViento = jsonWind.getFloat("speed");
@@ -267,8 +269,12 @@ public class Main extends JFrame {
                 String suelo = tiposSuelo.get(0);
                 
                 lblTemperatura.setText(String.format("Temperatura: %.2f", temperatura));
-                lblHumedad.setText("Humedad: "+humedad);
-                lblVelViento.setText("Velocidad del viento: "+velViento);
+                lblHumedad.setText(String.format("Humedad: %.0f", humedad));
+                lblVelViento.setText(String.format("Velocidad del viento: %.2f",velViento));
+                suelo = suelo.replace("[", "");
+                suelo = suelo.replace("]", "");
+                suelo = suelo.replace("\"", "");
+                suelo = suelo.replace(",", ", ").trim()+"%";
                 lblTipoSuelo.setText("Tipo de suelo predominante: "+suelo);
                 
                 int baseRisk = 30;

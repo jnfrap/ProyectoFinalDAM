@@ -13,6 +13,8 @@ import javax.swing.table.DefaultTableModel;
 import customComponents.CustomJButton;
 import customComponents.CustomJButton.ButtonStyle;
 import misc.BDDConnection;
+import misc.Utils;
+
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -189,13 +191,17 @@ public class History extends JFrame {
             while(rs3.next()) {
                 String nombre = rs3.getString(3);
                 String idema = rs3.getString(4);
-                String temperatura = rs3.getString(5);
-                String humedad = rs3.getString(6);
-                String velViento = rs3.getString(7);
+                String temperatura = rs3.getString(5).replace(".", ",");
+                if (temperatura.split(",").length>1) {
+                    temperatura = temperatura.split(",")[0]+","+temperatura.split(",")[1].charAt(0);
+                }
+                String humedad = rs3.getString(6).replace(".", ",");
+                humedad = humedad.split(",")[0];
+                String velViento = rs3.getString(7).replace(".", ",");
                 String fecha = rs3.getString(8);
                 String suelo = rs3.getString(9);
                 
-                model.addRow(new Object[]{nombre+"",idema+"",temperatura+"",humedad+"",velViento+"",fecha+"",suelo+""});
+                model.addRow(new Object[]{nombre+"",idema+"",temperatura+"",humedad+"",velViento+"",Utils.parseDate(fecha),Utils.parseSuelo(suelo)});
             }
             
             bdd.closeConnection();
